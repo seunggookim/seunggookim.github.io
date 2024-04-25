@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-<b>New paper</b>:scroll:: Kim et al. in press. Linguistic modulation of the neural encoding of phonemes. <i>Cerebral Cortex</i>.
+<b>New paper</b>:scroll:: Kim et al. in press. <b>Linguistic modulation of the neural encoding of phonemes</b>. [<i>Cerebral Cortex</i>](https://doi.org/10.1093/cercor/bhae155).
 
