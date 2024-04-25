@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-04-25 14:13:00-0200
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+New homepage:house: <del>open</del> under CONSTRUCTION at GitHub Pages using [al-folio's template](https://github.com/alshedivat/al-folio)!

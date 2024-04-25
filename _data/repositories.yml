@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - seunggookim
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - seunggookim/surfviz
+  - seunggookim/manymusic-mtg-jamendo
