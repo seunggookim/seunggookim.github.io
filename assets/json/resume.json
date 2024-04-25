@@ -1,13 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Seung-Goo Kim",
-    "label": "Research Scientist",
+    "name": "Seung-Goo Kim, PhD",
     "image": "",
     "email": "dr.seunggoo.kim@gmail.com",
     "phone": "+49 (0) 69 8300479-851",
     "url": "http://seunggookim.github.io",
-    "summary": "Summary",
     "location": {
       "address": "Grüneburgweg 14",
       "postalCode": "DE-60322",
@@ -20,44 +18,51 @@
         "network": "Bluesky",
         "username": "sgkim.bsky.social",
         "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Max Planck Institute for Empirical Aesthetics",
+      "location": "Frankfurt, DE",
+      "position": "Research Scientist",
+      "url": "http://ae.mpg.de",
+      "startDate": "2021-08-01",
+      "endDate": "Present",
+	  "summmary": "",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Neural encoding of music"
       ]
-    }
+    },
+	{
+		"name": "Duke University",
+		"position": "Research associate",
+		"location": "Durham, NC",
+		"startDate": "2018-08-01",
+		"endDate": "2021-07-31",
+		"summary": "",
+		"highlights": [
+			""
+		]
+	},
+	{
+		"name": "University of Cambridge",
+		"location": "Cambridge, UK",
+		"position": "Postdoc fellow",
+		"startDate": "2017-10-01",
+		"endDate": "2018-07-31"
+	}
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "institution": "Max Planck Institute for Human Cognitive and Brain Sciences",
+	  "location": "Leipzig, DE",
+      "url": "https://www/",
+      "area": "Thesis title",
+      "studyType": "Ph.D in Psychology",
+      "startDate": "2012-10-01",
+      "endDate": "2017-01-07",
+      "score": "Summa cum laude"
     }
   ],
   "awards": [
@@ -99,19 +104,19 @@
   ],
   "languages": [
     {
-      "language": "Korean",
+      "language": "Korean:kr:",
       "fluency": "Native speaker"
     },
 	{
-	  "language": "English",
+	  "language": "English:us:",
       "fluency": "Fluent"
 	},
 	{
-		"language": "German",
+		"language": "German:de:",
 		"fluency": "Elementary"
 	},
 	{
-		"language": "Japanese",
+		"language": "Japanese:jp:",
 		"fluency": "Elementary"
 	}
   ],

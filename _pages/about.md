@@ -14,7 +14,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Seung-Goo [IPA:[sɯŋgu](https://bit.ly/3cuM8dL)] KIM (김승구;金勝九) is a cognitive neuroscientist specialized in human neuroimaging and auditory processing. Seung-Goo has been using functional/structural magnetic resonance imaging (MRI) and M/EEG source imaging to investigate how human brain processes sounds and music and how they lead to the evocation of intense emotions.
+Seung-Goo [IPA:[sɯŋgu](https://bit.ly/3cuM8dL)] KIM (김승구;金勝九) is a cognitive neuroscientist specialized in human neuroimaging and auditory processing. 
+Seung-Goo has been using functional/structural MRI and M/EEG source imaging to investigate how human brain processes sounds and music and how they lead to the evocation of intense emotions.:sound::notes::brain:
 
 After a [Ph.D. program](https://imprs-neurocom.mpg.de/home)
  at Max Planck Institute for Human Cognitive and Brain Sciences, Germany in 2017 (PI: [Dr. Thomas R. Knösche](https://www.cbs.mpg.de/employees/knoesche)), 
