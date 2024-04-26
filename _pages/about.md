@@ -6,7 +6,7 @@ subtitle: Research Scientist at <a href="https://www.aesthetics.mpg.de/en/the-in
 
 profile:
   align: right
-  image: kim_pic.png
+  image: idphoto/kim_smile2.png
   image_circular: false # crops the image to make it circular
   more_info: >
 
