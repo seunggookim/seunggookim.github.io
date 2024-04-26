@@ -23,84 +23,161 @@
   },
   "work": [
     {
-      "name": "Max Planck Institute for Empirical Aesthetics",
+      "name": "Max Planck Institute for Empirical Aesthetics (PI: Dr. Daniela Sammelr)",
       "location": "Frankfurt, DE",
       "position": "Research Scientist",
       "url": "http://ae.mpg.de",
-      "startDate": "2021-08-01",
-      "endDate": "Present",
+      "startDate": "2021",
+      "endDate": "",
 	  "summmary": "",
       "highlights": [
-        "Neural encoding of music"
+		"fMRI/EEG encoding of musical emotions"
       ]
     },
 	{
-		"name": "Duke University",
-		"position": "Research associate",
-		"location": "Durham, NC",
-		"startDate": "2018-08-01",
-		"endDate": "2021-07-31",
+		"name": "Duke University (PI: Dr. Tobias Overath)",
+		"position": "Research Associate",
+		"location": "NC, US",
+		"startDate": "2018",
+		"endDate": "2021",
 		"summary": "",
 		"highlights": [
-			""
+			"MEG correlates of auditory percepts",
+			"fMRI encoding of natural speech"
 		]
 	},
 	{
-		"name": "University of Cambridge",
+		"name": "University of Cambridge (PI: Dr. Valerie Voon)",
 		"location": "Cambridge, UK",
-		"position": "Postdoc fellow",
-		"startDate": "2017-10-01",
-		"endDate": "2018-07-31"
+		"position": "Postdoc Fellow",
+		"startDate": "2017",
+		"endDate": "2018",
+		"highlights": [
+			"Intracortical myelination and clinical implications",
+			"Dynamics of resting-state connectivity"
+		]
 	}
   ],
   "education": [
     {
-      "institution": "Max Planck Institute for Human Cognitive and Brain Sciences",
+      "institution": "Max Planck Institute for Human Cognitive and Brain Sciences (PI: Dr. Thomas R. Knösche)",
 	  "location": "Leipzig, DE",
-      "url": "https://www/",
-      "area": "Thesis title",
+      "area": "Dissertation: Myeloarchitecture and Intrinsic Functional Connectivity of Auditory Cortex in Musicians with Absolute Pitch",
       "studyType": "Ph.D in Psychology",
-      "startDate": "2012-10-01",
-      "endDate": "2017-01-07",
+      "startDate": "2012",
+      "endDate": "2017",
       "score": "Summa cum laude"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
-    }
+      "institution": "Seoul National University (PI: Dr. Moo K. Chung)",
+	  "location": "Seoul, KR",
+      "area": "Projects: Graph theoretical analysis, Mathematical shape analysis",
+      "studyType": "Research Assistant",
+      "startDate": "2010",
+      "endDate": "2012"
+    },
+    {
+      "institution": "Seoul National University (PI: Dr. C. K. Chung)",
+	  "location": "Seoul, KR",
+      "area": "Thesis: The effect of conditional probability of chord progression in Western music corpus on brain response: an MEG study",
+      "studyType": "MS in Cognitive Science",
+      "startDate": "2008",
+      "endDate": "2010"
+    },
+    {
+      "institution": "Yonsei University",
+	  "location": "Seoul, KR",
+      "area": "Interests: econometrics, experimental psychology",
+      "studyType": "MAs in Econimics & Psychology",
+      "startDate": "2004",
+      "endDate": "2000"
+    },
+	{
+		"institution": "Sunhwa Arts High School",
+		"location": "Seoul, KR",
+		"studyType": "Diploma in Musical Composition",
+		"startDate": "1999",
+		"endDate": "1996"
+	}
+  ],
+  "volunteer": [
+	{
+		"organization": "Proceedings of the National Academy of Sciences of the United Sates of America (PNAS)",
+		"position": "Guest Editor",
+		"startDate": "2023",
+		"endDate": "2023"
+	},
+	{
+		"organization": "Various journals (alphabetical order):",
+		"position": "Ad Hoc Reviewer",
+		"startDate": "2014",
+		"summary": "Brain and Behavior, Brain Connectivity, Brain Research, Brain Structure and Function, Cognitive Affective Behavioral Neuroscience, Cognitive Neurodynamics, eLife, Frontiers in Aging Neuroscience), Frontiers in Computational Neuroscience, Frontiers in Neuroscience, Frontiers in Psychology, Human Brain Mapping, International Journal of Psychophysiology, Journal of Integrative Neuroscience, Journal of Physiological Anthropology, NeuroImage, Neuropsychologia, Neuroscience Letters, Perception, PLOS ONE, Psychophysiology, Scientific Reports"
+	},
+	{
+		"organization": "Frontiers in Neuroscience, specialty section: Auditory Cognitive Neuroscience",
+		"position": "Review Editor",
+		"startDate": "2022"
+	},
+	{
+  		"organization": "Republic of Korea Air Force",
+    	"position": "First lieutenant",
+    	"startDate": "2004",
+    	"endDate": "2007",
+    	"summary": "Mendatory service, honorably discharged"
+  	}
+  ],
+  "awards": [
+	{
+		"title": "Academy Fellowship Grant",
+		"date": "2023",
+		"awarder": "Johanna Quandt Young Academy, Goethe University Frankfurt, DE"
+	},
+	{
+		"title": "Postdoc Research Grant",
+		"date": "2021",
+		"awarder": "The Charles Lafitte Foundation Program for Research in Psychology & Neuroscience, Duke University, US"
+	},
+	{
+		"title": "Summa Cum Laude",
+		"date": "2017",
+		"awarder": "Institute of Psychology. University of Leipzig, DE"
+	},
+	{
+		"title": "Conference Scholarship",
+		"date": "2014",
+		"awarder": "The 5th Conference for Neurosciences and Music, IT"
+	},
+	{
+		"title": "Ph.D scholarship",
+		"date": "2012",
+		"awarder": "International Max Planck Research School (IMPRS) on Neuroscience of Communication, DE"
+	},
+	{
+		"title": "BA scholarship",
+		"date": "2001",
+		"awarder": "Suam foundation, KR"
+	}
+  ],
+  "projects": [
+	{
+		"name": "Neural representation of affective experiences evoked by music",
+		"startDate": "2023",
+		"endDAte": "2026",
+		"highlights": [
+			"Delevopment of high-quality music set ManyMusic🎶 with MTG researchers",
+			"Dense sampling (1K+ stimuli) of neuroimaging (fMRI and EEG)",
+			"Partially suported by JQYA grant to SGK"
+		]
+	},
+	{
+		"name": "Temporal Processing in Tonal and Atonal Music",
+		"startDate": "2021",
+		"endDate": "2024",
+		"highlights": [
+			"Large-scale online behavioral experiment (Amazon MTurk)",
+			"Partially supported by Charles Lafitte grant to SGK"
+		]
+	}
   ],
   "languages": [
     {
@@ -122,43 +199,31 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Meditative exercise",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Running",
+        "Swimming",
+		"Scuba diving"
       ]
     }
   ],
   "references": [
     {
       "name": "Dr. Thomas R. Knösche",
-      "reference": "contact"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
-    }
+      "reference": "knoesche@cbs.mpg.de"
+    },
+	{
+		"name": "Dr. Tobias Overath",
+		"reference": "t.overath@duke.edu"
+	},
+	{
+		"name": "Dr. Daniela Sammler",
+		"reference": "daniela.sammler@ae.mpg.de"
+	},
+	{
+		"name": "Dr. Valerie Voon",
+		"reference": "vv247@cam.ac.uk"
+	}
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
