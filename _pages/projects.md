@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 display_categories: [music, methods]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
