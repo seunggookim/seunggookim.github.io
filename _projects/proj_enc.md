@@ -5,7 +5,7 @@ description:
 #img: assets/img/proj/enc.png
 importance: 2
 category: methods
-giscus_comments: true
+giscus_comments: false
 ---
 
 ### TODO
