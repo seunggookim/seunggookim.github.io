@@ -1,9 +1,8 @@
 ---
 layout: page
-title: ManyMusic🎶
-description:
-#img: assets/img/proj/musemo.png
-importance: 2
+title: Aboslute Pitch
+description: Hard-wired pitch-chroma categories
+importance: 3
 category: music
 giscus_comments: false
 ---

@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Encoding Modeling
-description:
-#img: assets/img/proj/enc.png
-importance: 2
+description: Neural represenation of real-world music
+importance: 1
 category: methods
 giscus_comments: false
 ---
