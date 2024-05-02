@@ -9,8 +9,8 @@ giscus_comments: false
 ---
 
 ## Aims
-- Build a model based on a very large dataset of neural/behavioral affective experiece evoked by diverse real-world music
-- Created a fully open access dataset including audio files
+- Build a model based on a very large dataset of neural/behavioral affective experieces evoked by diverse real-world music
+- Created a fully open-access dataset including audio files
 
 ## Stimulus Selection
 
