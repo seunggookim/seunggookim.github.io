@@ -6,6 +6,9 @@ importance: 3
 category: music
 giscus_comments: false
 ---
+- PROJECT DURATION: 2014-2017
+- FUNDER: IMPRS-Neurocomm
+- ROLE: Researcher (PhD student)
 
 ## 1. Behavioral characterization
 While it has been characterized by "the accurate recogniztion of pitch chroma without an external reference", there seem to be multiple correlating behavioral characteristics, which would sharpen the definition of absolute pitch.
@@ -23,7 +26,5 @@ The degrees of octave confusion was irrelevant to the accuity of chroma recognit
 ## 3. Resting-state functional connectivity characterization
 <h5>3.1. Higher RSFC between the highly myelinated area and the bilateral STSs</h5>
 
-Need more samples
-
 ## 4. Task-based functional activation characterization
-
+<h5>4.1. Unpublished data</h5>
