@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Encoding Modeling
-description: Neural represenation of real-world music
+title: Neural encoding of musical emotions
+description: How do sounds evoke emotions?
 importance: 1
 category: music
 giscus_comments: false
