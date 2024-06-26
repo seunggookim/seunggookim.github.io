@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Neural encoding of musical emotions
-description: How do sounds evoke emotions?
+title: Musical emotion
+description: How do sounds evoke emotion?
 importance: 1
 category: music
 giscus_comments: false
