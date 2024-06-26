@@ -35,7 +35,7 @@ A similar phenomenum exists where a specific pitch can be recalled without an ex
 Often, such a member can be obtained without formal musical training but only with extensive exposure (e.g., music listeners who remembers the first pitch of a favorite song; engineers who absolutely remebers a test tone [1 Khz]).
 In fact, musicians with good relative pitch and absolute pitch memory can be behaviourally indistinguishable [REF]. 
 However, given that absolute pitch recognize pitch chroma without additional relative pitch computation, the perceptual process of absolute pitch seems to be distinctive from such a case. 
-In [Kim & Knösche (2017)](https://doi.org/10.3389/fnins.2017.00557), we proposed to distinguish the former as the absolute memory of pitch (i.e., without a separation of height and chroma) and the latter as the absolute perception of pitch chroma. 
+In [Kim & Knösche (2017)](https://doi.org/10.3389/fnins.2017.00557) [[PDF]](../../assets/pdf/journalpapers/Kim.2017-10-06.FNsci.pdf), we proposed to distinguish the former as the absolute memory of pitch (i.e., without a separation of height and chroma) and the latter as the absolute perception of pitch chroma. 
 
 
 ## How do ones with absolute pitch processes a pitch differently than ones without?
