@@ -69,7 +69,7 @@
       "score": "Summa cum laude"
     },
     {
-      "institution": "Seoul National University (PI: Dr. Moo K. Chung)",
+      "institution": "Seoul National University (PIs: Dr. Moo K. Chung; Dr. Jun Soo Kwon)",
 	  "location": "Seoul, KR",
       "area": "Projects: Graph theoretical analysis, Mathematical shape analysis",
       "studyType": "Research Assistant",
@@ -114,7 +114,7 @@
 		"summary": "Brain and Behavior, Brain Connectivity, Brain Research, Brain Structure and Function, Cognitive Affective Behavioral Neuroscience, Cognitive Neurodynamics, eLife, Frontiers in Aging Neuroscience), Frontiers in Computational Neuroscience, Frontiers in Neuroscience, Frontiers in Psychology, Human Brain Mapping, International Journal of Psychophysiology, Journal of Integrative Neuroscience, Journal of Physiological Anthropology, NeuroImage, Neuropsychologia, Neuroscience Letters, Perception, PLOS ONE, Psychophysiology, Scientific Reports"
 	},
 	{
-		"organization": "Frontiers in Neuroscience, specialty section: Auditory Cognitive Neuroscience",
+		"organization": "Frontiers in Neuroscience (specialty section: Auditory Cognitive Neuroscience)",
 		"position": "Review Editor",
 		"startDate": "2022"
 	},
@@ -203,7 +203,17 @@
       "keywords": [
         "Running",
         "Swimming",
-		"Scuba diving"
+        "Scuba diving",
+        "Hiking"
+      ]
+    },
+    {
+      "name": "Soulborne games",
+      "keywords": [
+        "Sekiro",
+        "DS3",
+        "DS1",
+        "Elden Ring"
       ]
     }
   ],
