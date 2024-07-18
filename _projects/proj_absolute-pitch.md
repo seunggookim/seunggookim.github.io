@@ -10,8 +10,8 @@ giscus_comments: true
 
 ## What is absolute pitch (chroma)?
 #### Definition
-In musical scientific literature, absolute pitch (commonly known as "perfect pitch") is defined as an ability to recognize the name of [pitch chroma]() of a given pitch without an external reference.
-This is opposed to "relative pitch", which is also a musical pitch processing skill to recognize the name of pitch chroma with an external reference. 
+In musical scientific literature, **absolute pitch** (commonly known as "perfect pitch") is defined as an ability to recognize the name of [pitch chroma](#pitch-chroma) of a given pitch without an external reference.
+This is opposed to **relative pitch**, which is also a musical pitch processing skill to recognize the name of pitch chroma with an external reference. 
 For example, when the "C" is given as a pitch, one with a good relative pitch can easily identify or sing other chromas such as "G#", "E", or "B".
 <!--
 Furthermore, if a relative-pitch listener has an excellent auditory working memory, they can be behaviorlly indistinguishable for several minutes once the external reference is given.
@@ -20,7 +20,7 @@ It is important to note that, in the musical context, both absolute and relative
 That is, simply knowing which note is higher than the other does *NOT* mean relative pitch in the musical context. Being able to tell their intervals (e.g., a major second), or a solfegio with respect to the given reference (e.g. "Sol") is the relative perception of pitch chroma.
 
 
-#### Pitch chroma, not just pitch
+#### Pitch chroma, not just pitch {#pitch-chroma}
 In a different context (e.g., psychoacoustics), the "absolute pitch" could simply mean the pitch of a given tone in an absolute sense (e.g., 440 Hz) and the "relative pitch" means a ratio of two tones (e.g., 440 Hz / 220 Hz = 1 octave = 12 semitones).
 However, the recognition of pitch chroma has been considered an essential aspect in the musical context. But what is a pitch chroma? 
 
@@ -68,9 +68,6 @@ The variant parts include:
 - **scoring methods**: correct rates, relaxed correct rates (i.e., ignoring one semitone error and scroing such errors as "CORRECT"), normalized and unnormalized mean absolute deviation
 
 
-
-
-
 > TRY THIS ONE OUT TO SEE IF YOU HAVE ABSOLUTE PITCH!
 
 
@@ -85,6 +82,16 @@ Also interestingly, many other fundamental perception do not seem to differ betw
 [Kim & Knösche, 2016](https://doi.org/10.1002/hbm.23254); 
 [Leite-Filho et al., 2023](https://doi.org/10.3389/fnins.2023.1151776)).
 This suggests that superior peripheral auditory processing is not necessary for absolute pitch (i.e., it is not the "ear" but the auditory cortex) unlike the suggestion 
+
+
+#### The better absolute pitch, the poorer relative pitch
+Perhaps surprisingly to some, having better absolute pitch (chroma) can be associated with poorer relative pitch (chroma).
+This is not necessarily a causal relationship although one can imagine that a listener with only good absolute pith but no relative pitch would need to explicitly "calculate", instead of perceiving, a relative solfeggio. (e.g., "Okay, the first note was C# and the second note was F. Then, with the first note as Do (i.e., C#-major), the second note is Mi.")
+
+Rather, this could be due to a different emphasis on absolute or relative pitch during the early musical training ([Miyazaki et al., 2018](https://doi.org/10.1525/mp.2018.36.2.135)).
+Miyazaki and colleagues suggsted that absolute pitch is overemphasized while relative pitch is underemphasized during the early musical training in many East Asian countries (such as Japan and China), in comparison to Western countries (such as Germany and USA).
+
+
 
 <!--
 ### M/EEG
@@ -110,6 +117,16 @@ Given the (near-)necessity of the early onset of musical training in developing 
 There are a few case reports where absolute pitch was preserved even after brain regions that were found to associate with absolute pitch, and vice versa.
 
 
+## How does one acquire absolute pitch?
+
+#### Genes
+
+
+#### Early musical training
+
+
+#### Tonal language?
+
 
 ## Can adults acquire absolute pitch?
 In traditional music education, various training methods have been developed to "learn absolute pitch". 
@@ -123,6 +140,9 @@ XXXX
 ## Is absolute pitch a talent or a maladaptation?
 In popular culture, this is often used as a prop of a musical prodigy.
 While having absolute pitch can be highly beneficial for musical composition and conduction, it can be detrimental for on-the-fly transposition, which may be needed for performers [(Miyazaki 2004)](https://doi.org/10.1111/j.1468-5584.2004.00260.x). 
+
+In a more recent cross-cultural study [(Miyazaki et al., 2018)](https://doi.org/10.1525/mp.2018.36.2.135), Miyazaki and colleagues found an inverse relationship between absolute pitch and relative pitch across East Asian and Western countires (Japan, China, Poland, Germany, and USA).
+
 Even more, ones with absolute pitch can be easily irritated by imprecisely tuned tones [(Rogenmoser et al., 2020)](https://doi.org/10.1016/j.cortex.2020.11.020).
 
 ## Absolute pitch in Non-Western music scales
