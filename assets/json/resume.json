@@ -199,21 +199,24 @@
   ],
   "interests": [
     {
-      "name": "Meditative exercise",
+      "name": "Meditative activities",
       "keywords": [
-        "Running",
-        "Swimming",
+        "Long-distance running",
+        "Long-distance swimming",
         "Scuba diving",
-        "Hiking"
+        "Hiking",
+        "Cooking"
       ]
     },
     {
       "name": "Soulborne games",
       "keywords": [
         "Sekiro",
+        "Elden Ring",
         "DS3",
         "DS1",
-        "Elden Ring"
+        "Bloodborne",
+        "DS2"
       ]
     }
   ],
