@@ -27,7 +27,7 @@ However, the recognition of pitch chroma has been considered an essential aspect
 In a scientific notation of a musical pitch (e.g., "A4", which corresponds to 440 Hz in a "concert" tuning), pitch chroma is noted in alphabets with a sharp of a flat (C, C#, D, D#, E, ..., A, B♭, B) and pitch height is noted in numbers (0, 1, 2, ...). 
 Importantly, pitch chroma is cyclic (C, D, E, ..., A, B, C, D, E, ...) whereas pitch height is linear (the first octave, the second octave, ...). See *Fig 1* for illustration. 
 
-| ![pitch-chorma-height](pitch-chroma-height.png#center) |
+| <img alt="pitch-chorma-height" src="pitch-chroma-height.png" data-zoomable> |
 | *Fig 1. Pitch chroma and pitch height. Note C3 and C4 in red. When you go one octave up, you get the same pitch chroma "C", but the pitch height is increased by one.* |
 
 
