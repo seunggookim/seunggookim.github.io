@@ -89,15 +89,15 @@
 	  "location": "Seoul, KR",
       "area": "Interests: econometrics, experimental psychology",
       "studyType": "BAs in Econimics & Psychology (dual majors)",
-      "startDate": "2004",
-      "endDate": "2000"
+      "startDate": "2000",
+      "endDate": "2004"
     },
 	{
 		"institution": "Sunhwa Arts High School",
 		"location": "Seoul, KR",
 		"studyType": "Diploma in Musical Composition",
-		"startDate": "1999",
-		"endDate": "1996"
+		"startDate": "1996",
+		"endDate": "1999"
 	}
   ],
   "volunteer": [
