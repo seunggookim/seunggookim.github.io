@@ -179,6 +179,18 @@
 		]
 	}
   ],
+  "teaching": [
+	{
+		"name": "Neural representation of affective experiences evoked by music",
+		"startDate": "2023",
+		"endDAte": "2026",
+		"highlights": [
+			"Delevopment of high-quality music set ManyMusic🎶 with MTG researchers",
+			"Dense sampling (1K+ stimuli) of neuroimaging (fMRI and EEG)",
+			"Partially suported by JQYA grant to SGK"
+		]
+	}
+  ],
   "languages": [
     {
       "language": "Korean:kr:",

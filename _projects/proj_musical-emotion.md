@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Musical emotion
-description: How do sounds evoke emotion?
+description: "How do sounds evoke emotion?<br>[To be updated]"
 importance: 1
 category: music
 giscus_comments: true
@@ -22,8 +22,8 @@ If so, could we accurately predict neurophysiological, bodily, and behavioral re
 How do we even know whether a certain emotion is evoked by certain music? 
 To establish causation, it is vital to observe a fixed effect of music over multiple repetitions despite varying random factors (e.g., daily mood).
 
+<!--
 ## Does music *"convey"* emotions?
-
 
 ## Is an evoked emotion a percept? Or a representation? A representation of what?
 
@@ -35,3 +35,4 @@ To establish causation, it is vital to observe a fixed effect of music over mult
 
 ## What are the reliable ANS/CNS correlates of music-evoked emotions?
 
+-->

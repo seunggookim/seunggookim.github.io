@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Encoding modeling
-description: Understanding neural representation
+description: "Understanding neural representation<br>Updated: 2024-09-08"
 importance: 1
 category: methods
 giscus_comments: true
@@ -9,10 +9,7 @@ related_publications: true
 ---
 
 Linear modeling with nonlinear transformation of the external information has been widely used to understand how the human brain processes real-world environment
-{% cite Kim2024cc %}
-{% cite sg2023 %}
-{% cite Kim2022fnsci %}
-{% cite LeahyKim2021 %}
+{% cite kim2024cc kim2023icmpc kim2022fn leahy2021fn %}
 
 | <img alt="LEA" src="lea.png" width="600px" data-zoomable> |
 | *Fig 1. Overview of Linearized Encoding Analysis (LEA)* |
