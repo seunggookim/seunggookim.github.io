@@ -4,13 +4,13 @@ title: teaching
 permalink: /teaching/
 description: #teaching
 nav: true
-nav_order: 1
-display_categories: ["Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt", "Workshops"]
+nav_order: 3
+display_categories: ["Max Planck Institutes","Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt", "Workshops"]
 horizontal: true
 ---
 
 <!-- _pages/teaching.md -->
-<div class="teaching">
+<div class="projects">
 {% if site.enable_teach_categories and page.display_categories %}
   <!-- Display categorized teaching -->
   {% for category in page.display_categories %}
