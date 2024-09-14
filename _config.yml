@@ -177,7 +177,7 @@ collections:
     output: true
     permalink: /projects/:path/
   teaching:
-    output: false
+    output: true
     permalink: /teaching/:path/
 
 announcements:

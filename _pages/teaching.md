@@ -4,8 +4,8 @@ title: teaching
 permalink: /teaching/
 description: #teaching
 nav: true
-nav_order: 2
-display_categories: ["Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt"]
+nav_order: 1
+display_categories: ["Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt", "Workshops"]
 horizontal: true
 ---
 
