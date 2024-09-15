@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tutorial: Linearized Encoding Modeling👧"
+title: "Tutorial: Linearized Encoding Analysis👧"
 description: "2024-09-07, Korean Society for Music Perception and Cognition [KSMPC] Summer School, South Korea"
 importance: 1
 category: "Workshops"
@@ -11,9 +11,9 @@ This three-hour tutorial was given as a part of [the Korean Society for Music Pe
 All materials (presentation slides, hands-on MATLAB Livescripts) can be found in [my public GitHub repository](https://github.com/seunggookim/ksmpc-ss24-sess3).
 
 This course was taught via Zoom as I was in Frankfurt am Main, Germany, and attendees were in Seoul, South Korea. 
-A few practicals for my own future reference:
-- Apple Keynote now support the window-presentation mode. This can be activated from [Play]>[In Window].
-- To switch between Keynote and MATLAB, sharing a part of the screen can be useful since sharing the full screen makes things really slow. This option can be found [Share]>[Advanced]>[Portion of Screen].
+Here are a few practicals for my own future reference:
+- Apple Keynote now supports the window-presentation mode. This can be activated from [Play]>[In Window].
+- To switch between Keynote and MATLAB, sharing a part of the screen can be useful since sharing the full screen makes things really slow. This option can be found at [Share]>[Advanced]>[Portion of Screen].
 - In a hybrid meeting, attendees may not have access to Zoom chat. Per a brilliant KAIST student Hyun-Jae Kim's recommendation, I used [Padlet](https://padlet.com) for an open bulletin board to communicate with the attendees, which worked superbly well!
 This service is for now (2024-09-14) free for 3 boards.
 
