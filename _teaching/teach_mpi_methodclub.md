@@ -7,7 +7,7 @@ category: "Max Planck Institutes"
 giscus_comments: true
 ---
 
-During my PhD program, I enjoyed attending a regular meeting “Method Club” organized by [Dr. Karsten Mueller]([Dr. Karsten Mueller](https://www.cbs.mpg.de/person/44681) at the Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany. 
+During my PhD program, I enjoyed attending a regular meeting “Method Club” organized by [Dr. Karsten Mueller](https://www.cbs.mpg.de/person/44681) at the Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany. 
 Over these meetings, we discussed methodological problems and possible solutions amongst human neuroscientists, which, while unrestricted, were mostly related to functional magnetic resonance imaging (fMRI).
 
 On two occasions, I volunteered to lead two tutorials on fMRI data preprocessing.
