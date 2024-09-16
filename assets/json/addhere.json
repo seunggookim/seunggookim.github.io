@@ -1,5 +1,5 @@
 {
-  "_basics": {
+  "basics": {
     "name": "Seung-Goo Kim, PhD",
     "image": "",
     "email": "dr.seunggoo.kim@gmail.com",
@@ -110,7 +110,7 @@
 		"organization": "Various journals (alphabetical order):",
 		"position": "Ad Hoc Reviewer",
 		"startDate": "2014",
-    "ADD_HERE": ""
+<ADD_HERE>
 	},
 	{
 		"organization": "Frontiers in Neuroscience (specialty section: Auditory Cognitive Neuroscience)",
@@ -248,4 +248,10 @@
 		"name": "Dr. Valerie Voon",
 		"reference": "vv247@cam.ac.uk"
 	}
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
 }
