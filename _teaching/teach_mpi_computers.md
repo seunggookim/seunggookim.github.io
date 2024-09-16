@@ -9,7 +9,7 @@ giscus_comments: true
 
 Working as a research scientist at an interdisciplinary research institute means that your colleagues often have widely different backgrounds than you.
 
-In this day and age, almost everyone has at least one computer-like device (I mean your mobile phone). However, doing scientific research with digital data requires some nerdy skills🤓, which sometimes scares the normal people😨😨.
+In this day and age, almost everyone has at least one computer-like device (I mean your mobile phone). However, doing scientific research with digital data requires some nerdy skills🤓, which sometimes scares off normal people😨😨.
 
 To help colleagues and friends in our group and at our institute, I have prepared some light-hearted presentations to cover a few tricks (the list is growing):
 - [2024-05-15, Data/code management—Where should I put my files?](2024-05-15_LabmeetingNCML_data-management_Kim.pdf)
