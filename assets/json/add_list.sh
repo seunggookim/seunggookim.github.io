@@ -2,7 +2,6 @@
 #one-liner-magic generated using ChatGPT4o
 
 # # create a backup file:
-# sed 's/"basics"/"_basics"/g' resume.json > backup.json # not to confuse the remote builder
 cp resume.json backup.json
 
 # create a string to add:
