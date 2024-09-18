@@ -60,13 +60,14 @@
   ],
   "education": [
     {
-      "institution": "Max Planck Institute for Human Cognitive and Brain Sciences (PI: Dr. Thomas R. Knösche)",
+      "institution": "Max Planck Institute for Human Cognitive and Brain Sciences (PI: Dr. Thomas R. Knösche; fully supported by IMPRS NeuroCom Program)",
 	  "location": "Leipzig, DE",
-      "area": "Dissertation: Myeloarchitecture and Intrinsic Functional Connectivity of Auditory Cortex in Musicians with Absolute Pitch",
+      "area": "Dissertation: Myeloarchitecture and Intrinsic Functional Connectivity of Auditory Cortex in Musicians with Absolute Pitch`",
       "studyType": "Ph.D in Psychology",
       "startDate": "2012",
       "endDate": "2017",
-      "score": "Summa cum laude"
+      "score": "Summa cum laude",
+      "highlights": ["a","b"]
     },
     {
       "institution": "Seoul National University (PIs: Dr. Moo K. Chung; Dr. Jun Soo Kwon)",
@@ -85,8 +86,8 @@
       "endDate": "2010"
     },
     {
-      "institution": "Yonsei University",
-	  "location": "Seoul, KR",
+      "institution": "Yonsei University (fully supported by Suam Scholarship Foundation)",
+      "location": "Seoul, KR",
       "area": "Interests: econometrics, experimental psychology",
       "studyType": "BAs in Econimics & Psychology (dual majors)",
       "startDate": "2000",
@@ -224,10 +225,11 @@
       "name": "Soulborne games",
       "keywords": [
         "Sekiro",
-        "Elden Ring",
         "DS3",
-        "DS1",
+        "Elden Ring",
         "Bloodborne",
+        "DS1",
+        "Demon's Souls",
         "DS2"
       ]
     }

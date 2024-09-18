@@ -4,8 +4,7 @@ title: XXX
 description:
 #img: assets/img/proj/enc.png
 importance: 2
-tag: code
-category: 
+tags: code
 giscus_comments: true
 related_publication: true
 ---
