@@ -20,7 +20,7 @@ This change made four students withdraw from the course.
 
 Learned from this year, and in the next year, I started early.
 In the first semester [[2023WS]](MEM_2023WS_syllabus_v2023-10-25.pdf), three students focused on developing study ideas, designing online experiments, and implementing them.
-Only two students were able to submit the term paper in the second semester [[2024SS]](MEM_2024SS_syllabus-2024-06-10).
+Only two students were able to submit the term paper in the second semester [[2024SS]](MEM_2024SS_syllabus-v2024-06-10.pdf).
 
 While my approach was definitely demanding and clearly not for everyone, I am happy that it seems that it encouraged some students to learn more.
 This, however, is extremely difficult to tell without a proper causal inference (did they stay because they had been already interested, or did my teaching somehow interested them?).
@@ -31,7 +31,7 @@ What I can tell easily, though, is that I enjoyed the hard way.:smiling_imp:
 - [2022 Winter-Spring Semester: Empirical Methods for Music Research—Part 1](MEM_2022WS_syllabus_v20230114.pdf)
 - [2023 Spring-Summer Semeser: Empirical Methods for Music Research—Part 2](MEM_2023SS_syllabus_v2023-06-04.pdf)
 - [2023 Winter-Spring Semester: Empirical Methods for Music Research—Part 1](MEM_2023WS_syllabus_v2023-10-25.pdf)
-- [2024 Spring-Summer Semester: Empirical Methods for Music Research—Part 2](MEM_2024SS_syllabus_2024-06-10.pdf)
+- [2024 Spring-Summer Semester: Empirical Methods for Music Research—Part 2](MEM_2024SS_syllabus_v2024-06-10.pdf)
 
 ## Lecture Materials
 
