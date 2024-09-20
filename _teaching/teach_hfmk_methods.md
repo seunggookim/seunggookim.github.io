@@ -30,7 +30,7 @@ What I can tell easily, though, is that I enjoyed the hard way.:smiling_imp:
 - [2022 Winter-Spring Semester: Empirical Methods for Music Research—Part 1](MEM_2022WS_syllabus_v20230114.pdf)
 - [2023 Spring-Summer Semeser: Empirical Methods for Music Research—Part 2](MEM_2023SS_syllabus_v2023-06-04.pdf)
 - [2023 Winter-Spring Semester: Empirical Methods for Music Research—Part 1](MEM_2023WS_syllabus_v2023-10-25.pdf)
-- [2024 Spring-Summer Semester: Empirical Methods for Music Research—Part 2](MEM_2024SS_syllabus_v2024-06-10.pdf)
+- [2024 Spring-Summer Semester: Empirical Methods for Music Research—Part 2](MEM_2024SS_syllabus_2024-06-10.pdf)
 
 
 ## Lecture Materials
