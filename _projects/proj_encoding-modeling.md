@@ -13,24 +13,26 @@ Linear modeling with nonlinear transformation of the external information has be
 .
 
 | <img alt="LEA" src="lea.png" width="600px" data-zoomable> |
-| *Fig 1. Overview of Linearized Encoding Analysis (LEA)* |
+| _Fig 1. Overview of Linearized Encoding Analysis (LEA)_ |
 
 ## Methodological issues
+
 ### Reverse double-dipping
 
 | <img alt="RDD" src="rdd.png" data-zoomable> |
-| *Fig 2. Reserve double-dipping: data dips you, twice!* |
+| _Fig 2. Reserve double-dipping: data dips you, twice!_ |
 
 ### Time series prediction
 
 | <img alt="SmoothCorr" src="scorr.png" width="600px" style="float" data-zoomable> |
-| *Fig 3. Spurious correlation between smooth time series* |
+| _Fig 3. Spurious correlation between smooth time series_ |
 
 ## Resources
-- Kim, 2024-09-07, <b>Linearized Encoding Modeling: a Predictive Analysis Methodology for Music Perception</b>, *Korean Society for Music Perception and Cognition (KSMPC) Summer School 24, Session 3 lecture*. 
-[[slides]](https://github.com/seunggookim/ksmpc-ss24-sess3/blob/c17904e35a0648c97227fe48a494380c85703845/docs/2024-09-07_KSMPC-SS_enc_sgKIM_git.pdf)
-[[code]](https://drive.mathworks.com/sharing/cb9d7218-cfa4-4bef-abd2-6f03a6d953dc)
-[[repo]](https://github.com/seunggookim/ksmpc-ss24-sess3)
+
+- Kim, 2024-09-07, <b>Linearized Encoding Modeling: a Predictive Analysis Methodology for Music Perception</b>, _Korean Society for Music Perception and Cognition (KSMPC) Summer School 24, Session 3 lecture_.
+  [[slides]](https://github.com/seunggookim/ksmpc-ss24-sess3/blob/c17904e35a0648c97227fe48a494380c85703845/docs/2024-09-07_KSMPC-SS_enc_sgKIM_git.pdf)
+  [[code]](https://drive.mathworks.com/sharing/cb9d7218-cfa4-4bef-abd2-6f03a6d953dc)
+  [[repo]](https://github.com/seunggookim/ksmpc-ss24-sess3)
 
 <!--
 

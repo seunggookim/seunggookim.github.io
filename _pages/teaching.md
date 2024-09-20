@@ -5,7 +5,7 @@ permalink: /teaching/
 description: #teaching
 nav: true
 nav_order: 3
-display_categories: ["Max Planck Institutes","Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt", "Workshops"]
+display_categories: ["Max Planck Institutes", "Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt", "Workshops"]
 horizontal: true
 ---
 

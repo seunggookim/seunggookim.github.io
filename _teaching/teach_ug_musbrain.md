@@ -8,4 +8,3 @@ giscus_comments: true
 ---
 
 This course will be taught in this Fall/Winter.
-

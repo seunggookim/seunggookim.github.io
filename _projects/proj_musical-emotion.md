@@ -16,10 +16,12 @@ If so, could we accurately predict neurophysiological, bodily, and behavioral re
 ## Does music evoke emotions?
 
 ## Does music evoke specific emotions? Is it reproducible?
+
 #### Specificity
 
 #### Reproducibility
-How do we even know whether a certain emotion is evoked by certain music? 
+
+How do we even know whether a certain emotion is evoked by certain music?
 To establish causation, it is vital to observe a fixed effect of music over multiple repetitions despite varying random factors (e.g., daily mood).
 
 <!--
@@ -31,7 +33,7 @@ To establish causation, it is vital to observe a fixed effect of music over mult
 
 ## What is emotion anyway?
 
-## What language do people use to describe music-evoked emotions? 
+## What language do people use to describe music-evoked emotions?
 
 ## What are the reliable ANS/CNS correlates of music-evoked emotions?
 
