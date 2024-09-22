@@ -29,7 +29,7 @@ Thus, ideally, a multi-contrast imaging can help to better differentiate tissue 
 ### Don't we have diffusion-weighted imaging for myelination?
 
 In diffusion-weighted imaging (DWI), the measure of fractional anisotropy (FA) of a fitted diffusion tensor is often interpreted as a correlate of axonal myelination.
-This assumes parallel axons in a voxel, thus the myelination of parallel axons would restrict water diffusion inside the axons as more anisotropic (i.e., more eliptical).
+This assumes parallel axons in a voxel, thus the myelination of parallel axons would restrict water diffusion inside the axons as more anisotropic (i.e., more elliptical).
 This may be the case in certain white matter bundles, but not in the cortex.
 
 <!--
@@ -45,16 +45,16 @@ This may be the case in certain white matter bundles, but not in the cortex.
 
 In a between-subject design {% cite kim2016hbm %}, we found higher intracortical myelination (indicated by lower T1 values) in the right planum polare (the anterior part of the supratemporal plane) of musicians with absolute pitch than without.
 The higher intracortical myelination suggests a suppression of neural plasticity.
-Given the importance of the early onset of musical training in developing absolute pitch, the inreased myelination could contribute to the preservation of pitch chroma template that the absolute pitch listeners utilize.
+Given the importance of the early onset of musical training in developing absolute pitch, the increased myelination could contribute to the preservation of the pitch chroma template that the absolute pitch listeners utilize.
 
 ### Intracortical myelination and impulsivity
 
-In a cross-sectional case-control study {% cite nord2019npp %}, we found a premature responding (representing "waiting" impulsivity) in youth was associated with the decreased myelination of the ventral region of the bilateral putamens. This finding is consitent with a study where high waiting impulsivity in rodents is characterized by lower ventral striatal D2/3 receptors
+In a cross-sectional case-control study {% cite nord2019npp %}, we found a premature responding (representing "waiting" impulsivity) in youth was associated with decreased myelination of the ventral region of the bilateral putamens. This finding is consistent with a study where high waiting impulsivity in rodents is characterized by lower ventral striatal D2/3 receptors
 [(Dalley et al., 2007)](https://doi.org/10.1126/science.1137073).
 
 ### Intracortical myelination and alcohol resilience
 
-Moreover, in a longitudinal study {% cite weidacker2020pm  %}, we found the baseline myelination of the bilateral anterior insular and subcallosal singulate predicted a lower risk for harmful alcohol use at 2-year follow-up.
+Moreover, in a longitudinal study {% cite weidacker2020pm  %}, we found the baseline myelination of the bilateral anterior insular and subcallosal cingulate predicted a lower risk for harmful alcohol use at a 2-year follow-up.
 
 <!--
 ## Does the intracortical myelination show a replicable effect in normal population?
