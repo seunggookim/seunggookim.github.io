@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Absolute pitch
-description: "Is it a musical gift or a musical curse? <br>Updated: 2024-09-09"
+description: "Is it a musical gift or a musical curse? <br>Updated: 2024-09-22"
 importance: 3
 category: music
 giscus_comments: true
