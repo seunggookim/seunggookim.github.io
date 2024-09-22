@@ -179,5 +179,4 @@ Rather, in the totality of observations, it seems that there exists cortical pro
 After all, a highly precise and absolute perception can be an adaptation to a confined environment.
 While there are cases where such perceptual skills have undeniable merits,
 the music and the arts are lots more complicated than just the keen perception (even·in·the·classical·sense).
-Thus, I agree with [(Miyazaki·et·al.,·2018)](https://doi.org/10.1    525/mp.2018.36.2.135) on that music education over-emphasizing absolute pitch is bad because it can demoralize the development of relative pitch.
-
+Thus, I agree with [(Miyazaki·et·al.,·2018)](https://doi.org/10.1525/mp.2018.36.2.135) on that music education over-emphasizing absolute pitch is risky because it can demoralize the development of relative pitch.
