@@ -46,7 +46,7 @@ Of course, "just more data" won't answer theoretical problems.
 However, we still don't have empirical data with sufficient statistical power.
 
 What we can still do in an fMRI lab is to "densely sample" a selected group of participants.
-We have proposed a new dataset "ManyMusic🎶" [(Kim et al., 2023, cuttingEEG)](kim2023musafx_cuttingEEG_v2.pdf) where we plan to collect fMRI scanning of 1,000 full-length creative-commons-licensed music listening.
+We have proposed a new dataset "ManyMusic🎶" {% cite kim2023cg %} where we plan to collect fMRI scanning of 1,000 full-length creative-commons-licensed music listening.
 We will see what our dataset shows.
 
 ## Footnotes
