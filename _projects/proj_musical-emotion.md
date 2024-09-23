@@ -34,7 +34,6 @@ But this does not mean the causation (or association?) is completely random[^1].
 
 Now, here's our hope: if there exists any kind of stable association between music and evoked emotions, we may model this as a (locally-)time-invariant linear system {% cite kim2022fn %}. Then, we can further investigate how stable this system is within an individual and how variable across individuals, cultures, and even clinical conditions.
 
-
 ## Haven't people tried and failed already?
 
 Even in the field of music information retrieval (MIR), musical emotion recognition has been a notorious task. An annual competition [MIREX (Music Information Retrieval Evaluation eXchange)](https://www.music-ir.org/mirex/wiki/MIREX_HOME) keeps records of the state-of-the-art (SOTA) performance of various music-related tasks. Currently (2024-09-23), the [latest result from MIREX2020 of the Audio Music Mood Classification](https://www.music-ir.org/nema_out/mirex2020/results/act/mood_report/summary.html) marks the highest classification accuracy of 0.6950 with the best combination of all the advanced deep neural networks. People wonder if this is due to the low reliability of the target labels of emotions.
@@ -42,12 +41,16 @@ Even in the field of music information retrieval (MIR), musical emotion recognit
 One possible new direction could be making use of physiological measures in addition to the self-reported ratings. This is what typically has been done in psychology labs on small scales. But with Apple Watch data, together with the Apple Music data, we may see interesting new results.
 
 ## Do we just need more data?
-Of course, "just more data" won't answer theoretical problems. However, we still don't have empirical data with sufficient statistical power.
 
-What we can still do in an fMRI lab is to "densely sample" a selected group of participants. We have proposed a new dataset "ManyMusic🎶" [(Kim et al., 2023, cuttingEEG)](kim2023musafx_cuttingEEG_v2.pdf) where we plan to collect fMRI scanning of 1,000 full-length creative-commons-licensed music listening. We will see what our dataset shows.
+Of course, "just more data" won't answer theoretical problems.
+However, we still don't have empirical data with sufficient statistical power.
 
+What we can still do in an fMRI lab is to "densely sample" a selected group of participants.
+We have proposed a new dataset "ManyMusic🎶" [(Kim et al., 2023, cuttingEEG)](kim2023musafx_cuttingEEG_v2.pdf) where we plan to collect fMRI scanning of 1,000 full-length creative-commons-licensed music listening.
+We will see what our dataset shows.
 
 ## Footnotes
+
 <!--
 
 
