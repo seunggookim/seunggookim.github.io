@@ -16,6 +16,7 @@ To help colleagues and friends in our group and at our institute, I have prepare
 - [2024-05-15, Data/code management—Where should I put my files?](2024-05-15_LabmeetingNCML_data-management_Kim.pdf)
 - [2024-08-07, Data/code management.git—How do I use Git?](2024-08-07_LabmeetingNCML_git_Kim.pdf)
 - [2024-08-21, How do I edit a file in a Terminal? 🤷](2024-08-21_LabmeetingNCML_cli_Kim.pdf)
+- [2024-10-20, Open Questions for Computing Language for Open Science](2024-10-02_LabmeetingNCML_clos_Kim.pdf)
 
 ## Resources
 
