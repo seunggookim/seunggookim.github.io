@@ -19,6 +19,6 @@ To help colleagues and friends in our group and at our institute, I have prepare
 - [2024-10-20, Open Questions for Computing Language for Open Science](2024-10-02_LabmeetingNCML_clos_Kim.pdf)
 
 ## Resources
+
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/): This is a very cool series of lectures from MIT for new students majoring in Computer Science. I don't think all music researchers need to know everything here (while definitely useful). I have taken lots of inspiration from this.
 - [A lecture on Scientific Computing Languages](https://www.sas.upenn.edu/~jesusfv/Lecture_HPC_5_Scientific_Computing_Languages.pdf): for economists using high-performance computing for their research, Dr. Jesús Fernández-Villaverde, Department of Economics, University of Pennsylvania, introduces general-purpose languages (GPL) and domain-specific languages (DSL) for scientific computation: Python is a good GPL. But eventually you "want" to learn C++. R is a good DSL. Matlab still remains relevant. Julia is promising but still very young.
-
