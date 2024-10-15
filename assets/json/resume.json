@@ -209,16 +209,16 @@
       "keywords": ["Sekiro", "DS3", "Elden Ring", "Bloodborne", "DS1", "Demon's Souls", "DS2"]
     },
     {
+      "name": "Markup languages",
+      "keywords": ["R-markdown", "LaTex", "HTML"]
+    },
+    {
       "name": "Scripting languages",
-      "keywords": ["Bash", "R-markdown", "LaTex", "HTML/JS"]
+      "keywords": ["Bash", "MATLAB", "R", "Julia", "Python", "JavaScript"]
     },
     {
-      "name": "Computing languages",
-      "keywords": ["MATLAB", "R", "Julia", "Python"]
-    },
-    {
-      "name": "Audio languages",
-      "keywords": ["SuperCollider", "PureData"]
+      "name": "Audio programming languages",
+      "keywords": ["SuperCollider", "strudel"]
     }
   ],
   "references": [
