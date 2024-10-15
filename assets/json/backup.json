@@ -104,7 +104,7 @@
       "organization": "Various journals (alphabetical order):",
       "position": "Ad Hoc Reviewer",
       "startDate": "2014",
-      "summary": "Brain and Behavior, Brain Connectivity, Brain Research, Brain Structure and Function, Cognitive Affective Behavioral Neuroscience, Cognitive Neurodynamics, eLife, Frontiers in Aging Neuroscience, Frontiers in Computational Neuroscience, Frontiers in Human Neuroscience, Frontiers in Neuroanatomy, Frontiers in Neuroscience, Frontiers in Psychology, Human Brain Mapping, International Journal of Psychophysiology, Journal of Affective Disorders, Journal of Integrative Neuroscience, Journal of Neuroscience, Journal of New Music Research, Journal of Physiological Anthropology, NeuroImage, Neuropsychologia, Neuroscience Letters, Perception, PLOS ONE, Psychophysiology, Scientific Reports"
+      "summary": "Brain and Behavior, Brain Connectivity, Brain Research, Brain Structure and Function, Cognitive Affective Behavioral Neuroscience, Cognitive Neurodynamics, eLife, Frontiers in Aging Neuroscience, Frontiers in Computational Neuroscience, Frontiers in Human Neuroscience, Frontiers in Neuroanatomy, Frontiers in Neuroscience, Frontiers in Psychology, Heliyon, Human Brain Mapping, International Journal of Psychophysiology, Journal of Affective Disorders, Journal of Integrative Neuroscience, Journal of Neuroscience, Journal of New Music Research, Journal of Physiological Anthropology, NeuroImage, Neuropsychologia, Neuroscience Letters, Perception, PLOS ONE, Psychophysiology, Scientific Reports"
     },
     {
       "organization": "Frontiers in Neuroscience (specialty section: Auditory Cognitive Neuroscience)",
@@ -207,6 +207,14 @@
     {
       "name": "Soulborne games",
       "keywords": ["Sekiro", "DS3", "Elden Ring", "Bloodborne", "DS1", "Demon's Souls", "DS2"]
+    },
+    {
+      "name": "Scripting languages",
+      "keywords": ["Bash", "R-markdown", "LaTex", "HTML/JS"]
+    },
+    {
+      "name": "Computing languages",
+      "keywords": ["MATLAB", "R", "Python", "Julia"]
     }
   ],
   "references": [

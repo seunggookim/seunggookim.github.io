@@ -207,6 +207,18 @@
     {
       "name": "Soulborne games",
       "keywords": ["Sekiro", "DS3", "Elden Ring", "Bloodborne", "DS1", "Demon's Souls", "DS2"]
+    },
+    {
+      "name": "Scripting languages",
+      "keywords": ["Bash", "R-markdown", "LaTex", "HTML/JS"]
+    },
+    {
+      "name": "Computing languages",
+      "keywords": ["MATLAB", "R", "Julia", "Python"]
+    },
+    {
+      "name": "Audio languages",
+      "keywords": ["SuperCollider","PureData"]
     }
   ],
   "references": [
