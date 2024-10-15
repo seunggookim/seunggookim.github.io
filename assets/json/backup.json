@@ -104,7 +104,7 @@
       "organization": "Various journals (alphabetical order):",
       "position": "Ad Hoc Reviewer",
       "startDate": "2014",
-      "<ADD_HERE>": ""
+      "summary": "Brain and Behavior, Brain Connectivity, Brain Research, Brain Structure and Function, Cognitive Affective Behavioral Neuroscience, Cognitive Neurodynamics, eLife, Frontiers in Aging Neuroscience, Frontiers in Computational Neuroscience, Frontiers in Human Neuroscience, Frontiers in Neuroanatomy, Frontiers in Neuroscience, Frontiers in Psychology, Heliyon, Human Brain Mapping, International Journal of Psychophysiology, Journal of Affective Disorders, Journal of Integrative Neuroscience, Journal of Neuroscience, Journal of New Music Research, Journal of Physiological Anthropology, NeuroImage, Neuropsychologia, Neuroscience Letters, Perception, PLOS ONE, Psychophysiology, Scientific Reports"
     },
     {
       "organization": "Frontiers in Neuroscience (specialty section: Auditory Cognitive Neuroscience)",
@@ -209,12 +209,16 @@
       "keywords": ["Sekiro", "DS3", "Elden Ring", "Bloodborne", "DS1", "Demon's Souls", "DS2"]
     },
     {
+      "name": "Markup languages",
+      "keywords": ["R-markdown", "LaTex", "HTML"]
+    },
+    {
       "name": "Scripting languages",
       "keywords": ["Bash", "MATLAB", "R", "Julia", "Python", "JavaScript"]
     },
     {
-      "name": "Other fun languages",
-      "keywords": ["R-markdown", "LaTex", "HTML", "SuperCollider", "strudel"]
+      "name": "Audio programming languages",
+      "keywords": ["SuperCollider", "strudel"]
     }
   ],
   "references": [
