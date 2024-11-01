@@ -210,11 +210,11 @@
     },
     {
       "name": "Scripting languages",
-      "keywords": ["Bash", "MATLAB", "R", "Julia", "Python", "JavaScript"]
+      "keywords": ["Bash", "MATLAB", "R", "Julia", "Python"]
     },
     {
       "name": "Other fun languages",
-      "keywords": ["R-markdown", "LaTex", "HTML", "SuperCollider", "strudel"]
+      "keywords": ["R-markdown", "LaTex", "HTML-JavaScript", "SuperCollider", "strudel"]
     }
   ],
   "references": [
