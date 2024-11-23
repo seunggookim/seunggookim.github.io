@@ -2,7 +2,7 @@
 layout: page
 title: "Tutorials: How to use computers💻"
 description: "2024, Max Planck Institute for Empirical Aesthetics"
-importance: 1
+importance: 2
 category: "Max Planck Institutes"
 giscus_comments: true
 ---
