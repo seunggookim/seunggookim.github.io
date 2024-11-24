@@ -32,7 +32,9 @@ But this does not mean the causation (or association?) is completely random[^1].
 
 [^1]: Perhaps this may be even an absolutist confusion about empirical causation. An identical temperature may or may not boil the water depending on the pressure. Does it abolish the causal link between the temperature and the phase transition of the water?🙄
 
-Now, here's our hope: if there exists any kind of stable association between music and evoked emotions, we may model this as a (locally-)time-invariant linear system {% cite kim2022fn %}. Then, we can further investigate how stable this system is within an individual and how variable across individuals, cultures, and even clinical conditions.
+Now, here's our hope: if there exists any kind of stable association between music and evoked emotions, we may model this as a (locally-)time-invariant linear system {% cite kim2022fn %}. 
+A preliminary result suggests abstract features extracted using a CNN could predict fMRI response time series in the medial prefrontal cortex, which could be more relevant to emotions than acoustic features {% cite kim2023icmpc %}.
+Then, we can further investigate how stable this system is within an individual and how variable across individuals, cultures, and even clinical conditions.
 
 ## Haven't people tried and failed already?
 
