@@ -3,7 +3,7 @@ layout: page
 title: "Tutorial: Linearized Encoding Analysis👧"
 description: "2024-Sep-07, Korean Society for Music Perception and Cognition [KSMPC] Summer School, South Korea"
 importance: 1
-category: "Workshops"
+category: "External"
 giscus_comments: true
 ---
 

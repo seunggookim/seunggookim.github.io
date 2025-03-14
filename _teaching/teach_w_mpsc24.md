@@ -3,7 +3,7 @@ layout: page
 title: "Workshop: Music, Brain, and Emotions: An Engaging Self-Experiment🥲"
 description: "2024-Dec-05, Max Planck School of Cognition--Cognition Academies"
 importance: 1
-category: "Workshops"
+category: "Max Planck Institutes"
 giscus_comments: true
 ---
 
