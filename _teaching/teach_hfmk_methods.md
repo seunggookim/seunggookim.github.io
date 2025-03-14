@@ -35,4 +35,4 @@ What I can tell easily, though, is that I enjoyed the hard way.:smiling_imp:
 
 ## Lecture Materials
 
-- Open Science Framework project page: <https://osf.io/rd243/>
+- Zenodo repository: <https://doi.org/10.5281/zenodo.15024014>
