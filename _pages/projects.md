@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: 
+description: collecting pebbles
 nav: true
 nav_order: 2
 display_categories: [music, methods]
