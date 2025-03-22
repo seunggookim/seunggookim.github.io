@@ -203,8 +203,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-01-27_pci-neuro/";
-            },},{id: "news-everthing-is-red-queen-s-race-docker-compose-crumbles-jekyll-breaks-so-i-had-to-recreate-my-site-from-a-new-template-v0-19-3",
-          title: 'Everthing is Red Queen’s race. Docker-compose crumbles. Jekyll breaks. So, I had to...',
+            },},{id: "news-everthing-is-red-queen-s-race-docker-compose-crumbles-jekyll-breaks-so-i-am-recreating-my-homepage-from-scratch-by-importing-a-new-template-v0-19-3-will-finish-soon",
+          title: 'Everthing is Red Queen’s race. Docker-compose crumbles. Jekyll breaks. So, I am recreating...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
