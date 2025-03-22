@@ -407,16 +407,57 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-new-homepage-house-hosted-by-github-pages",
+          title: 'New homepage:house: hosted by GitHub Pages!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-new-paper-scroll-kim-et-al-2024-linguistic-modulation-of-the-neural-encoding-of-phonemes-cerebral-cortex",
+          title: 'New paper:scroll:: Kim et al. 2024. Linguistic modulation of the neural encoding of...',
+          description: "",
+          section: "News",},{id: "news-i-am-visiting-south-korea-for-the-annual-meeting-of-organization-for-human-brain-mapping-in-seoul-23-27-june-2024-update-poster",
+          title: 'I am visiting South Korea for The Annual Meeting of Organization for Human...',
+          description: "",
+          section: "News",},{id: "news-i-am-attending-the-neuroscience-and-music-viii-in-helsinki-13-16-june-2024-see-you-all-music-brain-lovers-musical-score",
+          title: 'I am attending The Neuroscience and Music-VIII in Helsinki, 13-16 June 2024. See...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-giving-a-talk-about-neural-encoding-of-musical-emotions-at-a-symposium-at-the-department-of-music-therapy-ewha-womans-university-in-seoul-on-24-june-2024-update-slides",
+          title: 'I will be giving a talk about “Neural Encoding of Musical Emotions” at...',
+          description: "",
+          section: "News",},{id: "news-i-will-teach-a-3-hour-course-titled-linearized-encoding-modeling-a-predictive-analysis-methodology-for-music-perception-at-the-ksmpc-korean-society-for-music-perception-and-cognition-summer-school-2024-only-korean-via-zoom-on-7-september-2024-update-github-teaching",
+          title: 'I will teach a 3-hour course titled “Linearized Encoding Modeling: a Predictive Analysis...',
+          description: "",
+          section: "News",},{id: "news-i-will-co-teach-a-seminar-music-and-the-brain-with-dr-daniela-sammler-at-goethe-university-frankfurt-i-will-be-in-charge-of-teaching-the-half-of-4-topics-perception-24-10-07-11-2024-and-emotion-16-30-1-2025",
+          title: 'I will co-teach a seminar “Music and the Brain” with Dr. Daniela Sammler...',
+          description: "",
+          section: "News",},{id: "news-i-will-teach-a-2-hour-course-on-neuroscience-of-music-and-emotion-as-a-part-of-cognition-academies-for-the-max-planck-school-of-cognition-mpscog-phd-program-at-harnack-haus-berlin-on-5-december-2024-update-teaching",
+          title: 'I will teach a 2-hour course on “Neuroscience of Music and Emotion” as...',
+          description: "",
+          section: "News",},{id: "news-music-perception-consulting-editor",
+          title: 'Music Perception Consulting Editor',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/2024-11-03_mp/";
+            },},{id: "news-open-science-workshop",
+          title: 'Open Science Workshop',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-11-25_osw/";
+            },},{id: "news-teap2025-german-experimental-psychologists",
+          title: 'TeaP2025-German Experimental Psychologists',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-01-05_teap/";
+            },},{id: "news-plos-one-academic-editor",
+          title: 'PLOS ONE Academic Editor',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-01-06_plos/";
+            },},{id: "news-peer-community-in-neuroscience-pci-neuro-recommender",
+          title: 'Peer Community In Neuroscience (PCI-neuro) Recommender',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-01-27_pci-neuro/";
+            },},{id: "news-everthing-is-red-queen-s-race-docker-compose-crumbles-jekyll-breaks-so-i-had-to-recreate-my-site-from-a-new-template-v0-19-3",
+          title: 'Everthing is Red Queen’s race. Docker-compose crumbles. Jekyll breaks. So, I had to...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
