@@ -1,0 +1,253 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Seung-Goo Kim, PhD",
+    "image": "",
+    "email": "dr.seunggoo.kim@gmail.com",
+    "phone": "+49 (0) 69 8300479-851",
+    "url": "http://seunggookim.github.io",
+    "location": {
+      "address": "Grüneburgweg 14",
+      "postalCode": "DE-60322",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE",
+      "region": "Hesse"
+    },
+    "profiles": [
+      {
+        "network": "Bluesky",
+        "username": "sgkim.bsky.social",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Max Planck Institute for Empirical Aesthetics (PI: Dr. Daniela Sammelr)",
+      "location": "Frankfurt, DE",
+      "position": "Research Scientist",
+      "url": "http://ae.mpg.de",
+      "startDate": "2021",
+      "endDate": "",
+      "summmary": "",
+      "highlights": ["fMRI/EEG encoding of musical emotions"]
+    },
+    {
+      "name": "Duke University (PI: Dr. Tobias Overath)",
+      "position": "Research Associate",
+      "location": "NC, US",
+      "startDate": "2018",
+      "endDate": "2021",
+      "summary": "",
+      "highlights": ["MEG correlates of auditory percepts", "fMRI encoding of natural speech"]
+    },
+    {
+      "name": "University of Cambridge (PI: Dr. Valerie Voon)",
+      "location": "Cambridge, UK",
+      "position": "Postdoc Fellow",
+      "startDate": "2017",
+      "endDate": "2018",
+      "highlights": ["Intracortical myelination and clinical implications", "Dynamics of resting-state connectivity"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Max Planck Institute for Human Cognitive and Brain Sciences (PI: Dr. Thomas R. Knösche; fully supported by IMPRS NeuroCom Program)",
+      "location": "Leipzig, DE",
+      "area": "Dissertation: Myeloarchitecture and Intrinsic Functional Connectivity of Auditory Cortex in Musicians with Absolute Pitch`",
+      "studyType": "Ph.D in Psychology",
+      "startDate": "2012",
+      "endDate": "2017",
+      "score": "Summa cum laude",
+      "highlights": ["a", "b"]
+    },
+    {
+      "institution": "Seoul National University (PIs: Dr. Moo K. Chung; Dr. Jun Soo Kwon)",
+      "location": "Seoul, KR",
+      "area": "Projects: Graph theoretical analysis, Mathematical shape analysis",
+      "studyType": "Research Assistant",
+      "startDate": "2010",
+      "endDate": "2012"
+    },
+    {
+      "institution": "Seoul National University (PI: Dr. C. K. Chung)",
+      "location": "Seoul, KR",
+      "area": "Thesis: The effect of conditional probability of chord progression in Western music corpus on brain response: an MEG study",
+      "studyType": "MS in Cognitive Science",
+      "startDate": "2008",
+      "endDate": "2010"
+    },
+    {
+      "institution": "Yonsei University (fully supported by Suam Scholarship Foundation)",
+      "location": "Seoul, KR",
+      "area": "Interests: econometrics, experimental psychology",
+      "studyType": "BAs in Econimics & Psychology (dual majors)",
+      "startDate": "2000",
+      "endDate": "2004"
+    },
+    {
+      "institution": "Sunhwa Arts High School",
+      "location": "Seoul, KR",
+      "studyType": "Diploma in Musical Composition",
+      "startDate": "1996",
+      "endDate": "1999"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "PLOS ONE",
+      "position": "Academic Editor",
+      "startDate": "2025"
+    },
+    {
+      "organization": "Music Perception",
+      "position": "Consulting Editor",
+      "startDate": "2024"
+    },
+    {
+      "organization": "Proceedings of the National Academy of Sciences of the United Sates of America (PNAS)",
+      "position": "Guest Editor",
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "organization": "Various journals (alphabetical order):",
+      "position": "Ad Hoc Reviewer",
+      "startDate": "2014",
+      "summary": "Brain and Behavior, Brain Connectivity, Brain Research, Brain Structure and Function, Cognitive Affective Behavioral Neuroscience, Cognitive Neurodynamics, eLife, Frontiers in Aging Neuroscience, Frontiers in Computational Neuroscience, Frontiers in Human Neuroscience, Frontiers in Neuroanatomy, Frontiers in Neuroscience, Frontiers in Psychology, Heliyon, Human Brain Mapping, International Journal of Psychophysiology, Journal of Affective Disorders, Journal of Cognitive Neuroscience, Journal of Integrative Neuroscience, Journal of Neuroscience, Journal of New Music, Journal of New Music Research, Journal of Physiological Anthropology, Music Perception, NeuroImage, Neuropsychologia, Neuroscience Letters, Perception, PLOS ONE, Psychophysiology, Scientific Reports"
+    },
+    {
+      "organization": "Frontiers in Neuroscience (specialty section: Auditory Cognitive Neuroscience)",
+      "position": "Review Editor",
+      "startDate": "2022"
+    },
+    {
+      "organization": "Republic of Korea Air Force",
+      "position": "First lieutenant",
+      "startDate": "2004",
+      "endDate": "2007",
+      "summary": "Mendatory service, honorably discharged"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Academy Fellowship Grant",
+      "date": "2023",
+      "awarder": "Johanna Quandt Young Academy, Goethe University Frankfurt, DE"
+    },
+    {
+      "title": "Postdoc Research Grant",
+      "date": "2021",
+      "awarder": "The Charles Lafitte Foundation Program for Research in Psychology & Neuroscience, Duke University, US"
+    },
+    {
+      "title": "Summa Cum Laude",
+      "date": "2017",
+      "awarder": "Institute of Psychology. University of Leipzig, DE"
+    },
+    {
+      "title": "Conference Scholarship",
+      "date": "2014",
+      "awarder": "The 5th Conference for Neurosciences and Music, IT"
+    },
+    {
+      "title": "Ph.D scholarship",
+      "date": "2012",
+      "awarder": "International Max Planck Research School (IMPRS) on Neuroscience of Communication, DE"
+    },
+    {
+      "title": "BA scholarship",
+      "date": "2001",
+      "awarder": "Suam foundation, KR"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Neural representation of affective experiences evoked by music",
+      "startDate": "2023",
+      "endDAte": "2026",
+      "highlights": [
+        "Delevopment of high-quality music set ManyMusic🎶 with MTG researchers",
+        "Dense sampling (1K+ stimuli) of neuroimaging (fMRI and EEG)",
+        "Partially suported by JQYA grant to SGK"
+      ]
+    },
+    {
+      "name": "Temporal Processing in Tonal and Atonal Music",
+      "startDate": "2021",
+      "endDate": "2024",
+      "highlights": ["Large-scale online behavioral experiment (Amazon MTurk)", "Partially supported by Charles Lafitte grant to SGK"]
+    }
+  ],
+  "teaching": [
+    {
+      "name": "Neural representation of affective experiences evoked by music",
+      "startDate": "2023",
+      "endDAte": "2026",
+      "highlights": [
+        "Delevopment of high-quality music set ManyMusic🎶 with MTG researchers",
+        "Dense sampling (1K+ stimuli) of neuroimaging (fMRI and EEG)",
+        "Partially suported by JQYA grant to SGK"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean:kr:",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English:us:",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German:de:",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "Japanese:jp:",
+      "fluency": "Elementary"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Meditative activities",
+      "keywords": ["Long-distance running", "Long-distance swimming", "Scuba diving", "Hiking", "Cooking"]
+    },
+    {
+      "name": "Soulborne games",
+      "keywords": ["Sekiro", "DS3", "Elden Ring", "Bloodborne", "DS1", "Demon's Souls", "DS2"]
+    },
+    {
+      "name": "Scripting languages",
+      "keywords": ["Bash", "MATLAB", "R", "Julia", "Python"]
+    },
+    {
+      "name": "Other fun languages",
+      "keywords": ["R-markdown", "LaTex", "HTML-JavaScript", "SuperCollider", "strudel"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Thomas R. Knösche",
+      "reference": "knoesche@cbs.mpg.de"
+    },
+    {
+      "name": "Dr. Tobias Overath",
+      "reference": "t.overath@duke.edu"
+    },
+    {
+      "name": "Dr. Daniela Sammler",
+      "reference": "daniela.sammler@ae.mpg.de"
+    },
+    {
+      "name": "Dr. Valerie Voon",
+      "reference": "vv247@cam.ac.uk"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
