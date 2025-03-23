@@ -177,7 +177,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-01-27_pci-neuro/";
-            },},{id: "news-everthing-is-red-queen-s-race-docker-compose-crumbles-jekyll-breaks-so-i-have-recreated-my-homepage-from-scratch-by-importing-a-new-template-v0-19-3-now-i-have-the-search-function-cmd-cnt-k",
+            },},{id: "news-everthing-is-red-queen-s-race-docker-compose-crumbles-jekyll-breaks-so-i-have-recreated-my-homepage-from-scratch-by-importing-a-new-template-v0-14-3-which-has-became-already-an-old-version-while-recreating-my-site-now-the-latest-version-is-v0-14-4-now-i-have-the-search-function-cmd-cnt-k",
           title: 'Everthing is Red Queen’s race. Docker-compose crumbles. Jekyll breaks. So, I have recreated...',
           description: "",
           section: "News",},{id: "projects-absolute-pitch",
