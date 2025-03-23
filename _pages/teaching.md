@@ -2,7 +2,7 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: #teaching
+description: what i wanted to learn
 nav: true
 nav_order: 3
 display_categories: ["Max Planck Institutes", "Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt", "External"]
