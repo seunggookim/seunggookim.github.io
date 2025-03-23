@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-teap2025-ended",
+        },{id: "post-surfing-lea-️",
+      
+        title: "Surfing LEA 🏄‍♀️👧",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/surf/";
+        
+      },
+    },{id: "post-teap2025-ended",
       
         title: "TeaP2025 ended",
       
