@@ -4,9 +4,9 @@ title: teaching
 permalink: /teaching/
 description: what i wanted to learn
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: ["Max Planck Institutes", "Hochschule für Musik Karlsruhe", "Göthe-Universität Frankfurt", "External"]
-horizontal: true
+horizontal: false
 ---
 
 <!-- _pages/teaching.md -->
