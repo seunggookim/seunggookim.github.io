@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "automated doodles",
@@ -44,35 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-teap2025-concluded",
+        },{id: "post-teap2025-concluded",
       
         title: "TeaP2025 concluded",
       
@@ -149,12 +128,7 @@ ninja.data = [{
           window.location.href = "/blog/2024/regproj/";
         
       },
-    },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-homepage-house-hosted-by-github-pages",
+    },{id: "news-new-homepage-house-hosted-by-github-pages",
           title: 'New homepage:house: hosted by GitHub Pages!',
           description: "",
           section: "News",},{id: "news-new-paper-scroll-kim-et-al-2024-linguistic-modulation-of-the-neural-encoding-of-phonemes-cerebral-cortex",
@@ -226,6 +200,36 @@ ninja.data = [{
           description: "Quantification of myelinationUpdated: 2024-09-09",
           section: "Projects",handler: () => {
               window.location.href = "/projects/proj_myelin-imaging/";
+            },},{id: "teaching-seminar-empirical-methods-for-music-research",
+          title: 'Seminar: Empirical Methods for Music Research🎼🔬',
+          description: "2022 Winter - 2024 Summer",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teach_hfmk_methods/";
+            },},{id: "teaching-tutorials-how-to-use-computers",
+          title: 'Tutorials: How to use computers💻',
+          description: "2024, Max Planck Institute for Empirical Aesthetics",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teach_mpi_computers/";
+            },},{id: "teaching-tutorials-fmri-data-preprocessing",
+          title: 'Tutorials: fMRI Data Preprocessing🍱',
+          description: "2015, 2017, Method Club, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teach_mpi_methodclub/";
+            },},{id: "teaching-seminar-music-and-the-brain",
+          title: 'Seminar: Music and the Brain🎶🧠',
+          description: "2024 Winter",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teach_ug_musbrain/";
+            },},{id: "teaching-tutorial-linearized-encoding-analysis",
+          title: 'Tutorial: Linearized Encoding Analysis👧',
+          description: "2024-Sep-07, Korean Society for Music Perception and Cognition [KSMPC] Summer School, South Korea",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teach_w_ksmpc24/";
+            },},{id: "teaching-workshop-music-brain-and-emotions-an-engaging-self-experiment",
+          title: 'Workshop: Music, Brain, and Emotions: An Engaging Self-Experiment🥲',
+          description: "2024-Dec-05, Max Planck School of Cognition--Cognition Academies",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teach_w_mpsc24/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
