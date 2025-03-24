@@ -163,17 +163,13 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-teach-a-2-hour-course-on-neuroscience-of-music-and-emotion-as-a-part-of-cognition-academies-for-the-max-planck-school-of-cognition-mpscog-phd-program-at-harnack-haus-berlin-on-5-december-2024-update-teaching",
           title: 'I will teach a 2-hour course on “Neuroscience of Music and Emotion” as...',
           description: "",
-          section: "News",},{id: "news-music-perception-consulting-editor",
-          title: 'Music Perception Consulting Editor',
+          section: "News",},{id: "news-i-have-joined-the-editorial-board-of-music-perception-an-interdisciplinary-journal-as-of-1-novemeber-2024-as-a-consulting-editor-much-looking-forward-to-contributing-to-the-journal",
+          title: 'I have joined the Editorial Board of Music Perception: an interdisciplinary journal as...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-11-03_mp/";
-            },},{id: "news-open-science-workshop",
-          title: 'Open Science Workshop',
+          section: "News",},{id: "news-i-and-my-colleagues-at-the-mpiea-invite-you-to-a-hybrid-event-open-science-workshop-on-26-november-2024-14-00-17-00-cet-where-we-discuss-practical-ideas-and-measures-to-promote-the-fairness-reproducibility-and-transparency-of-scientific-research",
+          title: 'I and my colleagues at the MPIEA invite you to a hybrid event,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-11-25_osw/";
-            },},{id: "news-teap2025-german-experimental-psychologists",
+          section: "News",},{id: "news-teap2025-german-experimental-psychologists",
           title: 'TeaP2025-German Experimental Psychologists',
           description: "",
           section: "News",handler: () => {
@@ -188,8 +184,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-01-27_pci-neuro/";
-            },},{id: "news-everthing-is-red-queen-s-race-docker-compose-crumbles-jekyll-breaks-so-i-have-recreated-my-homepage-from-scratch-by-importing-a-new-template-v0-14-3-which-has-became-already-an-old-version-while-recreating-my-site-now-the-latest-version-is-v0-14-4-now-i-have-the-search-function-cmd-cnt-k",
-          title: 'Everthing is Red Queen’s race. Docker-compose crumbles. Jekyll breaks. So, I have recreated...',
+            },},{id: "news-everything-is-red-queen-s-race-docker-compose-crumbles-jekyll-breaks-so-i-have-recreated-my-homepage-from-scratch-by-importing-a-new-template-v0-14-3-now-we-have-the-search-function-cmd-cnt-k",
+          title: 'Everything is Red Queen’s race. Docker-compose crumbles. Jekyll breaks. So, I have recreated...',
           description: "",
           section: "News",},{id: "projects-absolute-pitch",
           title: 'Absolute pitch',
