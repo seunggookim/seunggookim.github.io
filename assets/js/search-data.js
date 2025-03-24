@@ -55,7 +55,7 @@ ninja.data = [{
       
         title: "Surfing LEA 🏄‍♀️👧",
       
-      description: "",
+      description: "Surface-based analysis that can work very various surfaces",
       section: "Posts",
       handler: () => {
         
