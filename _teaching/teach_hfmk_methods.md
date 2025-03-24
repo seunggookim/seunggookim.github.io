@@ -2,10 +2,10 @@
 layout: page
 title: "Seminar: Empirical Methods for Music Research🎼🔬"
 description: "2022 Winter - 2024 Summer"
-importance: 1
+importance: 2
 category: "Hochschule für Musik Karlsruhe"
 giscus_comments: true
-related_publications: false
+related_publications: true
 ---
 
 This was constructed as a two-semester course for undergraduate students majoring in Music Technology, who have basic knowledge in Python coding, audio data manipulation using digital audio workstation (DAW), and general music theory at the Karlsruhe University for Music [[Hochschule für Musik Karlsruhe]](https://hfm-karlsruhe.de/).

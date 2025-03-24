@@ -2,9 +2,10 @@
 layout: page
 title: "Tutorials: fMRI Data Preprocessing🍱"
 description: "2015, 2017, Method Club, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany"
-importance: 2
-category: "Max Planck Institutes"
+importance: 6
+category: ["Max Planck Institutes"]
 giscus_comments: true
+related_publications: true
 ---
 
 During my PhD program, I enjoyed attending a regular meeting “Method Club” organized by [Dr. Karsten Mueller](https://www.cbs.mpg.de/person/44681) at the Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany.

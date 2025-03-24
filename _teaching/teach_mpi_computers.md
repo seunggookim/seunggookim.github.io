@@ -2,9 +2,10 @@
 layout: page
 title: "Tutorials: How to use computers💻"
 description: "2024, Max Planck Institute for Empirical Aesthetics"
-importance: 2
+importance: 1
 category: "Max Planck Institutes"
 giscus_comments: true
+related_publications: false
 ---
 
 Working as a research scientist at an interdisciplinary research institute means that your colleagues often have widely different backgrounds than you.
