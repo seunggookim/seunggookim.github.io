@@ -7,6 +7,7 @@ first_name: Seung-Goo
 middle_name: 
 last_name: Kim
 contact_note: >
+  Please contact me via <a href="mailto:dr.seunggoo.kim@gmail.com">email</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Computational Affective Neuroscience of Music
 footer_text: >
