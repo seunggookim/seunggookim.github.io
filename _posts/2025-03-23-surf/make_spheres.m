@@ -23,14 +23,14 @@ icoSphere = struct();
 [icoSphere.vertices, icoSphere.faces] = icosphere(3);
 
 clf;
-set(gcf, Position=[1977 1 510 521])
+set(gcf, Position=[1000 1 510 521])
 axes(Position=[0 0.5 0.5 .5])
-p = patch(marchingSphere, FaceColor='interp', EdgeColor='w');
+p = patch(marchingSphere, FaceColor='interp', EdgeColor='none');
 p.FaceVertexCData = marchingSphere.vertices(:,3);
 view(3); axis image off
 
 axes(Position=[0.5 0.5 0.5 .5])
-p = patch(icoSphere, FaceColor='interp', EdgeColor='w');
+p = patch(icoSphere, FaceColor='interp', EdgeColor='none');
 p.FaceVertexCData = icoSphere.vertices(:,3);
 view(3); axis image off
 
@@ -42,7 +42,7 @@ view(3); axis image off; title('Marching cube', FontSize=20)
 axes(Position=[0.5 0 0.5 .5])
 p = patch(icoSphere, FaceColor='interp', EdgeColor='k', LineStyle='-');
 p.FaceVertexCData = icoSphere.vertices(:,3);
-view(3); axis image off; title('Divded icosahedron', FontSize=20)
+view(3); axis image off; title('Divided icosahedron', FontSize=20)
 
 % colormap(flipud(brewermap(256, 'RdYlBu')))
 % colormap(flipud(brewermap(256, 'Spectral')))
