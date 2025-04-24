@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 Linear modeling with nonlinear transformation of the external information has been widely used to understand how the human brain processes real-world environment
-{% cite kim2024cc kim2023icmpc kim2022fn leahy-kim2021fn %}
+{% cite kim2025rdd kim2024cc kim2023icmpc kim2022fn leahy-kim2021fn %}
 .
 
 | <img alt="LEA" src="lea.png" width="600px" data-zoomable> |
@@ -18,6 +18,7 @@ Linear modeling with nonlinear transformation of the external information has be
 ## Methodological issues
 
 ### Reverse double-dipping
+This article {% cite kim2025rdd %} elucidates a methodological pitfall of cross-validation for evaluating predictive models applied to naturalistic neuroimaging data—namely, ‘reverse double-dipping’ (RDD). In a broader context, this problem is also known as ‘leakage in training examples’, which is difficult to detect in practice. RDD can occur when predictive modeling is applied to data from a conventional neuroscientific design, characterized by a limited set of stimuli repeated across trials and/or participants. It results in spurious predictive performances due to overfitting to repeated signals, even in the presence of independent noise. Through comprehensive simulations and real-world examples following theoretical formulation, the article underscores how such information leakage can occur and how severely it could compromise the results and conclusions when it is combined with widely spread informal reverse inference. The article concludes with practical recommendations for researchers to avoid RDD in their experiment design and analysis.
 
 | <img alt="RDD" src="rdd.png" data-zoomable> |
 | _Fig 2. Reserve double-dipping: data dips you, twice!_ |
