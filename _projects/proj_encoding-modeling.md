@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 Linear modeling with nonlinear transformation of the external information has been widely used to understand how the human brain processes real-world environment
-{% cite kim2024cc kim2023icmpc kim2022fn leahy2021fn %}
+{% cite kim2024cc kim2023icmpc kim2022fn leahy-kim2021fn %}
 .
 
 | <img alt="LEA" src="lea.png" width="600px" data-zoomable> |
