@@ -141,6 +141,11 @@
   ],
   "awards": [
     {
+      "date": "2025",
+      "title": "MPG Diversity Excellence Fund",
+      "awarder": "MPG Presidential Commission on Equal Opportunities"
+    },
+    {
       "title": "Academy Fellowship Grant",
       "date": "2023",
       "awarder": "Johanna Quandt Young Academy, Goethe University Frankfurt, DE"
@@ -173,9 +178,17 @@
   ],
   "projects": [
     {
+      "name": "EXPERIENCE—-EXperimental PERformance series for Intercultural ENcounters & Collaborative Experience",
+      "startDate": "2025",
+      "endDate": "2027",
+      "highlights": [
+        "MPG Diversity Excellence funding 2K euros for 2 years"
+      ]
+    },
+    {
       "name": "Neural representation of affective experiences evoked by music",
       "startDate": "2023",
-      "endDAte": "2026",
+      "endDate": "2026",
       "highlights": [
         "Delevopment of high-quality music set ManyMusic🎶 with MTG researchers",
         "Dense sampling (1K+ stimuli) of neuroimaging (fMRI and EEG)",
