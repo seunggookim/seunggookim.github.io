@@ -190,17 +190,13 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-so-happy-to-share-my-new-preprint-today-reverse-double-dipping-when-data-dips-you-twice-stimulus-driven-information-leakage-in-naturalistic-neuroimaging-biorxiv",
           title: 'I’m so happy to share my new preprint today: “Reverse Double-Dipping: When Data...',
           description: "",
-          section: "News",},{id: "news-peer-community-in-psychology-pci-neuro-recommender",
-          title: 'Peer Community In Psychology (PCI-neuro) Recommender',
+          section: "News",},{id: "news-as-of-23-may-2025-i-have-joined-the-peer-community-in-psychology-pci-neuro-as-a-recommender",
+          title: 'As of 23 May 2025, I have joined the Peer Community In Psychology (PCI-neuro) as...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-05-23_pci-psych/";
-            },},{id: "news-icmpc18-sao-paulo-brazil-july-21-25-2025",
-          title: 'ICMPC18, Sao Paulo, Brazil, July 21-25, 2025',
+          section: "News",},{id: "news-i-am-attending-icmpc18-in-sao-paulo-brazil-from-july-21-to-25-2025-i-will-present-1-a-workshop-on-lea-july-21-16-45-18-15-bd-45-rm-501-2-a-spoken-presentation-on-manymusic-stimuli-july-25-se44-emotion-rm-502-see-you-in-brazil",
+          title: 'I am attending ICMPC18 in Sao Paulo, Brazil from July 21 to 25,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-07-12_icmpc/";
-            },},{id: "projects-absolute-pitch",
+          section: "News",},{id: "projects-absolute-pitch",
           title: 'Absolute pitch',
           description: "Is it a musical gift or a musical curse? Updated: 2024-09-22",
           section: "Projects",handler: () => {
