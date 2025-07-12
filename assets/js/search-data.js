@@ -190,7 +190,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-so-happy-to-share-my-new-preprint-today-reverse-double-dipping-when-data-dips-you-twice-stimulus-driven-information-leakage-in-naturalistic-neuroimaging-biorxiv",
           title: 'I’m so happy to share my new preprint today: “Reverse Double-Dipping: When Data...',
           description: "",
-          section: "News",},{id: "news-icmpc18-sao-paulo-brazil-july-21-25-2025",
+          section: "News",},{id: "news-peer-community-in-psychology-pci-neuro-recommender",
+          title: 'Peer Community In Psychology (PCI-neuro) Recommender',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-05-23_pci-psych/";
+            },},{id: "news-icmpc18-sao-paulo-brazil-july-21-25-2025",
           title: 'ICMPC18, Sao Paulo, Brazil, July 21-25, 2025',
           description: "",
           section: "News",handler: () => {
