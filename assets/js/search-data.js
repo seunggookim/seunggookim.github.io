@@ -190,7 +190,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-so-happy-to-share-my-new-preprint-today-reverse-double-dipping-when-data-dips-you-twice-stimulus-driven-information-leakage-in-naturalistic-neuroimaging-biorxiv",
           title: 'I’m so happy to share my new preprint today: “Reverse Double-Dipping: When Data...',
           description: "",
-          section: "News",},{id: "projects-absolute-pitch",
+          section: "News",},{id: "news-icmpc18-sao-paulo-brazil-july-21-25-2025",
+          title: 'ICMPC18, Sao Paulo, Brazil, July 21-25, 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-07-12_icmpc/";
+            },},{id: "projects-absolute-pitch",
           title: 'Absolute pitch',
           description: "Is it a musical gift or a musical curse? Updated: 2024-09-22",
           section: "Projects",handler: () => {
