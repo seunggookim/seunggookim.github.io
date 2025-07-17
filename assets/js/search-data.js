@@ -197,7 +197,7 @@ ninja.data = [{
           title: 'I am attending ICMPC18 in São Paulo, Brazil from July 21 to 25,...',
           description: "",
           section: "News",},{id: "news-do-you-live-in-frankfurt-am-main-area-and-love-music-️",
-          title: 'Do you live in Frankfurt am Main area🇩🇪 and love music❤️ 🎶?',
+          title: 'Do you live in Frankfurt am Main area and love music❤️ 🎶?',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-07-17_musafx-part/";
