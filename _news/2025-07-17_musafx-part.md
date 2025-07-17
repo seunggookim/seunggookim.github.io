@@ -7,7 +7,7 @@ related_posts: false
 ---
 
 <!-- <img scr="/assets/img/news/MUSAFX-AI-KeyVis-01b-1K-PREVIEW.jpg" width="800px" style="float" loading="eager"> -->
-![keyimage](/assets/img/news/MUSAFX-AI-KeyVis-01b-1K-PREVIEW.jpg)
+![keyimage](/assets/img/news/MUSAFX-AI-KeyVis-01b-1K-PREVIEW_cropped.jpg)
 
 ## Why Does Music Move Us—and What Happens in the Brain When We Listen to It?: Multi-Session MRI and EEG Study on Musical Emotions
 
