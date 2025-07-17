@@ -7,11 +7,11 @@ related_posts: false
 ---
 
 ![keyimage](/assets/img/news/musafx-h630px.jpg)
-<!-- <img scr='/assets/img/news/MUSAFX-AI-KeyVis-01b-1K-PREVIEW_cropped.jpg' style='width:800px;' /> -->
+<small>(C) MPIEA</small>
 
 ## Why Does Music Move Us—and What Happens in the Brain When We Listen to It?: Multi-Session MRI and EEG Study on Musical Emotions
 
-We, researchers at [the Max Planck Institute for Empirical Aesthetics](https://ae.mpg.de/en), are investigating these questions in a long-term scientific study. Our team led by [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de) are looking for music enthusiasts who are willing to help us better understand the interplay between music, emotions, and brain activity 🎶🧠🥲.
+We, researchers at [the Max Planck Institute for Empirical Aesthetics](https://ae.mpg.de/en), are investigating these questions in a long-term scientific study. Our team led by [Dr. Seung-Goo Kim](mailto:musafx.prj@ae.mpg.de) are looking for music enthusiasts who are willing to help us better understand the interplay between music, emotions, and brain activity 🎶🧠🥲.
  
 As part of the study, **you will participate in 34 music listening sessions, which will take place over the course of a year at our research facilities in Frankfurt am Main**. During each session, state-of-the-art technology (MRI or EEG) will record your brain activity. Each session lasts around two to three hours.
  
