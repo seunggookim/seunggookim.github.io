@@ -17,7 +17,7 @@ As part of the study, **you will participate in 34 music listening sessions, whi
  
 You will receive a total expense allowance of **€2,500.00** for your participation, which will be paid out proportionally after each session.
  
-✅Participation requirements: 
+### ✅Participation requirements: 
 
 We are looking for participants who are
 
@@ -32,4 +32,5 @@ You should also have
 - No metallic objects or materials on or in the body;
 - No other contraindications for MRI.
  
-😃Are you interested? You can sign up yourself here: <https://study.ae.mpg.de/en/register/MusicEmotion>
+### 😃Are you interested? 
+You can sign up yourself here: <https://study.ae.mpg.de/en/register/MusicEmotion>
