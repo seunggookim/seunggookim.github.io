@@ -14,7 +14,7 @@ We are investigating these questions in a long-term scientific study. Our resear
  
 As part of the study, **you will participate in 34 music listening sessions, which will take place over the course of a year at our research facilities in Frankfurt am Main**. During each session, state-of-the-art technology (MRI or EEG) will record your brain activity. Each session lasts around two to three hours.
  
-You will receive a total expense allowance of €2,500 for your participation, which will be paid out proportionally after each session.
+You will receive a total expense allowance of **€2,500.00** for your participation, which will be paid out proportionally after each session.
  
 ✅Participation requirements: 
 
