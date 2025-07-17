@@ -7,7 +7,9 @@ related_posts: false
 ---
 
 **Why Does Music Move Us—and What Happens in the Brain When We Listen to It?: Multi-Session MRI and EEG Study on Musical Emotions**
- 
+
+| <img scr="/assets/img/news/MUSAFX-AI-KeyVis-01b-1K-PREVIEW.jpg" width="800px" style="float" loading="eager"> |
+
 We are investigating these questions in a long-term scientific study. Our researchers are looking for music enthusiasts who are willing to help us better understand the interplay between music, emotions, and brain activity🎶🧠🥲.
  
 As part of the study, **you will participate in 34 music listening sessions, which will take place over the course of a year at our research facilities in Frankfurt am Main**. During each session, state-of-the-art technology (MRI or EEG) will record your brain activity. Each session lasts around two to three hours.
@@ -29,4 +31,4 @@ You should also have
 - No metallic objects or materials on or in the body;
 - No other contraindications for MRI.
  
-😃Are you interested? You can sign up yourself from [[here]](https://study.ae.mpg.de/de/register/MusicEmotion)!
+😃Are you interested? You can sign up yourself [[here]](https://study.ae.mpg.de/en/register/MusicEmotion)!
