@@ -14,15 +14,17 @@ As part of the study, <b>you will participate in 34 music listening sessions, wh
  
 You will receive a total expense allowance of €2,500 for your participation, which will be paid out proportionally after each session.
  
-✅Participation requirements:
- 
+✅Participation requirements: 
+
 We are looking for participants who are
+
 - Between 18 and 35 years old;
 - Living in or around Frankfurt am Main for the duration of the study (approx. 1 year from Oct 2025);
 - Able to participate in a total of 34 MRI or EEG sessions (weekly with possible breaks);
 - Able to understand simple instructions in English.
  
 You should also have
+
 - No neurological or psychiatric disorders (past or present);
 - No metallic objects or materials on or in the body;
 - No other contraindications for MRI.
