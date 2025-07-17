@@ -24,7 +24,6 @@ We are looking for participants who are
 - Between 18 and 35 years old;
 - Living in or around Frankfurt am Main for the duration of the study (approx. 1 year from Oct 2025);
 - Able to participate in a total of 34 MRI or EEG sessions (weekly with possible breaks);
-- Able to understand simple instructions in English.
  
 You should also have
 
@@ -33,4 +32,4 @@ You should also have
 - No other contraindications for MRI.
  
 ### 😃Are you interested? 
-You can sign up yourself here: <https://study.ae.mpg.de/en/register/MusicEmotion>
+You can sign up yourself here to learn more: <https://study.ae.mpg.de/en/register/MusicEmotion>
