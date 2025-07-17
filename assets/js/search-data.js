@@ -196,8 +196,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-attending-icmpc18-in-são-paulo-brazil-from-july-21-to-25-2025-i-will-present-1-a-workshop-on-lea-july-21-16-45-18-15-bd-45-rm-501-2-a-spoken-presentation-on-manymusic-stimuli-july-25-se44-emotion-rm-502-see-you-in-brazil",
           title: 'I am attending ICMPC18 in São Paulo, Brazil from July 21 to 25,...',
           description: "",
-          section: "News",},{id: "news-do-you-live-in-frankfurt-am-main-area-and-love-music-️-please-join-our-grand-journey-to-reveal-the-mystery-of-music",
-          title: 'Do you live in Frankfurt am Main area🇩🇪 and love music❤️ 🎶? Please...',
+          section: "News",},{id: "news-do-you-live-in-frankfurt-am-main-area-and-love-music-️",
+          title: 'Do you live in Frankfurt am Main area🇩🇪 and love music❤️ 🎶?',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-07-17_musafx-part/";
