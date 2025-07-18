@@ -32,4 +32,4 @@ You should also have
 - No other contraindications for MRI.
  
 ### 😀 Are you interested? 
-You can sign up yourself here to learn more: <https://study.ae.mpg.de/en/register/MusicEmotion>
+You can sign up yourself here: <https://study.ae.mpg.de/en/register/MusicEmotion>
