@@ -6,7 +6,7 @@ title: Do you live in Frankfurt am Main area and love music❤️ 🎶?
 related_posts: false
 ---
 
-![keyimage](/assets/img/news/NEWS-250611-MUSAFX-1440x1080-4by3.jpg)
+![keyimage](/assets/img/news/musafx-w800px.jpg)
 <small>(C) MPIEA</small>
 
 ## Why Does Music Move Us—and What Happens in the Brain When We Listen to It?: Multi-Session MRI and EEG Study on Musical Emotions
