@@ -201,7 +201,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-07-17_musafx-part/";
-            },},{id: "projects-absolute-pitch",
+            },},{id: "news-manymusic-stimuli-sets-are-published-see-our-new-paper",
+          title: 'ManyMusic stimuli sets are published! See our new paper!',
+          description: "",
+          section: "News",},{id: "projects-absolute-pitch",
           title: 'Absolute pitch',
           description: "Is it a musical gift or a musical curse? Updated: 2024-09-22",
           section: "Projects",handler: () => {
