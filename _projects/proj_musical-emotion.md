@@ -49,7 +49,9 @@ However, we still don't have empirical data with sufficient statistical power.
 
 What we can still do in an fMRI lab is to "densely sample" a selected group of participants.
 We have proposed a new dataset "ManyMusic🎶" {% cite kim2023cg %} where we plan to collect fMRI scanning of 1,000 full-length creative-commons-licensed music listening.
-We will see what our dataset shows.
+Please check out <https://manymusic.net> for updates.
+The ManyMusic stimuli set has been validated and published {% cite kim2025mms %}.
+Currently, we are recording lots of [EEG data](https://manymusic.net/rec) and a lot more to follow!
 
 ## Footnotes
 
