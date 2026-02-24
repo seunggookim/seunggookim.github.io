@@ -29,7 +29,6 @@ Seung-Goo uses computational models of sounds and non-invasive human neuroimagin
 
 After a [Ph.D. program](https://imprs-neurocom.mpg.de/home)
 at Max Planck Institute for Human Cognitive and Brain Sciences, Germany in 2017 (PI: [Dr. Thomas R. Knösche](https://www.cbs.mpg.de/employees/knoesche)),
-he has worked as a postdoc at the University of Cambridge (PI: [Dr. Valerie Voon](https://www.neuroscience.cam.ac.uk/directory/profile.php?vv247)),
-Duke University (PI: [Dr. Tobias Overath](http://people.duke.edu/~jto10/)),
+he has worked as a postdoc at Duke University (PI: [Dr. Tobias Overath](http://people.duke.edu/~jto10/)),
 and currently works as a research scientist at Max Planck Institute for Empirical Aesthetics (PI: [Dr. Daniela Sammler](https://www.aesthetics.mpg.de/en/the-institute/people/daniela-sammler.html)).
 
