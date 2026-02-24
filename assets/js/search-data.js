@@ -207,7 +207,7 @@ ninja.data = [{
           section: "News",},{id: "news-to-initiate-an-international-collaboration-between-mpiea-and-kaist-our-bilateral-workshop-proposal-on-affective-voice-synthesis-industrial-and-scientific-perspectives-on-technology-has-been-accepted-by-the-german-research-foundation-dfg-and-the-national-research-foundation-of-korea-nrf",
           title: 'To initiate an international collaboration between MPIEA (🇩🇪) and KAIST (🇰🇷), our bilateral...',
           description: "",
-          section: "News",},{id: "news-spearheaded-by-dr-sarah-faber-our-symposium-proposal-has-been-accepted-for-the-2026-ohbm-annual-meeting-the-symposium-will-be-held-on-june-14-2026-and-the-title-is-sound-and-music-naturalistic-approaches-to-auditory-motor-and-affective-brain-dynamics-we-are-looking-forward-to-meeting-you-in-bordeaux-france",
+          section: "News",},{id: "news-spearheaded-by-dr-sarah-faber-our-symposium-proposal-has-been-accepted-for-the-2026-ohbm-annual-meeting-the-symposium-will-be-held-on-june-2026-and-the-title-is-sound-and-music-naturalistic-approaches-to-auditory-motor-and-affective-brain-dynamics-we-are-looking-forward-to-meeting-you-in-bordeaux-france",
           title: 'Spearheaded by Dr. Sarah Faber, our symposium proposal has been accepted for the...',
           description: "",
           section: "News",},{id: "projects-absolute-pitch",
