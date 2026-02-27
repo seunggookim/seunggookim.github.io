@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-surfing-lea-️",
+        },{id: "post-grossly-over-optimising-goo-algorithm",
+      
+        title: "Grossly Over-Optimising (GOO) algorithm",
+      
+      description: "An unnecessarily complicated algorithm to organise a series of workshops",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/goo/";
+        
+      },
+    },{id: "post-surfing-lea-️",
       
         title: "Surfing LEA 🏄‍♀️👧",
       
