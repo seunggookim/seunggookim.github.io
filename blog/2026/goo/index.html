@@ -28,7 +28,7 @@ u = sum(Z(:));
 u = u + sum(any(A,2)); % instructors have a step utility function.
 end
 </code></pre> <p>Then you just call the function with different seed values and keep the best solution:</p> <pre><code class="language-{MATLAB}">best_u = -Inf;
-for seed = 1:10000000
+for seed = 1:1e7
   [~,~,~,~, u] = createrandsolution(seed, nMonths, nTopics, nInst, N, T, P, L, w);
   if u &gt; best_u
     seed_star = seed;
@@ -37,7 +37,7 @@ for seed = 1:10000000
 end
 
 [X_star, Y_star, S_star, A_star] = createrandsolution(seed_star, nMonths, nTopics, nInst, N, T, P, L, w);
-</code></pre> <h2 id="4-results">4. Results</h2> <p>The random search with 1e7 (ten million) iterations took 358.2 seconds and found a solution with a utility of 24.96 happiness.</p> <p>| <img alt="goo" src="2026-02-27-goo/results-hashed.png" width="800px" data-zoomable=""> | | <em>Fig 1. An example solution. Names are hashed. Topics are abbreviated.</em> |</p> <hr> <div class="footnotes" role="doc-endnotes"> <ol> <li id="fn:1"> <p>Since the second Trump administraion (“Fool me twice, …”), I decided to use British spelling instead, because now it feels somehow very awkward. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p> </li> </ol> </div> </article> <div id="giscus_thread" style="max-width: 930px; margin: 0 auto;"> <script>
+</code></pre> <h2 id="4-results">4. Results</h2> <p>The random search with 1e7 (ten million) iterations took 358.2 seconds and found a solution with a utility of 24.96 happiness.</p> <p>| <img alt="goo" src="/pages/2026-02-27-goo/results-hashed.png" width="800px" data-zoomable=""> | | <em>Fig 1. An example solution. Names are hashed. Topic names are abbreviated.</em> |</p> <hr> <div class="footnotes" role="doc-endnotes"> <ol> <li id="fn:1"> <p>Since the second Trump administraion (“Fool me twice, …”), I decided to use British spelling instead, because now it feels somehow very awkward. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p> </li> </ol> </div> </article> <div id="giscus_thread" style="max-width: 930px; margin: 0 auto;"> <script>
       let giscusTheme = determineComputedTheme();
       let giscusAttributes = {
         src: 'https://giscus.app/client.js',
