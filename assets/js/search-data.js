@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "post-grossly-over-optimising-goo-algorithm",
       
-        title: "Grossly Over-Optimising (GOO) algorithm",
+        title: "Grossly Over-Optimising (GOO) algorithm 🤖",
       
       description: "An unnecessarily complicated algorithm to organise a teaching club",
       section: "Posts",
