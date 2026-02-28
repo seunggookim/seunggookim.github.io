@@ -55,7 +55,7 @@ ninja.data = [{
       
         title: "Grossly Over-Optimising (GOO) algorithm",
       
-      description: "An unnecessarily complicated algorithm to organise a series of workshops",
+      description: "An unnecessarily complicated algorithm to organise a teaching club",
       section: "Posts",
       handler: () => {
         
