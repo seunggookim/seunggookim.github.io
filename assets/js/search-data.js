@@ -289,11 +289,18 @@ ninja.data = [{
           window.open("mailto:%64%72.%73%65%75%6E%67%67%6F%6F.%6B%69%6D@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/seunggookim", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0000-0003-2551-3059", "_blank");
+          window.open("https://orcid.org/0000-0003-0558-8547", "_blank");
         },
       },{
         id: 'social-rss',
@@ -315,6 +322,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.aesthetics.mpg.de/en/the-institute/people/seung-goo-kim.html", "_blank");
+        },
+      },{
+        id: 'social-webofscience_id',
+        title: 'Webofscience_id',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
