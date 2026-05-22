@@ -324,13 +324,6 @@ ninja.data = [{
           window.open("https://www.aesthetics.mpg.de/en/the-institute/people/seung-goo-kim.html", "_blank");
         },
       },{
-        id: 'social-webofscience_id',
-        title: 'Webofscience_id',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
