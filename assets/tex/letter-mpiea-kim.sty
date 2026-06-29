@@ -1,0 +1,136 @@
+% ============================================================
+%  kimletter.sty
+%  Academic Cover Letter Style
+%  Based on: Dr. Seung-Goo Kim – MPIEA Cover Letter
+%
+%  Usage in your .tex file:
+%    \documentclass[11pt, a4paper]{letter}
+%    \usepackage{kimletter}
+%    \begin{document}
+%      \letterhead
+%      ... (see example.tex)
+%    \end{document}
+% ============================================================
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{letter-mpiea-kim}[Academic Cover Letter Style, MPIEA, Kim]
+
+% ---------- Dependencies ----------
+\RequirePackage[
+  top=2.5cm, bottom=2.5cm,
+  left=2.5cm,  right=2.5cm
+]{geometry}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{helvet}          % Helvetica sans-serif
+\renewcommand{\familydefault}{\sfdefault}
+\RequirePackage[nopatch=footnote]{microtype}
+\RequirePackage{parskip}
+\RequirePackage{graphicx}
+\RequirePackage{xcolor}
+\RequirePackage{hyperref}
+\RequirePackage{setspace}
+\RequirePackage{eso-pic}
+% ---------- Colours ----------
+\definecolor{kl@green}{RGB}{0, 108, 102}
+
+% ---------- Hyperlink style ----------
+\hypersetup{
+  colorlinks = true,
+  urlcolor   = kl@green,
+  linkcolor  = kl@green
+}
+
+% ---------- No page numbers ----------
+\pagestyle{empty}
+
+% ============================================================
+%  USER-CONFIGURABLE FIELDS
+%  Set these with \klset{field}{value} before \letterhead
+% ============================================================
+
+% Defaults (override in your .tex file)
+\newcommand{\kl@name}       {Dr. Seung-Goo Kim}
+\newcommand{\kl@title}      {Postdoctoral Researcher}
+\newcommand{\kl@group}      {Research Group Neurocognition of Music and Language}
+\newcommand{\kl@institute}  {MAX PLANCK INSTITUTE\\FOR EMPIRICAL AESTHETICS}
+\newcommand{\kl@postal}     {Grüneburgweg 14, DE-60322 Frankfurt am Main}
+\newcommand{\kl@phone}      {+49\,(0)\,69\,8300\,479\,851}
+\newcommand{\kl@email}      {seung-goo.kim@ae.mpg.de}
+\newcommand{\kl@web}        {https://seunggookim.github.io}
+\newcommand{\kl@city}       {Frankfurt am Main}
+\newcommand{\kl@logo}       {MPIEA-Logo-Prio1-EN-RGB-green.png}   % Path to logo image file; leave empty to use text fallback
+
+% Setter command: \klset{field}{value}
+\newcommand{\klset}[2]{%
+  \expandafter\renewcommand\csname kl@#1\endcsname{#2}%
+}
+
+% ============================================================
+%  \letterhead  –  renders the full letterhead block
+% ============================================================
+\newcommand{\letterhead}{
+  \AddToShipoutPictureFG*{%
+  % put(272,770){%
+  \put(280,770){%
+    \includegraphics[height=2cm]{\kl@logo}
+  }
+}
+  
+  \begin{minipage}[t]{1\textwidth}
+    \raggedleft
+    \large\textbf{\kl@name}\\[2pt]
+    {\color{kl@green}\textbf{\kl@title}\\[1pt]}
+    {\color{kl@green}\small\kl@group}
+  \end{minipage}
+
+  \vspace{0.25em}
+  % --- Right-justified contact details ---
+  \begin{flushright} 
+    \small
+    Postal: \kl@postal \\ %\quad 
+    Phone: \kl@phone \\ %\\ %[2pt]
+    Email: \href{mailto:\kl@email}{\kl@email} \\ %\\
+    Web:   \href{\kl@web}{\kl@web}
+  \end{flushright}
+
+  \vspace{0.25em}
+
+  % --- Date ---
+  \begin{flushright}
+    \kl@city, \today
+  \end{flushright}
+
+  \vspace{0.5em}
+}
+
+% ============================================================
+%  \lettsubject{text}  –  bold centred subject line
+% ============================================================
+\newcommand{\lettsubject}[1]{%
+  \begin{flushleft}
+    \textbf{#1}
+  \end{flushleft}
+  \vspace{0.8em}
+}
+
+% ============================================================
+%  \lettsignoff[vspace]  –  closing + signature gap + name
+%  Optional argument sets vertical space for signature (default 2.5em)
+% ============================================================
+\newcommand{\lettsignoff}[1][2.5em]{%
+  \vspace{1.5em}
+  Best regards,
+
+  % \vspace{#1}   % space for handwritten / scanned signature
+  % \begin{figure}
+  %   \includegraphics{signature_sg_whitebackground.png}
+  % \end{figure}
+  % \vspace{#1} % optional spacing for signature
+  \includegraphics[height=1.5cm]{signature_sg_whitebackground.png}
+
+  \kl@name
+
+}
+
+\endinput
