@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.6)  29 JUN 2026 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.6)  6 AUG 2026 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -470,13 +470,18 @@ Package fancyhdr Warning: \headheight is too small (56.9055pt):
 (fancyhdr)                \addtolength{\topmargin}{-19.03394pt}.
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
+
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []|[][]\OT1/phv/m/n/10 seung-goo.kim@ae.mpg.de[][]  | [][]https://seunggookim.github.io[][] | OR-CID:
  []
 
 File: MPIEA-Logo-Prio1-EN-RGB-green.png Graphic file (type png)
 <use MPIEA-Logo-Prio1-EN-RGB-green.png>
-Package pdftex.def Info: MPIEA-Logo-Prio1-EN-RGB-green.png  used on input line 144.
+Package pdftex.def Info: MPIEA-Logo-Prio1-EN-RGB-green.png  used on input line 146.
 (pdftex.def)             Requested size: 196.5202pt x 42.67912pt.
 
 Package fancyhdr Warning: \headheight is too small (56.9055pt): 
@@ -494,15 +499,15 @@ Package rerunfilecheck Info: File `cv-example-mpiea-kim.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9946 strings out of 467525
- 154962 string characters out of 5418983
+ 9948 strings out of 467525
+ 154981 string characters out of 5418983
  595698 words of memory out of 5000000
- 38750 multiletter control sequences out of 15000+600000
- 639738 words of font info for 60 fonts, out of 8000000 for 9000
+ 38751 multiletter control sequences out of 15000+600000
+ 641498 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,20n,93p,330b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv-example-mpiea-kim.pdf (3 pages, 89073 bytes).
+Output written on cv-example-mpiea-kim.pdf (3 pages, 89651 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream

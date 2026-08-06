@@ -159,10 +159,13 @@ INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
 INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
 INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
 INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
 INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
 INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
 INPUT ./MPIEA-Logo-Prio1-EN-RGB-green.png
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT cv-example-mpiea-kim.aux
 INPUT ./cv-example-mpiea-kim.out
 INPUT ./cv-example-mpiea-kim.out
