@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-grossly-over-optimising-goo-algorithm",
+        },{id: "post-why-do-we-need-to-know-about-the-brain",
+      
+        title: "Why do we need to know about the brain?",
+      
+      description: "Yapping about stuff",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/CNSME/";
+        
+      },
+    },{id: "post-grossly-over-optimising-goo-algorithm",
       
         title: "Grossly Over-Optimising (GOO) algorithm 🤖",
       
