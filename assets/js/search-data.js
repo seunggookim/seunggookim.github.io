@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-why-do-we-need-to-know-about-the-brain",
+        },{id: "post-do-we-need-to-know-about-the-brain-to-understand-musical-emotion",
       
-        title: "Why do we need to know about the brain?",
+        title: "Do we need to know about the brain 🧠 to understand musical emotion?...",
       
       description: "Yapping about stuff",
       section: "Posts",
