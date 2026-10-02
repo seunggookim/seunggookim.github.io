@@ -6,4 +6,3 @@ related_posts: true
 ---
 
 ManyMusic stimuli sets are published! See our new [paper](https://doi.org/10.5281/zenodo.17346525)!
-
