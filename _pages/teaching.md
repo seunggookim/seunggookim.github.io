@@ -21,7 +21,9 @@ horizontal: true
   {% assign sorted_teaching = categorized_teaching | sort: "importance" %}
 
   <!-- Generate cards for each teach -->
-  {% if page.horizontal %}
+
+{% if page.horizontal %}
+
   <div class="container">
     <div class="row row-cols-1 row-cols-md-1">
     {% for teach in sorted_teaching %}
@@ -47,6 +49,7 @@ horizontal: true
   <!-- Generate cards for each teach -->
 
 {% if page.horizontal %}
+
   <div class="container">
     <div class="row row-cols-1 row-cols-md-1">
     {% for teach in sorted_teaching %}
@@ -55,7 +58,8 @@ horizontal: true
     </div>
   </div>
 
-  {% else %}
+{% else %}
+
   <div class="row row-cols-1 row-cols-md-2">
     {% for teach in sorted_teaching %}
       {% include teaching.liquid %}
