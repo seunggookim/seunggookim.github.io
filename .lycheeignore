@@ -1,2 +1,12 @@
 linkedin.com
 reddit.com
+# sites that refuse connections from GitHub Actions runners (they work in a browser)
+aesthetics\.mpg\.de
+ae\.mpg\.de
+nrf\.re\.kr
+ewha\.ac\.kr
+nifti\.nimh\.nih\.gov
+doi\.org/10\.1101/
+# possibly dead upstream; check manually and update the link in the post if so
+music-ir\.org
+coms\.app/TeaP2025
