@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-singularity-the-future-is-here",
+        },{id: "post-singularity-the-future-is-wow",
       
-        title: "singularity---the future is here",
+        title: "singularity—the future is wow ✨",
       
       description: "after using Claude Code for one month",
       section: "Posts",
