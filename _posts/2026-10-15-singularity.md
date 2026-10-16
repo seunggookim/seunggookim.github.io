@@ -1,6 +1,6 @@
 ---
 layout: page
-title: singularity—the future is wow ✨
+title: singularity[^1]—the future is wow[^2] ✨
 description: after using Claude Code for one month
 importance: 2
 tags: nerd, code
@@ -36,3 +36,9 @@ Anyway, here's the outcome:
 - **Layout**: help text at most 80 characters wide, code at most 120.
 
 I really feel like this is it! 😃 So, the one of the hardest things in programming is solved! (at least for me). Now I can (automatically) refactor all of my 2000 random utility functions that I wrote over the last decades so that everything is in this new convention. This is the singularity! The super-intelligence is here! 🤖
+
+**References**
+
+[^1]: [Hyperoptimized Engineer 2026](https://www.youtube.com/watch?v=MhEL9cvLxQE)
+
+[^2]: [m-flo (2014) "Flashback to 21st Century", Future Is Wow](https://music.apple.com/us/song/flashback-to-21st-century/830101648)
