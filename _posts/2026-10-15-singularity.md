@@ -42,6 +42,6 @@ I really feel like this is it! 😃 So, the one of the hardest things in program
 
 **References**
 
-1. [Kai Lentit. (2026). Hyperoptimized Engineer 2026.](https://www.youtube.com/watch?v=MhEL9cvLxQE)
+1. [Kai Lentit. (2026). Hyperoptimized Engineer 2026. (YouTube video link)](https://www.youtube.com/watch?v=MhEL9cvLxQE)
 
-2. [m-flo. (2014). "Flashback to 21st Century", Future Is Wow.](https://music.apple.com/us/song/flashback-to-21st-century/830101648)
+2. [m-flo. (2014). "Flashback to 21st Century", Future Is Wow. (Apple music link)](https://music.apple.com/us/song/flashback-to-21st-century/830101648)
