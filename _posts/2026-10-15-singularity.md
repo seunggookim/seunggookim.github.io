@@ -20,12 +20,14 @@ Anyway, here's the outcome:
 
 ### MATLAB naming convention (v2026-10-15)
 ------
+
 | Form | Used for | Examples |
 |---|---|---|
 | `lowercase` | functions and class methods | `delayreg`, `lea.main` |
 | `PascalCase` | classes; properties, struct fields, table variables, name-value arguments | `Ts`; `job.SampleRateHz`, `stimTs.Data` |
 | `camelCase` | variables of any type, with at least two words | `nSubjs`, `fnameLog`, `brainMask` |
 | `UPPER_SNAKE_CASE` | constants | `VALID_DATA_TYPES` |
+
 ------
 
 - **Functions**: all lowercase without underscores, verb first, ideally no more than two words. Group them in namespace folders (`+name/`) instead of prefixes. Within a namespace, call each other by full name (`mc.<name>(...)`) or after `import mc.*`; helpers in `+mc/private/` need no qualifier. A namespace function may share its name with a MATLAB function (`mc.load`), except helpers in `private/` and functions brought in with `import`, which take precedence over MATLAB's own; keywords (`iskeyword`) are never allowed.
