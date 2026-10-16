@@ -1,6 +1,6 @@
 ---
 layout: page
-title: singularity---the future is here
+title: singularity—the future is wow ✨
 description: after using Claude Code for one month
 importance: 2
 tags: nerd, code
@@ -18,14 +18,15 @@ I have been using Claude Code (Opus 5.5) for one month now. I think Codex (GPT-6
 
 Anyway, here's the outcome:
 
-## MATLAB naming convention (v2026-10-15)
-
+### MATLAB naming convention (v2026-10-15)
+------
 | Form | Used for | Examples |
 |---|---|---|
 | `lowercase` | functions and class methods | `delayreg`, `lea.main` |
 | `PascalCase` | classes; properties, struct fields, table variables, name-value arguments | `Ts`; `job.SampleRateHz`, `stimTs.Data` |
 | `camelCase` | variables of any type, with at least two words | `nSubjs`, `fnameLog`, `brainMask` |
 | `UPPER_SNAKE_CASE` | constants | `VALID_DATA_TYPES` |
+------
 
 - **Functions**: all lowercase without underscores, verb first, ideally no more than two words. Group them in namespace folders (`+name/`) instead of prefixes. Within a namespace, call each other by full name (`mc.<name>(...)`) or after `import mc.*`; helpers in `+mc/private/` need no qualifier. A namespace function may share its name with a MATLAB function (`mc.load`), except helpers in `private/` and functions brought in with `import`, which take precedence over MATLAB's own; keywords (`iskeyword`) are never allowed.
 - **Variables**: camelCase whatever the type (including structs, tables and objects: `encMdl`, `stimTbl`), and at least two words, so a variable never looks like a function (`fmriData`, not `data`). Common first words: `n` (count), `i`/`j` (index), `is`/`has` (state), `fname`/`dname` (file/directory name). Exceptions: loop counters (`i`, `j`, `k`), the standard input struct `job` of job-style functions (`job = lea.main(job)`), and mathematical symbols that follow the paper's notation (`X`, `Y`, `Cxx`, `Bhat`).
