@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-do-we-need-to-know-about-the-brain-to-understand-musical-emotion",
+        },{id: "post-singularity-the-future-is-here",
+      
+        title: "singularity---the future is here",
+      
+      description: "after using Claude Code for one month",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/singularity/";
+        
+      },
+    },{id: "post-do-we-need-to-know-about-the-brain-to-understand-musical-emotion",
       
         title: "Do we need to know about the brain 🧠 to understand musical emotion?...",
       
