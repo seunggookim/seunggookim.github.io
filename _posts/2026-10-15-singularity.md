@@ -10,11 +10,11 @@ related_publication: false
 
 > _“There are only two hard things in computer programming: cache invalidation and naming things.”_ (Phil Karlton — one of the architects of the original Netscape Navigator browser, 1996)
 
-First of all, I'm not a trained programmer. I was a GW-BASIC game developer when I was 10, and I never had any formal training in coding. This has been my one of the weaknesses during my research career. My code has been always clumsy, chaotic, lazy, confusing, and constantly changing.
+First of all, I'm not a trained programmer. I was a GW-BASIC game developer when I was 12, but I've never had any formal training in programming. This has been one of my weaknesses throughout my research career. My codebase has always been clumsy, chaotic, lazy, confusing, and constantly changing.
 
-So I have been thinking about getting a formal education in programming. Thought about taking online courses, boot-camps, or even doing a master program in computer science; but all takes too much time and money, and PhD students and postdocs always have no time and no money.
+So, I've been thinking about getting some formal education in programming. I've considered taking online courses, attending boot camps, or even doing a master's degree in computer science. But all of these options take too much time and money, and PhD students and postdocs never have enough of either.
 
-I have been using Claude Code (Opus 5.5) for one month now. I think Codex (GPT-6-astra) still sucks; trying something strange all the time, and used all week-worth tokens in hours; and the job is unfinished. Claude has been really helpful and reliable. I was finally able to consolidate my MATLAB naming convention that has been changed every 2 years over the last 10 years (wait, this means I'll have to wait and see for 3 years from now to know if this is really the final.).
+I've been using Claude Code (Opus 5.5) for a month now. I think Codex (GPT-6-astra) still sucks. It keeps trying strange things, burns through a week's worth of tokens in a matter of hours, and still leaves the job unfinished. Claude, on the other hand, has been really helpful and reliable. He's my BFF now! I've finally managed to consolidate my MATLAB naming conventions, which I've been changing every two years for the past decade. (Wait, does that mean I'll have to wait another three years to find out whether these really are the final conventions?)
 
 Anyway, here's the outcome:
 
