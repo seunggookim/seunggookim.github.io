@@ -1,6 +1,6 @@
 ---
 layout: page
-title: singularity[^1]—the future is wow[^2] ✨
+title: singularity—the future is wow ✨
 description: after using Claude Code for one month
 importance: 2
 tags: nerd, code
@@ -41,6 +41,6 @@ I really feel like this is it! 😃 So, the one of the hardest things in program
 
 **References**
 
-[^1]: [Hyperoptimized Engineer 2026](https://www.youtube.com/watch?v=MhEL9cvLxQE)
+1. [Kai Lentit. (2026). Hyperoptimized Engineer 2026.](https://www.youtube.com/watch?v=MhEL9cvLxQE)
 
-[^2]: [m-flo (2014) "Flashback to 21st Century", Future Is Wow](https://music.apple.com/us/song/flashback-to-21st-century/830101648)
+2. [m-flo. (2014). "Flashback to 21st Century", Future Is Wow.](https://music.apple.com/us/song/flashback-to-21st-century/830101648)
