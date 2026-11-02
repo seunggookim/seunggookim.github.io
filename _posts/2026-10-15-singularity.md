@@ -3,7 +3,7 @@ layout: page
 title: singularity—the future is wow ✨
 description: after using Claude Code for one month
 importance: 2
-tags: nerd, code
+tags: nerd code
 giscus_comments: true
 related_publication: false
 ---
