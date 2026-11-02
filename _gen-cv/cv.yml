@@ -26,7 +26,7 @@ meta:
   logo: MPIEA-Logo-Prio1-EN-RGB-green.png
   name_first: Seung-Goo
   name_last: KIM
-  name_suffix: Ph.D.
+  name_suffix: (김승구) Ph.D.
   name_footnote_tex: >-
     My two-syllable first name reads [IPA: /sɯŋgu/]. Pragmatically, ``SG'' is also fine. :)
 
@@ -36,13 +36,13 @@ basics:
     - Research Group Neurocognition of Music and Language (NCML)
     - Max Planck Institute for Empirical Aesthetics (MPIEA)
     - "Postal: Grüneburgweg 14, Frankfurt am Main, 60322, Germany"
-    - "Phone: +49 (0) 69 8300 479 851"
-  links:
-    - {label: Email, text: seung-goo.kim@ae.mpg.de, url: "mailto:seung-goo.kim@ae.mpg.de"}
-    - {label: Web, text: seunggookim.github.io, url: "https://seunggookim.github.io/"}
-    - {label: ORCID, text: 0000-0003-0558-8547, url: "https://orcid.org/0000-0003-0558-8547"}
-    - {label: Web of Science ResearcherID, text: T-5683-2019, url: "https://www.webofscience.com/wos/author/record/T-5683-2019"}
-    - {label: Google Scholar, text: "-M8Z3agAAAAJ", url: "https://scholar.google.com/citations?user=-M8Z3agAAAAJ"}
+    # a list is one row joined by " | "; {label, text, url} is a link
+    - - "Phone: +49 (0) 69 8300 479 851"
+      - {label: Email, text: seung-goo.kim@ae.mpg.de, url: "mailto:seung-goo.kim@ae.mpg.de"}
+      - {label: Web, text: seunggookim.github.io, url: "https://seunggookim.github.io/"}
+    - - {label: ORCID, text: 0000-0003-0558-8547, url: "https://orcid.org/0000-0003-0558-8547"}
+      - {label: WoS ResearcherID, text: T-5683-2019, url: "https://www.webofscience.com/wos/author/record/T-5683-2019"}
+      - {label: Google Scholar, text: "-M8Z3agAAAAJ", url: "https://scholar.google.com/citations?user=-M8Z3agAAAAJ"}
 
 sections:
 
@@ -581,7 +581,7 @@ sections:
         items:
           - when: 2023-present
             what: International Conference on Music Perception and Cognition (https://icmpc.org/)
-            details: ["Abstract reviewer (2023–present), Session chair (2023–present)"]
+            details: ["Abstract reviewer (2023–present), Session chair (2023)"]
           - when: 2023-present
             what: International Society for Music Information Retrieval (https://ismir.net/)
           - when: 2012-present

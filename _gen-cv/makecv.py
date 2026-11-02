@@ -16,7 +16,7 @@ Publications: _bibliography/papers.bib  (+ _gen-cv/extra.bib), selected by the
               CV-only fields cvgroup, cvnote, cvmark, cvstatus, cvjournal, cvtodo.
 Referees:     _gen-cv/referees.yml      (git-ignored; --public prints names only)
 
-Requires: Python 3 with PyYAML; TeX Live with xelatex.
+Requires: Python 3 with PyYAML; TeX Live with xelatex and kotex (xetexko).
 Font: Helvetica Neue (macOS system font; TeX Gyre Heros if missing).
 
 HISTORY
@@ -29,6 +29,7 @@ HISTORY
 2026-11-02  timeline key "amount" (- Funding: ...), hidden with --no-amounts
 2026-11-02  dates: publications year only; talks and footer "19 July 2022"
 2026-11-02  no year in citations (it is in the year column); talks "(19 July)"
+2026-11-02  Korean (kotex; Apple SD Gothic Neo); contact rows joined by " | "
 """
 import argparse
 import datetime as dt
@@ -488,9 +489,16 @@ def render_block(sec, ctx):
 # ---------------------------------------------------------------------------
 def build_tex(cv, ctx):
     meta, basics = cv["meta"], cv["basics"]
-    lines = [tex(x) for x in basics.get("lines", [])]
-    lines += [rf"{tex(l['label'])}: \href{{{esc_url(l['url'])}}}{{{esc(l['text'])}}}"
-              for l in basics.get("links", [])]
+
+    def contact(x):
+        """Contact item: text, a link {label, text, url}, or a list of these (one row, ' | ')."""
+        if isinstance(x, list):
+            return " | ".join(contact(y) for y in x)
+        if isinstance(x, dict):
+            return rf"{tex(x['label'])}: \href{{{esc_url(x['url'])}}}{{{esc(x['text'])}}}"
+        return tex(x)
+
+    lines = [contact(x) for x in basics.get("lines", []) + basics.get("links", [])]
     body = [
         rf"\cvtitle{{{tex(meta['name_first'])}}}{{{meta.get('name_footnote_tex', '')}}}"
         rf"{{{tex(meta['name_last'])}}}{{{tex(meta.get('name_suffix', ''))}}}",

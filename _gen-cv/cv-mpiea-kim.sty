@@ -38,6 +38,23 @@
     \newcommand{\cvlight}{}
     \newcommand{\cvmedium}{\bfseries}
   }
+  % Hangul (e.g. the name in Korean) via kotex: Apple SD Gothic Neo (macOS),
+  % else Noto Sans CJK KR, else kotex's default. Light weight follows \cvlight.
+  \RequirePackage{kotex}
+  \def\cv@hangul{}%
+  \IfFontExistsTF{Apple SD Gothic Neo}{\def\cv@hangul{Apple SD Gothic Neo}}{%
+    \IfFontExistsTF{Noto Sans CJK KR}{\def\cv@hangul{Noto Sans CJK KR}}{}}
+  \ifx\cv@hangul\empty\else
+    \setmainhangulfont{\cv@hangul}[ItalicFont = *, BoldItalicFont = * Bold]
+    \ifXeTeX
+      % quotes, brackets and punctuation stay in the Latin font
+      % (otherwise “ ” come out as wide CJK glyphs)
+      \xetexkofontregime{latin}
+      \newhangulfontfamily\cv@hlightfont{\cv@hangul}[
+        UprightFont = * Light, ItalicFont = * Light, BoldFont = * Bold]
+      \expandafter\def\expandafter\cvlight\expandafter{\cvlight\cv@hlightfont}
+    \fi
+  \fi
 \fi
 \RequirePackage[nopatch=footnote]{microtype}
 \RequirePackage{graphicx}
