@@ -572,9 +572,27 @@ sections:
           - when: "2026"
             what: "Symposium “Sound and Music: Naturalistic Approaches to Auditory–Motor and Affective Brain Dynamics” (with Dr. Sarah Faber et al.), OHBM 2026, Bordeaux, France"
             role: Co-organiser & Speaker
+          - when: "2025"
+            what: "Open Science Workshop, The 67th Conference of Experimental Psychologists (TeaP 2025), Goethe University Frankfurt, Frankfurt am Main, Germany"
+            role: Organiser & Speaker
           - when: "2024"
             what: Open Science Workshop (hybrid), MPIEA, Frankfurt am Main, Germany
             role: Organiser & Speaker
+      - title: Institutional service
+        type: timeline
+        compact: true
+        items:
+          - when: 2023-2025
+            what: Internal Postdoc Representative, Max Planck Institute for Empirical Aesthetics, Frankfurt am Main, Germany
+      - title: Diversity and inclusion
+        type: timeline
+        items:
+          - when: 2025-present
+            what: "EXPERIENCE — EXperimental PERformance series for Intercultural ENcounters & Collaborative Experience, Max Planck Institute for Empirical Aesthetics, Frankfurt am Main, Germany"
+            role: Project lead, science lead, and external coordination (since April 2026)
+            details:
+              - "A diversity intervention through cross-cultural encounters: experimental concerts that bring together performers and audiences from different cultural backgrounds, with audiences’ behavioural and physiological responses monitored"
+              - "Funded by the MPG Diversity Excellence Fund (2025–2026; see Grants and funding); continuing without dedicated funding from 2027"
       - title: Member
         type: timeline
         compact: true
