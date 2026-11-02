@@ -1,0 +1,604 @@
+# ===================================================================
+#  cv.yml -- content of the CV (everything except publications)
+#  Build:   python3 _gen-cv/makecv.py            (full version)
+#           python3 _gen-cv/makecv.py --public   (website copy)
+#
+#  Text markup (plain text is escaped for LaTeX):
+#    *italic*   **bold**   ^+ or ^* (superscript mark)
+#    bare URLs and doi:10.xxx/yyy become links
+#    TODO(...)  renders as a red [TODO: ...]
+#    keys ending in _tex are raw LaTeX (not escaped)
+#  'when' labels: "2021-present" -> "2021–Present"
+#  timeline item keys: when, what, role ("Current role:" if when ends in present), amount
+#                      ("- Funding: ..."; hidden with --no-amounts),
+#                      details (- lines), lines (no dash)
+#  talk item keys:     date (YYYY-MM[-DD]), authors, title, venue, note
+#  Section types: bullets | timeline | talks | publications | reviews
+#                 | referees | text
+# ===================================================================
+
+meta:
+  output: CV_SeungGoo_KIM          # file name (without .pdf)
+  public_copy: assets/pdf/CV_SeungGoo_KIM.pdf   # --public copies here (repo-relative)
+  running_head: Curriculum Vitae
+  footer_name: Seung-Goo KIM
+  me: Kim S-G                      # your name as printed in author lists (set in Medium)
+  logo: MPIEA-Logo-Prio1-EN-RGB-green.png
+  name_first: Seung-Goo
+  name_last: KIM
+  name_suffix: Ph.D.
+  name_footnote_tex: >-
+    My two-syllable first name reads [IPA: /sɯŋgu/]. Pragmatically, ``SG'' is also fine. :)
+
+basics:
+  title: Postdoctoral Researcher
+  lines:
+    - Research Group Neurocognition of Music and Language (NCML)
+    - Max Planck Institute for Empirical Aesthetics (MPIEA)
+    - "Postal: Grüneburgweg 14, Frankfurt am Main, 60322, Germany"
+    - "Phone: +49 (0) 69 8300 479 851"
+  links:
+    - {label: Email, text: seung-goo.kim@ae.mpg.de, url: "mailto:seung-goo.kim@ae.mpg.de"}
+    - {label: Web, text: seunggookim.github.io, url: "https://seunggookim.github.io/"}
+    - {label: ORCID, text: 0000-0003-0558-8547, url: "https://orcid.org/0000-0003-0558-8547"}
+    - {label: Web of Science ResearcherID, text: T-5683-2019, url: "https://www.webofscience.com/wos/author/record/T-5683-2019"}
+    - {label: Google Scholar, text: "-M8Z3agAAAAJ", url: "https://scholar.google.com/citations?user=-M8Z3agAAAAJ"}
+
+sections:
+
+  - title: Research interests
+    type: bullets
+    items:
+      - Computational models of musical information for predictive modelling of neural and behavioural responses of affective experience
+      - Computational and experimental methodologies to understand structural and functional organisations of human brains
+
+  - title: Positions
+    type: timeline
+    items:
+      - when: 2021-present
+        what: Postdoctoral Researcher, Max Planck Institute for Empirical Aesthetics, Frankfurt am Main, Germany
+        details:
+          - "Supervisor: Dr. Daniela Sammler"
+          - "Projects: fMRI encoding of musical emotions and affective prosody"
+      - when: 2018-2021
+        what: Postdoctoral research associate, Department of Psychology and Neuroscience, Duke University, Durham, NC, USA
+        details:
+          - "Supervisor: Dr. Tobias Overath"
+          - "Projects: MEG correlates of auditory percepts, fMRI encoding of natural speech and music"
+      - when: 2017-2018
+        what: Postdoctoral research associate, Department of Psychiatry, Behavioural and Clinical Neuroscience Institute, University of Cambridge, Cambridge, UK
+        details:
+          - "Supervisor: Dr. Valerie Voon"
+          - "Projects: intracortical myelination and its association with impulsivity and alcohol consumption"
+
+  - title: Education and academic training
+    type: timeline
+    items:
+      - when: 2012-2017
+        what: Doctor of natural science in psychology (Doctor rerum naturalium in Psychologie), International Max Planck Research School on Neuroscience of Communication (IMPRS-NeuroCom), Leipzig, Germany
+        details:
+          - "Advisors: Dr. Thomas R. Knösche and Dr. Erich Schröger"
+          - "Dissertation: “Myeloarchitecture and Intrinsic Functional Connectivity of Auditory Cortex in Musicians with Absolute Pitch” (*Summa cum laude*)"
+      - when: 2010-2012
+        what: Research assistant, Department of Brain and Cognitive Sciences, Seoul National University, Seoul, South Korea
+        details:
+          - "Supervisors: Dr. Moo K. Chung and Dr. Jun Soo Kwon"
+          - "Projects: Graph theoretical analysis on structural covariance in clinical populations, subcortical structure shape analysis"
+      - when: 2008-2010
+        what: Master of science in cognitive science, Seoul National University, South Korea
+        details:
+          - "Advisor: Dr. C. K. Chung"
+          - "Thesis: “The effect of conditional probability of chord progression in Western music corpus on brain response: an MEG study”"
+      - when: 2000-2004
+        what: Bachelor of arts in economics and Bachelor of arts in psychology (dual majors), Yonsei University, South Korea
+      - when: 1996-1999
+        what: Specialised programme in musical composition, Sun Hwa Arts High School, South Korea
+
+  - title: Military service
+    type: timeline
+    items:
+      - when: 2004-2007
+        what: Military officer, Republic of Korea Air Force (mandatory service, honourably discharged as a first lieutenant)
+
+  - title: Grants and funding
+    type: timeline
+    items:
+      - when: "2026"
+        what: Initiation of International Collaboration, German Research Foundation (DFG) and National Research Foundation of Korea (NRF)
+        role: Germany-side PI
+        amount: €7,600 (German side, DFG; 1 year)
+        details:
+          - "Bilateral workshop: “Affective Voice Synthesis: Industrial and Scientific Perspectives on Technology” (MPIEA and KAIST)"
+
+      - when: "2026"
+        what: R3 Career Support (funding for conference speakers), Johanna Quandt Young Academy, Goethe University Frankfurt, Frankfurt am Main, Germany
+        role: co-applicant
+        details:
+          - "Conference: CoBIC Opening Symposium, 20–21 April 2026"
+      - when: 2025-2026
+        what: MPG Diversity Excellence Fund, Max Planck Society, Munich, Germany
+        role: PI
+        amount: €20,000 (1 year)
+        details:
+          - "Project: “EXPERIENCE — EXperimental PERformance series for Intercultural ENcounters & Collaborative Experience”"
+
+      - when: 2023-2026
+        what: Academy Fellowship, Johanna Quandt Young Academy, Goethe University Frankfurt, Frankfurt am Main, Germany
+        role: PI
+        amount: €10,000 (2 years)
+        details:
+          - "Project: “Neural representation of affective experiences evoked by music”"
+
+      - when: "2021"
+        what: Postdoc Research Grant Award, The Charles Lafitte Foundation Program for Research in Psychology & Neuroscience, Duke University, NC, USA
+        details:
+          - "Project: “Temporal Processing in Tonal and Atonal Music” (Amazon MTurk)"
+
+  - title: Honours and awards
+    type: timeline
+    items:
+      - when: "2017"
+        what: Summa cum laude, PhD examination, Institute of Psychology, University of Leipzig, Germany
+      - when: "2014"
+        what: Conference Scholarship, The 5th Conference for Neurosciences and Music, Mariani Foundation, Italy
+      - when: 2013-2016
+        what: Conference Scholarship, Research Academy Leipzig, University of Leipzig, Leipzig, Germany
+      - when: 2012-2016
+        what: Ph.D. Scholarship, International Max Planck Research School (IMPRS) on Neuroscience of Communication, Germany
+      - when: 2001-2004
+        what: B.A. Scholarship, Suam scholarship foundation, South Korea
+
+  - title: Publications
+    type: publications
+    bib:                         # repo-relative paths
+      - _bibliography/papers.bib
+      - _gen-cv/extra.bib
+    groups:                      # cvgroup key -> subsection title (in this order)
+      auditory: Auditory perception
+      methods: Neuroimaging methods
+      musictech: Music technology
+      translational: Translational neuroimaging & clinical applications
+      book: Books
+      preprint: Preprints
+    skip: [conference]           # cvgroups that are not listed here
+
+  - title: Conference presentations
+    type: talks
+    items:
+      - date: 2026-06
+        authors: Kim S-G, Overath T, Sammler D
+        title: Representational Gradients of Emotion-relevant Musical Information in the Human Cerebral Cortex
+        venue: "Symposium “Sound and Music: Naturalistic Approaches to Auditory–Motor and Affective Brain Dynamics” (organised by Dr. Sarah Faber), The Annual Meeting of the Organization for Human Brain Mapping (OHBM), Bordeaux, France"
+      - date: 2025-07
+        authors: Kim S-G, Alonso-Jiménez P, Bogdanov D, Serra X, Sammler D
+        title: Creating an open-access music audio dataset for deep phenotyping of subjective experience of musical emotions
+        venue: The 18th International Conference on Music Perception and Cognition (ICMPC), São Paulo, Brazil
+      - date: 2025-03
+        authors: Kim S-G, Overath T, Sammler D
+        title: Representational Gradients of Emotion-relevant Musical Information in the Human Cerebral Cortex
+        venue: The 67th Conference of Experimental Psychologists (TeaP), Goethe University Frankfurt, Frankfurt am Main, Germany
+      - date: 2025-03
+        authors: Kim S-G, Sammler D
+        title: "How the Sausage is Made: LLM-embedding-based Heuristic Hierarchical Clustering for Organizing TeaP2025 Talk & Poster Sessions"
+        venue: The 67th Conference of Experimental Psychologists (TeaP), Goethe University Frankfurt, Frankfurt am Main, Germany
+      - date: 2024-06
+        authors: Kim S-G, Overath T, Sammler D
+        title: Representational Gradients of Musical Information and Evoked Emotions Revealed by CNN
+        venue: The 30th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Seoul, South Korea
+      - date: 2024-06
+        authors: Kim S-G, Overath T, Sammler D
+        title: Representational Gradients of Musical Emotions in the Cerebral Cortex Modeled by a Convolutional Neural Network
+        venue: The Neurosciences and Music — VIII, Helsinki, Finland
+      - date: 2023-10
+        authors: Kim S-G, Alonso-Jiménez P, Bogdanov D, Serra X, Sammler D
+        title: "Exploring Affective Experiences Evoked by Music: Study Plan for a Neurophysiological Deep Dataset “ManyMusic”"
+        venue: CuttingGardens2023-Frankfurt, Frankfurt, Germany
+      - date: 2023-08
+        authors: Kim S-G, Overath T, Sammler D
+        title: Emotion-relevant Representations of Music Extracted by Convolutional Neural Networks Are Encoded in Medial Prefrontal Cortex
+        venue: The Joint Conference of the 17th International Conference on Music Perception and Cognition (ICMPC) and the 7th Conference of the Asia-Pacific Society for the Cognitive Sciences of Music (APSCOM), Tokyo, Japan
+        note: (Selected for an oral presentation). doi:10.6084/m9.figshare.24085104
+      - date: 2022-06
+        authors: Kim S-G, Overath T, Sammler D
+        title: Neural Encoding of Musical Emotions Evoked by Naturalistic Stimuli
+        venue: The Annual Meeting of the Organization for Human Brain Mapping (OHBM), Glasgow, UK
+        note: doi:10.6084/m9.figshare.20141240.v1
+      - date: 2021-11
+        authors: Mu H^+, Kim S-G, Overath T
+        title: Temporal response function of acoustic energy in fMRI time-series signals
+        venue: Advances and Perspectives in Auditory Neuroscience (APAN), Virtual
+        note: (^+Undergraduate first author)
+      - date: 2021-11
+        authors: Yu Y^+, Kim S-G, Overath T
+        title: Processing temporal structure in music and speech
+        venue: Advances and Perspectives in Auditory Neuroscience (APAN), Virtual
+        note: (^+Undergraduate first author)
+      - date: 2021-02
+        authors: Kim S-G, de Martino F, Overath T
+        title: Neural encoding of phonemes modulated by linguistic information
+        venue: 44th Annual MidWinter Meeting, The Association for Research in Otolaryngology (ARO), Virtual
+      - date: 2020-10
+        authors: Kim S-G, de Martino F, Overath T
+        title: Neural encoding of phonemes modulated by linguistic information
+        venue: Neuromatch Conference, Virtual
+        note: https://youtu.be/6hmtrhIhbOc
+      - date: 2020-10
+        authors: Kim S-G, de Martino F, Overath T
+        title: Neural encoding of phonemes modulated by linguistic information
+        venue: Advances and Perspectives in Auditory Neuroscience (APAN), Virtual
+      - date: 2019-11
+        authors: Kim S-G, Overath T, Sedley W, Kumar S, Teki S, Griffiths TD
+        title: MEG correlates of periodicity relevant to pitch perception in human auditory cortex
+        venue: The 49th Annual Meeting of Society for Neuroscience (SfN), Chicago, IL, USA
+      - date: 2019-02
+        authors: Kim S-G, Poeppel D, Overath T
+        title: "Modulation Change Detection in Human Auditory Cortex: Evidence for Asymmetric, Nonlinear Edge Detection"
+        venue: The 42nd Annual MidWinter Meeting of the Association for Research in Otolaryngology (ARO), Baltimore, MD, USA
+      - date: 2018-06
+        authors: Kim S-G, Mak EFK, Voon V
+        title: Association between microarchitecture and functional topology of cerebral cortex and its behavioral relevance
+        venue: The 24th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Singapore
+      - date: 2017-06
+        authors: Kim S-G, Lepsien J, Fritz TH, Mueller K
+        title: Inferior colliculus activity correlates with subjective unpleasantness of dissonant music
+        venue: The 23rd Annual Meeting of the Organization for Human Brain Mapping (OHBM), Vancouver, Canada
+      - date: 2016-06
+        authors: Kim S-G, Knösche TR
+        title: Intrinsic functional connectivity of the ventral auditory pathway correlates with the acuity of absolute pitch
+        venue: The 22nd Annual Meeting of the Organization for Human Brain Mapping (OHBM), Geneva, Switzerland
+      - date: 2016-06
+        authors: Kim S-G, Fritz TH, Lepsien J, Mueller K
+        title: Dynamics of functional connectivity in human brains modulated by (un)pleasantness of music
+        venue: The 22nd Annual Meeting of the Organization for Human Brain Mapping (OHBM), Geneva, Switzerland
+      - date: 2015-06
+        authors: Kim S-G, Knösche TR
+        title: Intracortical myelination in musicians with absolute pitch mapped using 7-T MRI
+        venue: The 21st Annual Meeting of the Organization for Human Brain Mapping (OHBM), Honolulu, HI, USA
+      - date: 2014-06
+        authors: Kim S-G, Stelzer J, Schulze K, Viehweger A, Knösche TR
+        title: "Auditory cortex in musicians with absolute pitch: Deformation-based shape analysis"
+        venue: The 20th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Hamburg, Germany
+      - date: 2014-05
+        authors: Kim S-G, Stelzer J, Schulze K, Viehweger A, Knösche TR
+        title: Local morphology of auditory cortex in musicians with absolute pitch
+        venue: The 5th conference for Neuroscience and Music, Dijon, France
+        note: (Selected for Conference Scholarship)
+      - date: 2013-03
+        authors: Kim S-G, Stelzer J, Knösche TR
+        title: Toward myeloarchitectural analysis on musicians with absolute pitch
+        venue: Mind-Brain Symposium, Berlin School of Mind and Brain, Berlin, Germany
+      - date: 2012-06
+        authors: Kim S-G, Chung MK, Jung WH, Jang JW, Kwon JS
+        title: Altered properties in the cortical thickness network of patients with obsessive-compulsive disorder
+        venue: The 18th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Beijing, China
+      - date: 2011-11
+        authors: Kim S-G, Chung MK, Jung WH, Jang JW, Kwon JS
+        title: Application of network analysis based on cortical thickness to obsessive-compulsive disorder patients
+        venue: The Biannual Meeting of South Korean Society of Human Brain Mapping (KHBM), Seoul, South Korea
+        note: (Selected for Excellent Oral Award)
+      - date: 2011-11
+        authors: Lee H, Kim S-G, Chung MK, Hanson JL, Avants BB, Gee JC, Davidson RJ, Pollak SD
+        title: Agreement between the white matter connectivity via tensor-based morphometry and the volumetric white matter parcellations
+        venue: The 41st Annual Meeting of Society for Neuroscience (SfN), Washington, DC, USA
+        note: (Selected for oral presentation)
+      - date: 2011-06
+        authors: Kim S-G, Chung MK, Hanson JL, Avants BB, Gee JC, Davidson RJ, Pollak SD
+        title: White matter structural connectivity without diffusion tensor imaging
+        venue: The 17th Annual Meeting of the Organization for Human Brain Mapping (OHBM), Quebec, Canada
+      - date: 2010-11
+        authors: Kim S-G, Chung MK, Hanson JL, Avants BB, Gee JC, Davidson RJ, Pollak SD
+        title: Structural connectivity via the tensor-based morphometry
+        venue: The Biannual Meeting of South Korean Society of Human Brain Mapping (KHBM), Seoul, South Korea
+        note: (Selected for Best Poster Award)
+      - date: 2010-03
+        authors: Kim S-G, Kim BS, Kim JS, Chung CK
+        title: "Differentiating the neural generator of ERAN and MMN: An MEG study"
+        venue: The 17th International Conference on Biomagnetism, Dubrovnik, Croatia
+
+  - title: Invited talks
+    subsections:
+      - title: Colloquia & symposia
+        type: talks
+        items:
+          - date: 2024-06-26
+            authors: Kim S-G, Overath T, Sammler D
+            title: Neural encoding of musical emotion
+            venue: Symposium, Music Wellness Center, Ewha Womans University, Seoul, South Korea
+            note: (organised by Prof. Eunju Jeong)
+          - date: 2022-07-19
+            authors: Kim S-G, Sammler D
+            title: Investigating the neural encoding of musical emotion using naturalistic stimuli and computational models
+            venue: Institutional Colloquium, Max Planck Institute for Empirical Aesthetics, Frankfurt, Germany
+            note: doi:10.6084/m9.figshare.20347794.v1
+          - date: 2021-12-09
+            authors: Kim S-G, Sammler D
+            title: Investigating the neural encoding of musical emotion using naturalistic stimuli
+            venue: Brain Imaging Center (BIC) Colloquium (organised by Dr. Ralf Deichmann), Goethe University, Frankfurt, Germany
+            note: (undisclosed)
+          - date: 2019-08-27
+            authors: Kim S-G, Michael A, Overath JT
+            title: Effects of spatially varying residual noise on task-based fMRI GLM
+            venue: BIAC (Brain Imaging & Analysis Center) User Meeting (organised by Dr. Allen W Song), Duke University, NC, USA
+            note: (undisclosed)
+          - date: 2016-09-19
+            authors: Kim S-G, Knösche TR
+            title: Auditory cortex in musicians with absolute pitch
+            venue: Institutional colloquium, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany
+            note: https://bit.ly/2kLbvjh
+          - date: 2015-09-14
+            authors: Kim S-G, Knösche TR
+            title: Relaxometry of absolute pitch
+            venue: "Mini-symposium: from T1 to myelin case-based discussions on analysis and interpretation (organised by Dr. Robert Trampel), Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany"
+            note: https://bit.ly/2lWZsPX
+          - date: 2010-09-11
+            authors: Kim S-G, Kim JS, Chung CK
+            title: "The effect of conditional probability of chord progression in Western music corpus on brain response: an MEG study"
+            venue: Joint symposium in celebration of the 20th anniversary of the Korea-Germany Society for Music (organised by Dr. Suk-Won Yi), Seoul National University, Seoul, South Korea
+            note: http://goo.gl/TPGyIX
+      - title: Seminars & workshops
+        type: talks
+        items:
+          - date: 2023-07-26
+            authors: Kim S-G
+            title: Investigating Neural Encoding of Musical Emotions Evoked by Naturalistic Stimuli and Computational Models
+            venue: Lab Meeting (Dr. Nathalie Gosselin), International Laboratory for Brain, Music and Sound Research, University of Montreal, Canada
+          - date: 2022-08-12
+            authors: Kim S-G
+            title: Investigating Neural Encoding of Musical Emotions Evoked by Naturalistic Stimuli and Computational Models
+            venue: Lab Meeting (Dr. Thomas H. Fritz), Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany (virtual)
+          - date: 2021-05-11
+            authors: Kim S-G
+            title: Structural and functional organizations of pitch perception in human auditory cortex
+            venue: Joint Lab Meeting (Dr. Fred Dick and Dr. Maria Chait), University College London, London, UK (virtual)
+          - date: 2020-07-27
+            authors: Kim S-G
+            title: Predicting the neural encoding of musical structures
+            venue: Group Seminar (organised by Dr. Eunju Jeong), Department of Music & Science for Clinical Practice, College of Interdisciplinary Industrial Studies, Hanyang University, Seoul, South Korea
+          - date: 2020-07-02
+            authors: Kim S-G
+            title: Predicting the neural encoding of musical structure
+            venue: Group Seminar (organised by Dr. Kyogu Lee), Music and acoustics research group, Graduate School for Convergence Science and Technology, Seoul National University, Suwon, South Korea
+            note: https://bit.ly/3exrQPS
+          - date: 2016-02-15
+            authors: Kim S-G
+            title: "In-vivo intracortical myelination mapping: quantitative morphometry"
+            venue: Group seminar (organised by Dr. Jun Soo Kwon), Seoul National University Hospital, South Korea
+            note: https://bit.ly/3bQGoZn
+          - date: 2015-08-24
+            authors: Kim S-G, Knösche TR
+            title: Intracortical myelination in musicians with absolute pitch
+            venue: "The Melodic Mind: an interdisciplinary workshop on music and language (organised by Dr. Daniela Sammler), Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany"
+            note: http://goo.gl/YLcRr8
+          - date: 2011-12-02
+            authors: Kim S-G, Chung MK, Hanson JL, Avants BB, Gee JC, Davidson RJ, Pollak SD
+            title: White matter connectivity without DTI
+            venue: Workshop on Diffusion Tensor Imaging and Brain Connectivity (organised by Dr. Moo K Chung), Seoul National University, Seoul, South Korea
+            note: https://bit.ly/2lVngEc
+          - date: 2011-09-27
+            authors: Kim S-G, Chung MK, Schaefer SM, van Reekum C, Davidson RJ
+            title: Sparse shape representation using the Laplace-Beltrami eigenfunctions and its application to correlating functional signal to subcortical structures
+            venue: Workshop on mathematical methods in medical image analysis (organised by Dr. Moo K. Chung), Seoul National University, Seoul, South Korea
+            note: http://goo.gl/sTuutv
+          - date: 2011-07-29
+            authors: Kim S-G, Chung MK, Schaefer SM, van Reekum C, Davidson RJ
+            title: Correlating EEG to anatomy in hippocampus and amygdala
+            venue: Seminar on Brain Network Modeling (organised by Dr. Moo K Chung), Seoul National University Hospital, Seoul, South Korea
+            note: https://bit.ly/2lPimsj
+
+  - title: Teaching & mentoring
+    subsections:
+      - title: University courses
+        type: timeline
+        items:
+          - when: 2024-2025
+            what: "“Seminar: Music and Brain”, Goethe University Frankfurt, Frankfurt am Main, Germany (co-teaching with Dr. Daniela Sammler)"
+          - when: 2022-2024
+            what: "“Methods in Empirical Musicology”, a practical course (seminar and hands-on) for undergraduate and graduate students majoring in Music Informatics, Karlsruhe University of Music (Hochschule für Musik), Karlsruhe, Germany (online)"
+      - title: Teaching initiatives
+        type: timeline
+        items:
+          - when: "2026"
+            what: Casual Teaching Club (CTC), Max Planck Institute for Empirical Aesthetics, Frankfurt am Main, Germany
+            role: Organiser and instructor
+            details:
+              - "Volunteer instructors and attendees (PhD students, master’s students, postdocs), to offer classes and teaching experience that a research institute otherwise lacks"
+              - "Monthly sessions, 2 April – 1 October 2026"
+      - title: Lectures & tutorials
+        type: talks
+        items:
+          - date: 2026-09-23
+            authors: Kim S-G
+            title: "Workshop: Building a 1,000-Song Naturalistic EEG Dataset: Practical Lessons from ManyMusic"
+            venue: CuttingGardens 2026, Frankfurt local programme, CoBIC, Frankfurt am Main, Germany
+            note: https://doi.org/10.6084/m9.figshare.34886340
+          - date: 2025-07-21
+            authors: Kim S-G
+            title: "Workshop: Linearized Encoding Analysis (LEA)—Predictive Modeling of Music Perception and Emotion in Brain, Body and Behavior"
+            venue: The 18th International Conference on Music Perception and Cognition (ICMPC), São Paulo, Brazil
+            note: https://s.gwdg.de/yGKPI1
+          - date: 2025-03-09
+            authors: Kim S-G
+            title: "Computing Language for Open Science: Open Discussion"
+            venue: Open Science Workshop, The 67th Conference of Experimental Psychologists (TeaP), Goethe University Frankfurt, Frankfurt am Main, Germany
+            note: (organised by Kim S-G)
+          - date: 2024-12-05
+            authors: Kim S-G
+            title: "Workshop: Music, Brain, and Emotions: An Engaging Self-Experiment"
+            venue: Max Planck School of Cognition -- Cognition Academy, Berlin, Germany
+            note: https://github.com/seunggookim/mpscog-ca25-mbe
+          - date: 2024-09-07
+            authors: Kim S-G
+            title: "Tutorial: Linearized Encoding Analysis"
+            venue: Korean Society for Music Perception and Cognition (KSMPC) Summer School, South Korea (online)
+            note: https://github.com/seunggookim/ksmpc-ss24-sess3
+          - date: 2023-02-07
+            authors: Kim S-G
+            title: Encoding Analysis of fMRI Data
+            venue: Data Analysis Lecture Series, Brain Imaging Centre, the University Hospital Frankfurt, Frankfurt am Main, Germany
+            note: https://s.gwdg.de/TJdctg
+          - date: 2021-10-27
+            authors: Kim S-G
+            title: Primer for Linearized Encoding Analysis
+            venue: NCML lab meeting, MPIEA, Frankfurt am Main, Germany
+            note: https://s.gwdg.de/wp6LTH
+          - date: 2020-04-24
+            authors: Kim S-G
+            title: Temporal Response Function as Ridge Regression to Estimate Finite Impulse Response
+            venue: Overath lab meeting, Duke University, Durham, NC, USA
+            note: https://cli.re/QnJaXw
+          - date: 2020-02-02
+            authors: Kim S-G
+            title: Introduction to Ridge Regression
+            venue: Overath lab meeting, Duke University, Durham, NC, USA
+            note: https://cli.re/5Pa3KZ
+          - date: 2019-12-05
+            authors: Kim S-G
+            title: Robust detrending and inpainting for M/EEG data
+            venue: Overath-Woldorff joint lab meeting, Duke University, Durham, NC, USA
+            note: https://bit.ly/2PEd6E5
+          - date: 2017-06-08
+            authors: Kim S-G
+            title: Improving coregistration by skull-stripping of EPI images
+            venue: Method Club (organised by Dr. Karsten Mueller), Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany
+            note: https://bit.ly/2mimWiW
+          - date: 2015-10-15
+            authors: Kim S-G
+            title: Assessment of “denoising” (motion artifacts removal) on resting state fMRI data
+            venue: Method Club (organised by Dr. Karsten Mueller), Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany
+            note: https://bit.ly/2kO0eP5
+          # - date: 2010-06-09
+          #   authors: Kim S-G, Kim JS, Chung CK
+          #   title: "Guest Lecture: The effect of conditional probability of chord progression in Western music corpus on brain response: an MEG study"
+          #   venue: Introduction to Music Psychology (taught by Dr. Suk-Won Yi), Seoul National University, Seoul, South Korea
+          #   note: https://bit.ly/2mkdqvJ
+      - title: Mentoring
+        type: timeline
+        items:
+          - when: "2026"
+            what: Augustin Bouquillard (intern at NCML, MPI for Empirical Aesthetics, Frankfurt; École Polytechnique, France)
+            details:
+              - "Co-supervisors: Dr. Daniela Sammler and Dr. Stefan Lattner (Sony CSL Paris)"
+              - "Project: MEX: The Musical Expectation Benchmark Suite (ISMIR 2026); behavioural validation of an autoregressive diffusion model estimating entropy and surprisal from music audio"
+              - "Duration: 1 April – 31 July 2026"
+          - when: 2025-2026
+            what: Elana Radtke (student research assistant at NCML, MPI for Empirical Aesthetics, Frankfurt)
+            details:
+              - "Project: ManyMusic"
+              - "Tasks: EEG and fMRI data acquisition"
+          - when: "2023"
+            what: Till Bechtloff (undergraduate intern at NCML, MPI for Empirical Aesthetics, Frankfurt)
+            details:
+              - "Project: ManyMusic (JQYA funded)"
+              - "Tasks: Development of GUI for the online behavioural experiment using jsPsych"
+          - when: "2022"
+            what: Zoë Bolz (undergraduate intern at NCML, MPI for Empirical Aesthetics, Frankfurt)
+            details:
+              - "Project: Linguistic knowledge and cultural exposure on prosody perception"
+              - "Tasks: behavioural data analysis with R"
+          - when: 2021-2022
+            what: Han (Medy) Mu (undergraduate researcher at O-lab, Duke University, NC)
+            details:
+              - "Project: Neural encoding of music in fMRI data"
+              - "Tasks: MATLAB & Bash for fMRI data processing and linearized encoding analysis"
+          - when: 2021-2022
+            what: Ying Yu (undergraduate researcher at O-lab, Duke University, NC)
+            details:
+              - "Project: Temporal structures in tonal and atonal music: online behavioural experiment"
+              - "Tasks: MATLAB, JavaScript, HTML for Amazon MTurk experiment data acquisition & analysis"
+          - when: 2019-2021
+            what: Jasmine Leahy (undergraduate researcher at O-lab, Duke University, NC)
+            details:
+              - "Project: Neural encoding of musical features in EEG data"
+              - "Tasks: MATLAB scripting for EEG experiments and data analysis"
+              - "B.Sc. thesis (graduation with distinction): “*Cortical Encoding of Tonal and Rhythmic Hierarchy in Real and Imagined Music Using the Multivariate Temporal Response Function*”"
+              - "Current position: M.D. student at the Icahn School of Medicine at Mount Sinai, NY, USA"
+          - when: 2018-2020
+            what: Jie Wan (graduate researcher at O-lab, Duke University, NC)
+            details:
+              - "Project: Cortical entrainment to temporal structures in natural speech"
+              - "Tasks: MATLAB scripting, EEG data analysis, encoding analysis (temporal response function modelling), statistical tests, data visualisation"
+              - "Current position: Ph.D. student at University of California – Irvine, CA, USA"
+      - title: Pedagogical training
+        type: timeline
+        items:
+          - when: "2021"
+            what: "Entering Mentoring (March–April 2021, 4 weeks; virtual: Google Classroom)"
+            details:
+              - "Topics: Communication and Feedback; Diversity, Equity, and Inclusion"
+              - "Organisers: Dr. Branda Yang, Ms. Eva Gjorgieva (Duke Institute for Brain Sciences, NC, USA)"
+
+  - title: Service to profession
+    subsections:
+      - title: Editorial board
+        type: timeline
+        compact: true
+        items:
+          - when: 2025-present
+            what: Peer Community in Neuroscience
+            role: Recommender
+          - when: 2025-present
+            what: Peer Community in Psychology
+            role: Recommender
+          - when: 2025-present
+            what: PLOS ONE
+            role: Academic Editor
+          - when: 2024-present
+            what: Music Perception
+            role: Consulting Editor
+          - when: 2022-2025
+            what: "Frontiers in Neuroscience, specialty section: Auditory Cognitive Neuroscience"
+            role: Review Editor
+      - title: Guest editor (in alphabetical order; number of handled submissions in parentheses)
+        type: timeline
+        compact: true
+        items:
+          - when: "2023"
+            what: PNAS (1)
+      - title: Ad hoc reviewer for journals (in alphabetical order; number of reviews in parentheses)
+        type: reviews
+        when: 2014-present
+        folder: ~/Seafile/MyLibrary/Service/Reviews   # one folder per journal, one subfolder per manuscript
+        cache: _gen-cv/reviews-cache.yml              # used when the folder is not available
+        skip_journals: ["Journal of New Music"]       # duplicate of "Journal of New Music Research"
+        skip_if_contains: ["Withdrawn"]               # manuscript folders not counted
+        # "ID.R1", "ID.published", "ID (helped TO)" all count as manuscript "ID"
+      - title: Organisation of scientific events
+        type: timeline
+        compact: true
+        items:
+          - when: "2026"
+            what: "Interdisciplinary workshop “Affective Voice Perception and Synthesis (AVoPS)”, MPIEA, Frankfurt am Main, Germany (DFG/NRF bilateral programme, with KAIST, South Korea)"
+            role: Organiser
+          - when: "2026"
+            what: "Symposium “Sound and Music: Naturalistic Approaches to Auditory–Motor and Affective Brain Dynamics” (with Dr. Sarah Faber et al.), OHBM 2026, Bordeaux, France"
+            role: Co-organiser & Speaker
+          - when: "2024"
+            what: Open Science Workshop (hybrid), MPIEA, Frankfurt am Main, Germany
+            role: Organiser & Speaker
+      - title: Member
+        type: timeline
+        compact: true
+        items:
+          - when: 2023-present
+            what: International Conference on Music Perception and Cognition (https://icmpc.org/)
+            details: ["Abstract reviewer (2023–present), Session chair (2023–present)"]
+          - when: 2012-present
+            what: Organization for Human Brain Mapping (https://www.humanbrainmapping.org/)
+            details: ["Abstract reviewer (2021–present)"]
+          - when: 2011-present
+            what: Society for Neuroscience (https://www.sfn.org/)
+
+  - title: Open source projects
+    type: timeline
+    compact: true
+    items:
+      - when: GitHub repo
+        what: Linearized Encoding Analysis. https://github.com/seunggookim/lea
+        lines:
+          - Cortical surface visualisation. https://github.com/solleo/surfviz
+          - Automatic processing & visualisation using SPM12. https://github.com/solleo/myspm
+          - ANTs parallelisation on Condor. https://github.com/solleo/ANTs-Condor
+
+  - title: Referees
+    type: referees
+    file: _gen-cv/referees.yml       # git-ignored; --public prints names only
