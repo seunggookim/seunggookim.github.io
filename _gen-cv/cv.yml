@@ -582,6 +582,8 @@ sections:
           - when: 2023-present
             what: International Conference on Music Perception and Cognition (https://icmpc.org/)
             details: ["Abstract reviewer (2023–present), Session chair (2023–present)"]
+          - when: 2023-present
+            what: International Society for Music Information Retrieval (https://ismir.net/)
           - when: 2012-present
             what: Organization for Human Brain Mapping (https://www.humanbrainmapping.org/)
             details: ["Abstract reviewer (2021–present)"]
