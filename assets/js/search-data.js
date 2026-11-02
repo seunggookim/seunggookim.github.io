@@ -298,6 +298,11 @@ ninja.data = [{
           description: "2024 Winter",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/teach_ug_musbrain/";
+            },},{id: "teaching-workshop-building-a-1-000-song-naturalistic-eeg-dataset-practical-lessons-from-manymusic",
+          title: 'Workshop: Building a 1,000-Song Naturalistic EEG Dataset: Practical Lessons from ManyMusic',
+          description: "2026-Sep-23, CuttingGardens 2026 — Frankfurt local program",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teach_w_cuttingeeg26/";
             },},{id: "teaching-tutorial-linearized-encoding-analysis",
           title: 'Tutorial: Linearized Encoding Analysis👧',
           description: "2024-Sep-07, Korean Society for Music Perception and Cognition [KSMPC] Summer School, South Korea",
