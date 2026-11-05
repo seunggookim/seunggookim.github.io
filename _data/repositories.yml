@@ -7,3 +7,21 @@ github_repos:
   - seunggookim/manymusic-mtg-jamendo
   - seunggookim/surfviz
   - solleo/myspm
+
+# Shown on the repository cards (rendered statically; no external service)
+repo_info:
+  seunggookim/lea:
+    description: "LEA👧 - Linearized Encoding Analysis"
+    language: MATLAB
+  seunggookim/ksmpc-ss24-sess3:
+    description: "Tutorial data for KSMPC Summer School 2024, Session 3"
+    language: MATLAB
+  seunggookim/manymusic-mtg-jamendo:
+    description: "Streamlit app to create subsets of The MTG Jamendo dataset"
+    language: Python
+  seunggookim/surfviz:
+    description: "Cortical surface visualization"
+    language: MATLAB
+  solleo/myspm:
+    description: "Custom MATLAB scripts for clicking-free SPM analysis"
+    language: MATLAB
