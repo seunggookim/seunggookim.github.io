@@ -30,6 +30,7 @@ HISTORY
 2026-11-02  dates: publications year only; talks and footer "19 July 2022"
 2026-11-02  no year in citations (it is in the year column); talks "(19 July)"
 2026-11-02  Korean (kotex; Apple SD Gothic Neo); contact rows joined by " | "
+2026-11-09  own name (meta.me) underlined instead of Medium
 """
 import argparse
 import datetime as dt

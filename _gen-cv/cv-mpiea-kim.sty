@@ -173,7 +173,10 @@
 % ---------- Misc ----------
 \newcommand{\cvtodo}[1]{{\color{cv@todo}\bfseries [TODO: #1]}}
 \newcommand{\cvmark}[1]{\textsuperscript{#1}}
-% your own name in author lists (Medium weight)
+% your own name in author lists (underlined; ulem's \uline can break across lines)
+%\RequirePackage[normalem]{ulem}   % normalem: keep \emph as italics
+%\newcommand{\cvme}[1]{\uline{#1}}  % unerline
+
 \newcommand{\cvme}[1]{{\cvmedium #1}}
 
 \endinput

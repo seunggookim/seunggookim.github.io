@@ -22,7 +22,7 @@ meta:
   public_copy: assets/pdf/CV_SeungGoo_KIM.pdf   # --public copies here (repo-relative)
   running_head: Curriculum Vitae
   footer_name: Seung-Goo KIM
-  me: Kim S-G                      # your name as printed in author lists (set in Medium)
+  me: Kim S-G                      # your name as printed in author lists (underlined)
   logo: MPIEA-Logo-Prio1-EN-RGB-green.png
   name_first: Seung-Goo
   name_last: KIM
