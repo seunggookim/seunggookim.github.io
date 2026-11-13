@@ -6,6 +6,10 @@
   url: https://biomedicalimaging.org/
   color: "#026981"
 
+"mmbia":
+  url: https://ieeexplore.ieee.org/xpl/conhome/6156699/proceeding
+  color: "#1BB9F7"
+
 "isbi":
   url: https://biomedicalimaging.org/
   color: "#1BB9F7"
