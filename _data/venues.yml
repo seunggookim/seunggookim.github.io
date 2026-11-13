@@ -20,11 +20,11 @@
 
 "fnsci":
   url: https://www.frontiersin.org/journals/neuroscience
-  color: "#8FCE00"
+  color: "#83be52"
 
 "fhnsci":
   url: https://www.frontiersin.org/journals/human-neuroscience
-  color: "#8FCE00"
+  color: "#83be52"
 
 "scirep":
   url: https://www.nature.com/srep/
@@ -52,7 +52,7 @@
 
 "cercor":
   url: https://academic.oup.com/cercor
-  color: "#002a0b"
+  color: "#86972a"
 
 "preprint":
   url: https://www.biorxiv.org/
@@ -60,7 +60,7 @@
 
 "cuttinggardens":
   url: https://cuttingeeg.org/
-  color: "#4ece20"
+  color: "#e2b440"
 
 "neuromusic":
   url: https://www.fondazione-mariani.org/en/congressi/
