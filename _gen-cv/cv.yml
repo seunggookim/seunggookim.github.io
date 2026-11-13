@@ -28,7 +28,7 @@ meta:
   name_last: KIM
   name_suffix: (김승구) Ph.D.
   name_footnote_tex: >-
-    My two-syllable first name reads [IPA: /sɯŋgu/]. Pragmatically, ``SG'' is also fine. :)
+    My two-syllable first name reads [IPA: \href{https://seunggookim.github.io/assets/audio/seunggoo.mp3}{/sɯŋgu/}]. Pragmatically, ``SG'' is also fine. :)
 
 basics:
   title: Postdoctoral Researcher
