@@ -261,6 +261,10 @@
       {% assign entry_has_dimensions_badge = false %}
       {% if entry.dimensions and entry.dimensions != 'false' %}
         {% assign entry_has_dimensions_badge = true %}
+      {% elsif entry.dimensions != 'false' %}
+        {% if entry.doi or entry.pmid %}
+          {% assign entry_has_dimensions_badge = true %}
+        {% endif %}
       {% endif %}
 
       {% assign entry_has_google_scholar_badge = false %}
@@ -306,6 +310,7 @@
               {% endif %}
               data-style="small_rectangle"
               data-legend="hover-right"
+              data-hide-zero-citations="true"
               style="margin-bottom: 3px;"
             ></span>
           {% endif %}
