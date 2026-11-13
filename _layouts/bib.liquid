@@ -256,6 +256,10 @@
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
         {% assign entry_has_altmetric_badge = true %}
+      {% elsif entry.altmetric != 'false' %}
+        {% if entry.doi or entry.pmid or entry.arxiv or entry.eprint %}
+          {% assign entry_has_altmetric_badge = true %}
+        {% endif %}
       {% endif %}
 
       {% assign entry_has_dimensions_badge = false %}
@@ -279,6 +283,7 @@
               class="altmetric-embed"
               data-badge-type="2"
               data-badge-popover="right"
+              data-hide-no-mentions="true"
               {% if entry.altmetric != blank and entry.altmetric != 'true' %}
                 data-altmetric-id="{{ entry.altmetric }}"
               {% elsif entry.arxiv %}
