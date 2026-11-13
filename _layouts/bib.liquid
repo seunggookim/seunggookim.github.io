@@ -256,15 +256,15 @@
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
         {% assign entry_has_altmetric_badge = true %}
-      {% elsif entry.altmetric != 'false' %}
-        {% if entry.doi or entry.pmid or entry.arxiv or entry.eprint %}
-          {% assign entry_has_altmetric_badge = true %}
-        {% endif %}
       {% endif %}
 
       {% assign entry_has_dimensions_badge = false %}
       {% if entry.dimensions and entry.dimensions != 'false' %}
         {% assign entry_has_dimensions_badge = true %}
+      {% elsif entry.dimensions != 'false' %}
+        {% if entry.doi or entry.pmid %}
+          {% assign entry_has_dimensions_badge = true %}
+        {% endif %}
       {% endif %}
 
       {% assign entry_has_google_scholar_badge = false %}
@@ -283,7 +283,6 @@
               class="altmetric-embed"
               data-badge-type="2"
               data-badge-popover="right"
-              data-hide-no-mentions="true"
               {% if entry.altmetric != blank and entry.altmetric != 'true' %}
                 data-altmetric-id="{{ entry.altmetric }}"
               {% elsif entry.arxiv %}
@@ -311,6 +310,7 @@
               {% endif %}
               data-style="small_rectangle"
               data-legend="hover-right"
+              data-hide-zero-citations="true"
               style="margin-bottom: 3px;"
             ></span>
           {% endif %}
