@@ -15,15 +15,15 @@
   color: "#00a0dd"
 
 "icmpc":
-  url: https://www.icmpc.org/
+  url: https://www.escomsociety.org/icmpc
   color: "#4d2a71"
 
 "fnsci":
-  url: https://www.frontiersin.org/
+  url: https://www.frontiersin.org/journals/neuroscience
   color: "#8FCE00"
 
 "fhnsci":
-  url: https://www.frontiersin.org/
+  url: https://www.frontiersin.org/journals/human-neuroscience
   color: "#8FCE00"
 
 "scirep":
@@ -39,14 +39,14 @@
   color: "#ea5007"
 
 "plos1":
-  url: https://journals.plos.org/plosone/
+  url: https://journals.plos.org/plosone
   color: "#D21BC8"
 
-"neruoimage":
+"neruoimg":
   url: https://www.sciencedirect.com/journal/neuroimage
   color: "#d0d04a"
 
-"imageneruo":
+"imgneruo":
   url: https://direct.mit.edu/imag
   color: "#84e055"
 
