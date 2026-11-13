@@ -8,23 +8,27 @@
 
 "isbi":
   url: https://biomedicalimaging.org/
-  color: "#65a7f7"
+  color: "#1BB9F7"
 
 "icmpc":
   url: https://www.icmpc.org/
-  color: "#c664ed"
+  color: "#6A329F"
 
 "fnsci":
   url: https://www.frontiersin.org/
-  color: "#719e29"
+  color: "#8FCE00"
 
 "fhnsci":
   url: https://www.frontiersin.org/
-  color: "#719e29"
+  color: "#8FCE00"
 
 "scirep":
   url: https://www.nature.com/srep/
-  color: "#454742"
+  color: "#0B5394"
+
+"ejnsci":
+  url: https://onlinelibrary.wiley.com/journal/14609568
+  color: "#2B91ED"
 
 "hbm":
   url: https://onlinelibrary.wiley.com/journal/10970193
@@ -32,7 +36,7 @@
 
 "plos1":
   url: https://journals.plos.org/plosone/
-  color: "#fa8cf4"
+  color: "#D21BC8"
 
 "neruoimage":
   url: https://www.sciencedirect.com/journal/neuroimage
