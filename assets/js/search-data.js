@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-singularity-the-future-is-wow",
+        },{id: "post-lots-of-surfs-️-️",
+      
+        title: "Lots of surfs 🏄‍♀️🏄‍♂️🏄",
+      
+      description: "What&#39;s the best surface?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/surfs/";
+        
+      },
+    },{id: "post-singularity-the-future-is-wow",
       
         title: "singularity—the future is wow ✨",
       
