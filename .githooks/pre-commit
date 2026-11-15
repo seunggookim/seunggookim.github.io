@@ -1,0 +1,19 @@
+#!/bin/sh
+# Format staged files with Prettier before each commit, so the
+# "Prettier code formatter" check on GitHub does not fail.
+# One-time setup per computer (from the repository folder):
+#   npm ci
+#   git config core.hooksPath .githooks
+
+PRETTIER=node_modules/.bin/prettier
+if [ ! -x "$PRETTIER" ]; then
+  echo "pre-commit: Prettier not installed (run 'npm ci'); skipping formatting." >&2
+  exit 0
+fi
+
+# staged files that were added, copied, modified or renamed (not deleted)
+FILES=$(git diff --cached --name-only --diff-filter=ACMR)
+[ -z "$FILES" ] && exit 0
+
+echo "$FILES" | tr '\n' '\0' | xargs -0 "$PRETTIER" --write --ignore-unknown --log-level warn || exit 1
+echo "$FILES" | tr '\n' '\0' | xargs -0 git add --
