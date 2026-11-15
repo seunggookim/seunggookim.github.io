@@ -251,25 +251,33 @@ ninja.data = [{
           section: "News",},{id: "news-to-initiate-an-international-collaboration-between-mpiea-and-kaist-our-bilateral-workshop-proposal-on-affective-voice-synthesis-industrial-and-scientific-perspectives-on-technology-has-been-accepted-by-the-german-research-foundation-dfg-and-the-national-research-foundation-of-korea-nrf",
           title: 'To initiate an international collaboration between MPIEA (🇩🇪) and KAIST (🇰🇷), our bilateral...',
           description: "",
-          section: "News",},{id: "news-spearheaded-by-dr-sarah-faber-our-symposium-proposal-has-been-accepted-for-the-2026-ohbm-annual-meeting-the-symposium-will-be-held-on-june-2026-and-the-title-is-sound-and-music-naturalistic-approaches-to-auditory-motor-and-affective-brain-dynamics-we-are-looking-forward-to-meeting-you-in-bordeaux-france",
-          title: 'Spearheaded by Dr Sarah Faber, our symposium proposal has been accepted for the...',
+          section: "News",},{id: "news-ohbm-2026-symposium-proposal-accepted",
+          title: 'OHBM 2026 Symposium proposal accepted!',
           description: "",
-          section: "News",},{id: "news-we-ve-got-the-first-complete-eeg-dataset-for-one-subject-as-of-today-stay-tuned-for-more",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-02-24_ohbm-symposium/";
+            },},{id: "news-we-ve-got-the-first-complete-eeg-dataset-for-one-subject-as-of-today-stay-tuned-for-more",
           title: 'We’ve got the first complete EEG+ dataset for one subject as of today!...',
           description: "",
           section: "News",},{id: "news-our-ohbm-symposium-on-sound-and-music-naturalistic-approaches-to-auditory-motor-and-affective-brain-dynamics-was-a-great-success-we-appreciate-all-speakers-and-attendees-for-their-contributions-to-the-symposium",
           title: 'Our OHBM symposium on “Sound and Music: Naturalistic Approaches to Auditory–Motor and Affective...',
           description: "",
-          section: "News",},{id: "news-the-interdisciplinary-workshop-on-affective-voice-perception-and-synthesis-avops-successfully-took-place-at-the-mpiea-frankfurt-am-main-dr-tirza-biron-from-weizmann-institute-of-science-prof-juhan-nam-prof-jieun-song-and-their-students-from-kaist-south-korea-joined-us-for-a-week-of-exciting-discussions-and-collaborations",
+          section: "News",},{id: "news-the-interdisciplinary-workshop-on-affective-voice-perception-and-synthesis-avops-successfully-took-place-at-the-mpiea",
           title: 'The interdisciplinary workshop on Affective Voice Perception and Synthesis (AVoPS) successfully took place...',
           description: "",
-          section: "News",},{id: "news-mr-augustin-bouquillard-ingénieur-polytechnicien-program-at-école-polytechnique-doing-two-masters-in-cs-and-applied-math-in-4-years-in-a-napoleon-like-fancy-uniform-️-has-successfully-completed-his-4-month-internship-in-our-group-co-supervised-by-me-dr-daniela-sammler-group-leader-and-dr-stefan-lattner-sony-csl-paris-during-his-internship-he-worked-on-the-benchmark-suite-of-musical-expectation-mex-️-accepted-at-ismir-2026-and-a-series-of-behavioural-validation-experiments-of-the-autoregressive-diffusion-model-that-estimates-shannon-entropy-and-surprisal-directly-from-music-audio-data-we-will-keep-working-on-this-topic-together-in-the-future-and-we-are-looking-forward-to-publishing-our-results-soon",
-          title: 'Mr Augustin Bouquillard (Ingénieur Polytechnicien Program at École Polytechnique; doing two masters in...',
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-24_avops-de/";
+            },},{id: "news-mr-augustin-bouquillard-has-successfully-completed-his-4-month-internship-in-our-group-co-supervised-by-me-dr-daniela-sammler-group-leader-and-dr-stefan-lattner-sony-csl-paris",
+          title: 'Mr Augustin Bouquillard has successfully completed his 4-month internship in our group, co-supervised...',
           description: "",
-          section: "News",},{id: "news-i-didn-t-even-know-that-the-giscus-commenting-was-not-working-i-still-think-that-no-one-else-has-ever-tried-it-before-but-claude-made-a-fix-github-copilot-tested-and-confirmed-the-fix-so-that-giscus-bot-can-send-me-notifications-the-future-is-wow",
-          title: 'I didn’t even know that the GisCus commenting was not working! I still...',
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-07-31_augustin/";
+            },},{id: "news-giscus-is-now-functional",
+          title: 'GisCus is now functional.',
           description: "",
-          section: "News",},{id: "news-stimulus-driven-leakage-in-naturalistic-neuroimaging-formerly-reverse-double-dipping-is-now-published-in-imaging-neuroscience",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-10-16_discus/";
+            },},{id: "news-stimulus-driven-leakage-in-naturalistic-neuroimaging-formerly-reverse-double-dipping-is-now-published-in-imaging-neuroscience",
           title: '“Stimulus-Driven Leakage in Naturalistic Neuroimaging” (formerly “Reverse Double Dipping”) is now published in...',
           description: "",
           section: "News",},{id: "projects-absolute-pitch",
