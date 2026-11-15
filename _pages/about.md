@@ -21,7 +21,7 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 ---
 
 Seung-Goo [IPA: [sɯŋgu](/assets/audio/seunggoo.mp3)] KIM (김승구; 金勝九) is a cognitive neuroscientist specialising in human neuroimaging and auditory processing.
