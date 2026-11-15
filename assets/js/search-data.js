@@ -262,22 +262,18 @@ ninja.data = [{
           section: "News",},{id: "news-our-ohbm-symposium-on-sound-and-music-naturalistic-approaches-to-auditory-motor-and-affective-brain-dynamics-was-a-great-success-we-appreciate-all-speakers-and-attendees-for-their-contributions-to-the-symposium",
           title: 'Our OHBM symposium on “Sound and Music: Naturalistic Approaches to Auditory–Motor and Affective...',
           description: "",
-          section: "News",},{id: "news-the-interdisciplinary-workshop-on-affective-voice-perception-and-synthesis-avops-successfully-took-place-at-the-mpiea",
-          title: 'The interdisciplinary workshop on Affective Voice Perception and Synthesis (AVoPS) successfully took place...',
+          section: "News",},{id: "news-the-interdisciplinary-workshop-on-affective-voice-perception-and-synthesis-avops-was-successfully-held-at-the-max-planck-institute-for-empirical-aesthetics-mpiea-in-frankfurt-am-main-dr-tirza-biron-from-the-weizmann-institute-of-science-prof-juhan-nam-prof-jieun-song-and-their-students-from-kaist-south-korea-joined-us-for-a-week-of-stimulating-discussions-and-collaborations",
+          title: 'The interdisciplinary workshop on Affective Voice Perception and Synthesis (AVoPS) was successfully held...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026-06-24_avops-de/";
-            },},{id: "news-mr-augustin-bouquillard-has-successfully-completed-his-4-month-internship-in-our-group-co-supervised-by-me-dr-daniela-sammler-group-leader-and-dr-stefan-lattner-sony-csl-paris",
-          title: 'Mr Augustin Bouquillard has successfully completed his 4-month internship in our group, co-supervised...',
+          section: "News",},{id: "news-mr-augustin-bouquillard-has-successfully-completed-his-4-month-internship-in-our-group",
+          title: 'Mr Augustin Bouquillard has successfully completed his 4-month internship in our group!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-07-31_augustin/";
-            },},{id: "news-giscus-is-now-functional",
-          title: 'GisCus is now functional.',
+            },},{id: "news-i-didn-t-even-know-that-the-giscus-commenting-was-not-working-i-still-think-that-no-one-else-has-ever-tried-it-before-but-claude-made-a-fix-github-copilot-tested-and-confirmed-the-fix-so-that-giscus-bot-can-send-me-notifications-the-future-is-wow",
+          title: 'I didn’t even know that the GisCus commenting was not working! I still...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026-10-16_discus/";
-            },},{id: "news-stimulus-driven-leakage-in-naturalistic-neuroimaging-formerly-reverse-double-dipping-is-now-published-in-imaging-neuroscience",
+          section: "News",},{id: "news-stimulus-driven-leakage-in-naturalistic-neuroimaging-formerly-reverse-double-dipping-is-now-published-in-imaging-neuroscience",
           title: '“Stimulus-Driven Leakage in Naturalistic Neuroimaging” (formerly “Reverse Double Dipping”) is now published in...',
           description: "",
           section: "News",},{id: "projects-absolute-pitch",
