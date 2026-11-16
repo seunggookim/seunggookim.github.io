@@ -262,10 +262,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-ohbm-symposium-on-sound-and-music-naturalistic-approaches-to-auditory-motor-and-affective-brain-dynamics-was-a-great-success-we-appreciate-all-speakers-and-attendees-for-their-contributions-to-the-symposium",
           title: 'Our OHBM symposium on “Sound and Music: Naturalistic Approaches to Auditory–Motor and Affective...',
           description: "",
-          section: "News",},{id: "news-the-interdisciplinary-workshop-on-affective-voice-perception-and-synthesis-avops-was-successfully-held-at-the-max-planck-institute-for-empirical-aesthetics-mpiea-in-frankfurt-am-main-dr-tirza-biron-from-the-weizmann-institute-of-science-prof-juhan-nam-prof-jieun-song-and-their-students-from-kaist-south-korea-joined-us-for-a-week-of-stimulating-discussions-and-collaborations",
-          title: 'The interdisciplinary workshop on Affective Voice Perception and Synthesis (AVoPS) was successfully held...',
+          section: "News",},{id: "news-avops-de-concluded-successfully",
+          title: 'AVoPS-DE concluded successfully!',
           description: "",
-          section: "News",},{id: "news-mr-augustin-bouquillard-has-successfully-completed-his-4-month-internship-in-our-group",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-24_avops-de/";
+            },},{id: "news-mr-augustin-bouquillard-has-successfully-completed-his-4-month-internship-in-our-group",
           title: 'Mr Augustin Bouquillard has successfully completed his 4-month internship in our group!',
           description: "",
           section: "News",handler: () => {
