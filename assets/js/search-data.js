@@ -259,10 +259,12 @@ ninja.data = [{
             },},{id: "news-we-ve-got-the-first-complete-eeg-dataset-for-one-subject-as-of-today-stay-tuned-for-more",
           title: 'We’ve got the first complete EEG+ dataset for one subject as of today!...',
           description: "",
-          section: "News",},{id: "news-our-ohbm-symposium-sound-and-music-naturalistic-approaches-to-auditory-motor-and-affective-brain-dynamics-was-a-great-success-many-thanks-to-all-the-speakers-and-attendees-for-their-contributions-to-the-symposium-and-especially-to-sarah-for-organising-it-all",
-          title: 'Our OHBM symposium, “Sound and Music: Naturalistic Approaches to Auditory–Motor and Affective Brain...',
+          section: "News",},{id: "news-our-ohbm-symposium-concluded-successfully",
+          title: 'Our OHBM symposium concluded successfully!',
           description: "",
-          section: "News",},{id: "news-avops-de-concluded-successfully",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-18_ohbm/";
+            },},{id: "news-avops-de-concluded-successfully",
           title: 'AVoPS-DE concluded successfully!',
           description: "",
           section: "News",handler: () => {
