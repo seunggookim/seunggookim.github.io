@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-art-of-cartography-the-flat-brain",
+        },{id: "post-the-flat-brain",
       
-        title: "The art of cartography: the Flat Brain!🫓",
+        title: "The Flat Brain!🫓",
       
       description: "Flattening cortical surfaces",
       section: "Posts",
