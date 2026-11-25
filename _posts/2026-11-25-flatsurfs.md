@@ -30,27 +30,57 @@ It has been well known that (i) the human cerebral cortex is highly convoluted a
 Thus, if you spend enough time looking at the brain, you may find yourself wanting to unfold the cortex and see its entire surface at a glance.
 This desire is nicely illustrated in the work of [Hubel and Wiesel (1972)](https://doi.org/10.1002/cne.901460402), who each received a quarter of the 1981 Nobel Prize in Physiology or Medicine "for their discoveries concerning information processing in the visual system" [[link](https://www.nobelprize.org/prizes/medicine/1981/summary/)]:
 
-| <img alt="onavg" src="/assets/img/blog/hubelwiesel.png" width="800px" data-zoomable> |
+| <img alt="HubelWiesel" src="/assets/img/blog/hubelwiesel.png" width="800px" data-zoomable> |
 | _Fig 1. A parasigittal section of a monkey's occipital lobe and the reconstructed (unfolded) layer IV c. [(Hubel and Wiesel, 1972)](https://doi.org/10.1002/cne.901460402)_ |
+<br>
 
 But I want to talk about David C. Van Essen (the mastermind behind the Human Connectome Project). There could be earlier papers presenting similar ideas, but [Van Essen's paper](https://doi.org/10.1002/cne.901910208) first proposed a whole-brain unfolding method in 1980:
 
-| <img alt="onavg" src="/assets/img/blog/vanessen1.png" width="590px" data-zoomable> |
+| <img alt="VanEssen1" src="/assets/img/blog/vanessen1.png" width="590px" data-zoomable> |
 | _Fig 2. How to unfold a macaque brain [(Van Essen et al., 1980)](https://doi.org/10.1002/cne.901910208)._ |
+<br>
 
 Now, this reminds me of a chef’s deboning technique, in which a whole chicken is turned into a flattened, boneless piece of meat. 👨‍🍳
 
 The year 1980 was pretty too early to computerise this idea. The state-of-art graphics can only support 512 pixel x 512 pixel x 8 bit in late 1970s. The first human head MRI was acquired by Siemens in 1980.
 So, 17 years later, [Van Essen & Drury](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997) finally published the flat maps of the human cortex:
-| <img alt="onavg" src="/assets/img/blog/vanessen2.png" width="600px" data-zoomable> |
-| <img alt="onavg" src="/assets/img/blog/vanessen3.png" width="600px" data-zoomable> |
-| _Fig 3. Flat maps of the human cortex [(Van Essen & Drury, 1980)](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997)._ |
 
-Thess flat maps showed up again in Glasser's HCP multi-modal parcellation (HCP*MMP1.0):
-| <img alt="onavg" src="/assets/img/blog/glasser.webp" width="600px" data-zoomable> |
-| \_Fig 4. XXX.* |
+<img alt="VanEssen2" src="/assets/img/blog/vanessen2.png" width="600px" data-zoomable>
+
+<img alt="VanEssen3" src="/assets/img/blog/vanessen3.png" width="600px" data-zoomable>
+
+_Fig 3. Flat maps of the human cortex [(Van Essen & Drury, 1980)](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997)._
+<br>
+
+These flat maps showed up again in Glasser's HCP multi-modal parcellation (HCP*MMP1.0):
+| <img alt="Glasser" src="/assets/img/blog/glasser.webp" width="600px" data-zoomable> |
+| \_Fig 4. XXX.*\_ |
 
 ## Gallant's flatmap
+
+However, except among a few Flat Brain enthusiasts, flat maps have not been widely used. More common visualisations to this day are still 2D slice montages and multi-view representations of inflated brains (first FreeSurfer's inflated surfaces, then fs_LR's less inflated surfaces).
+
+Then, unexpectedly, I encountered a new flat map in a very narrow field of cognitive neuroscience called "naturalistic neuroimaging". [PyCortex](https://gallantlab.org/pycortex/index.html) was developed in Jack Gallant's lab. Then it seems that it has attracted less-neuroscience-more-datascience researchers, possibly due to the fact that this scheme renders each data point only once (unlike the multi-view display):
+
+| <img alt="pycortex" src="/assets/img/blog/pycortex.png" width="600px" data-zoomable> |
+| _Fig 5. XXX.\*_ |
+<br>
+
+Why though? 🤔 Do these people get excited by the geodesic proximity? Also, don't they get bothered by the visual-centric view of this map?
+
+## ONVAG flatmap
+
+<!-- > "The brain is flat and it's surrounded by the ice wall!" (says nobody) -->
+
+So I created an auditory-centric flat map using the ONAVG (OpenNeuro-Average) template surfaces:
+
+| <img alt="pycortex" src="/assets/img/blog/onavgflat-164k-hcpmmp1" width="800px" data-zoomable> |
+| _Fig 5. XXX.\*_ |
+<br>
+
+As you can see, the path on the left is the right hemisphere, and vice versa. I'm still thinking what to do with the left/right. Because this or rotating 180 degrees, then you have the left hemisphere on the left, but then it's upside down. Another option is to mirror the whole thing as if you are looking from the inside, not outside. I mean, I can imagine rolling back the flattened patches over my head from the centre (like wearing a Mission-Impossible-style mask). But wel... I don't know.
+
+If you're interested, you can download the flat maps (`.gii`) from here (version 2): <https://doi.org/10.5281/zenodo.24243148>
 
 <!--
 ## onavg
