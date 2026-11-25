@@ -89,7 +89,7 @@ But still I wonder if/why data scientists think this visualisation is a cool ide
 
 So I created an auditory-centric flat map using the ONAVG (OpenNeuro-Average) template surfaces:
 
-<img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1" width="800px" data-zoomable>
+<img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1.png" width="800px" data-zoomable>
 
 _Fig 6. Flattened onavg surfaces overlaid with coloured contours of HPC-MMP1 regions._
 
