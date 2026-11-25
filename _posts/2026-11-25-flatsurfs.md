@@ -30,24 +30,24 @@ It has been well known that (i) the human cerebral cortex is highly convoluted a
 Thus, if you spend enough time looking at the brain, you may find yourself wanting to unfold the cortex and see its entire surface at a glance.
 This desire is nicely illustrated in the work of [Hubel and Wiesel (1972)](https://doi.org/10.1002/cne.901460402), who each received a quarter of the 1981 Nobel Prize in Physiology or Medicine "for their discoveries concerning information processing in the visual system" [[link](https://www.nobelprize.org/prizes/medicine/1981/summary/)]:
 
-| <img alt="onavg" src="/assets/img/blog/2026-11-25-flatsurfs/hubelwiesel.png" width="800px" data-zoomable> |
+| <img alt="onavg" src="/assets/img/blog/hubelwiesel.png" width="800px" data-zoomable> |
 | _Fig 1. A parasigittal section of a monkey's occipital lobe and the reconstructed (unfolded) layer IV c. [(Hubel and Wiesel, 1972)](https://doi.org/10.1002/cne.901460402)_ |
 
 But I want to talk about David C. Van Essen (the mastermind behind the Human Connectome Project). There could be earlier papers presenting similar ideas, but [Van Essen's paper](https://doi.org/10.1002/cne.901910208) first proposed a whole-brain unfolding method in 1980:
 
-| <img alt="onavg" src="/assets/img/blog/2026-11-25-flatsurfs/vanessen1.png" width="590px" data-zoomable> |
+| <img alt="onavg" src="/assets/img/blog/vanessen1.png" width="590px" data-zoomable> |
 | _Fig 2. How to unfold a macaque brain [(Van Essen et al., 1980)](https://doi.org/10.1002/cne.901910208)._ |
 
 Now, this reminds me of a chef’s deboning technique, in which a whole chicken is turned into a flattened, boneless piece of meat. 👨‍🍳
 
 The year 1980 was pretty too early to computerise this idea. The state-of-art graphics can only support 512 pixel x 512 pixel x 8 bit in late 1970s. The first human head MRI was acquired by Siemens in 1980.
 So, 17 years later, [Van Essen & Drury](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997) finally published the flat maps of the human cortex:
-| <img alt="onavg" src="2026-11-25-flatsurfs/vanessen2.png" width="600px" data-zoomable> |
-| <img alt="onavg" src="2026-11-25-flatsurfs/vanessen3.png" width="600px" data-zoomable> |
+| <img alt="onavg" src="/assets/img/blog/vanessen2.png" width="600px" data-zoomable> |
+| <img alt="onavg" src="/assets/img/blog/vanessen3.png" width="600px" data-zoomable> |
 | _Fig 3. Flat maps of the human cortex [(Van Essen & Drury, 1980)](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997)._ |
 
 Thess flat maps showed up again in Glasser's HCP multi-modal parcellation (HCP*MMP1.0):
-| <img alt="onavg" src="2026-11-25-flatsurfs/2026-11-25-flatsurfs/glasser.webp" width="600px" data-zoomable> |
+| <img alt="onavg" src="/assets/img/blog/glasser.webp" width="600px" data-zoomable> |
 | \_Fig 4. XXX.* |
 
 ## Gallant's flatmap
