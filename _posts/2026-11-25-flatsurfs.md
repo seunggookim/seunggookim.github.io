@@ -79,7 +79,7 @@ _Fig 5. Example of PyCortex visualisation (<https://gallantlab.org/pycortex/>)._
 
 Even people who don't know about Van Essen's flat maps use Gallant's flat maps, which I find very interesting!
 Of course, the idea of peeling something cannot in itself be so original (monkeys know how to peel oranges!).
-Perhaps Van Essen himself got the idea from Japanese Origami. Or maybe at a butcher's shop. Or maybe from a TV cooking show.
+Perhaps Van Essen himself got the idea from Japanese Origami. Or maybe at a butcher's shop. Or maybe from a TV cooking show. Or maybe from animal skinning techniques.
 And the [Pycortex paper](https://doi.org/10.3389/fninf.2015.00023) explicitly acknowledges existing visualisation software (including Van Essen's Caret) and attributes its advances to the integration of Python and WebGL.
 
 But still I wonder if (and why) data scientists think this visualisation is a cool idea. 🤔 Do they get excited about the preservation of geodesic proximity and functional relevance? Also, aren't they bothered by the visual-centric view of this map? 😈
