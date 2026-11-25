@@ -95,31 +95,12 @@ _Fig 6. Flattened onavg surfaces (164k) overlaid with coloured contours of HPC-M
 
 <br>
 
-As you can see, the path on the left is the right hemisphere, and vice versa. I'm still thinking what to do with the left/right. Because this or rotating 180 degrees, then you have the left hemisphere on the left, but then it's upside down. Another option is to mirror the whole thing as if you are looking from the inside, not outside. I mean, I can imagine rolling back the flattened patches over my head from the centre (like wearing a Mission-Impossible-style mask). But wel... I don't know.
+As you can see, the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back over my head from the centre (like wearing a Mission-Impossible-style mask). But well... I don't know.
 
 If you're interested, you can download the flat maps (`.gii`) from here (version 2): <https://doi.org/10.5281/zenodo.24243148>
-
-<!--
-## onavg
-
-**How was it created?** This template was created by averaging a large-scale anatomical dataset (N = 1,031) publicly available through the [OpenNeuro](https://openneuro.org/) platform (_OpenNeuro Average_, `onavg`; [Feilong et al., 2024, Nature Methods](https://doi.org/10.1038/s41592-024-02346-y)). The participants were approximately gender-balanced (471 females, 408 males, 2 non-binary individuals, and 150 with unknown gender). The mean age ± standard deviation was 28.42 ± 14.57 years, with an age range of 8–81 years.
-According to the paper, this template has more uniform mesh triangulation than `fsaverage`, whose triangulation distortion is well known because the FreeSurfer surface mesh is derived from a subdivided icosahedron fitted to a sphere (see [my previous post](https://seunggookim.github.io/blog/2025/surf/)). In other words, FreeSurfer's triangles are nearly uniform on a sphere, but they become distorted as the mesh is deformed to fit the white or grey matter boundary. Therefore, a cortical surface mesh with more uniform triangulation may be preferable for analyses involving local neighbourhoods (e.g., searchlight analysis).
-
-**Where can you find it?** See the authors' project project page: <https://feilong.github.io/tpl-onavg/>. On the TemplateFlow, the authors have uploaded only the spherical surfaces for registration (including an ultra-high-resolution sphere with ~655k vertices, like ~0.5 mm edges?).
-
-| <img alt="onavg" src="/assets/img/blog/surf-mni152_onavg164k.png" width="500px" data-zoomable> |
-| _Fig 5. CVS-AVG35 curvature mapped onto `onavg-164k_inflated`._ |
-
-| <img alt="onavg" src="/assets/img/blog/mesh-fsavg-fslr-onavg.png" width="800px" data-zoomable> |
-| _Fig 6. Wireframes of `fsaverage5-10k_midthickness` (left), `fs_LR-10k_midthickness` (middle) and `onavge-10k_midthickness` (right)._ |
-
-| <img alt="onavg" src="/assets/img/blog/surf-fsavg-fslr-onavg.png" width="800px" data-zoomable> |
-| _Fig 7. X-coordinates of `fsaverage-164k_midthickness` (left), `fs_LR-32k_midthickness` (middle) and `onavge-164k_midthickness` (right)._ |
-
-<br>
 
 ## Related posts
 
 [Surfing LEA 🏄‍♀️👧](https://seunggookim.github.io/blog/2025/surf/)
 
-Flatland (TBD) -->
+[Lots of surfs 🏄‍♀️🏄‍♂️🏄](https://seunggookim.github.io/blog/2026/surfs/)
