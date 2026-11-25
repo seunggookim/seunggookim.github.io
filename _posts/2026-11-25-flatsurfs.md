@@ -78,10 +78,11 @@ _Fig 5. Example of PyCortex visualisation (<https://gallantlab.org/pycortex/>)._
 <br>
 
 Even people who don't know about Van Essen's flat maps use Gallant's flat maps, which I find very interesting!
-Of course, the idea of peeling something cannot in itself be too novel (monkeys know how to peel oranges!).
-And the [Pycortex paper](https://doi.org/10.3389/fninf.2015.00023) explicitly acknowledges existing visualisation software and attributes its advances to the integration of Python and WebGL.
+Of course, the idea of peeling something cannot in itself be so original (monkeys know how to peel oranges!).
+Perhaps Van Essen himself got the idea from Japanese Origami. Or maybe at a butcher's shop. Or maybe from a TV cooking show.
+And the [Pycortex paper](https://doi.org/10.3389/fninf.2015.00023) explicitly acknowledges existing visualisation software (including Van Essen's Caret) and attributes its advances to the integration of Python and WebGL.
 
-But still I wonder if/why data scientists think this visualisation is a cool idea. 🤔 Do these people get excited by the geodesic proximity? Also, don't they get bothered by the visual-centric view of this map? 😈
+But still I wonder if (and why) data scientists think this visualisation is a cool idea. 🤔 Do they get excited about the preservation of geodesic proximity and functional relevance? Also, aren't they bothered by the visual-centric view of this map? 😈
 
 ## Onavg flatmap
 
@@ -95,7 +96,7 @@ _Fig 6. Flattened onavg surfaces (164k) overlaid with coloured contours of HPC-M
 
 <br>
 
-As you can see, the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back over my head from the centre (like wearing a Mission-Impossible-style mask). But well... I don't know.
+As you can see, the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back up over my head while standing between the surfaces (like wearing a Mission-Impossible-style mask). But well... I don't know.
 
 If you're interested, you can download the flat maps (`.gii`) from here (version 2): <https://doi.org/10.5281/zenodo.24243148>
 
