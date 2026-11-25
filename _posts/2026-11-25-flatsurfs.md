@@ -83,15 +83,15 @@ And the [Pycortex paper](https://doi.org/10.3389/fninf.2015.00023) explicitly ac
 
 But still I wonder if/why data scientists think this visualisation is a cool idea. 🤔 Do these people get excited by the geodesic proximity? Also, don't they get bothered by the visual-centric view of this map? 😈
 
-## ONVAG flatmap
+## Onavg flatmap
 
 > "The brain is flat and it's surrounded by the ice wall!" (says nobody)
 
-So I created an auditory-centric flat map using the ONAVG (OpenNeuro-Average) template surfaces:
+So, I created an auditory-centric flat map using the onavg (OpenNeuro Average) template surfaces:
 
 <img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1.png" width="800px" data-zoomable>
 
-_Fig 6. Flattened onavg surfaces overlaid with coloured contours of HPC-MMP1 regions._
+_Fig 6. Flattened onavg surfaces (164k) overlaid with coloured contours of HPC-MMP1 regions (RED=auditory, GREEN=sensory/motor, BLUE=visual, WHITE=task positive, BLACK=task negative)._
 
 <br>
 
