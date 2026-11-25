@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "The art of cartography: the Flat Brain!🫓"
+title: The Flat Brain!🫓
 description: Flattening cortical surfaces
 importance: 2
 tags: brain nerd
@@ -25,9 +25,10 @@ Even with holographic displays or binocular goggles, we cannot perceive the full
 
 ## Van Essen's flatmap
 
-<!-- I'm sure there must have been other people who thought about this before, but [Van Essen's 1980 paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.901910208) should be old enough to start the story.  -->
+It has been well known that (i) the human cerebral cortex is highly convoluted and folded, and (ii) the cortex is organised in such a way that adjacent cortical regions along the curved surface tend to serve similar functions (i.e., geodesic proximity is associated with functional similarity). The former must have been known from the very early human history because you can see this when you open the skull. The latter became common knowledge through early electrical stimulation and lesion experiments in Germany in the late 1800s (e.g., by Gustav Fritsch, Eduard Hitzig, and Hermann Munk).
 
-Neuroanatomists' urge to unfold the cortex is well demonstrated in the work of [Hubel and Wiesel (1972)](https://doi.org/10.1002/cne.901460402), who each received a quarter of the 1981 Nobel Prize in Physiology or Medicine "for their discoveries concerning information processing in the visual system" [[link](https://www.nobelprize.org/prizes/medicine/1981/summary/)]:
+Thus, if you spend enough time looking at the brain, you may find yourself wanting to unfold the cortex and see its entire surface at a glance.
+This desire is nicely illustrated in the work of [Hubel and Wiesel (1972)](https://doi.org/10.1002/cne.901460402), who each received a quarter of the 1981 Nobel Prize in Physiology or Medicine "for their discoveries concerning information processing in the visual system" [[link](https://www.nobelprize.org/prizes/medicine/1981/summary/)]:
 
 | <img alt="onavg" src="/assets/img/blog/2026-11-25-flatsurfs/hubelwiesel.png" width="800px" data-zoomable> |
 | _Fig 1. A parasigittal section of a monkey's occipital lobe and the reconstructed (unfolded) layer IV c. [(Hubel and Wiesel, 1972)](https://doi.org/10.1002/cne.901460402)_ |
