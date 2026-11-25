@@ -86,15 +86,17 @@ But still I wonder if (and why) data scientists think this visualisation is a co
 
 ## Onavg flatmap
 
-> "The brain is flat and it's surrounded by the ice wall!" (says nobody)
+> "The brain is flat, and it's surrounded by an ice wall!" (says no one)
 
 So, I created an auditory-centric flat map using the onavg (OpenNeuro Average) template surfaces:
 
 <img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1.png" width="800px" data-zoomable>
 
-_Fig 6. Flattened onavg surfaces (164k) overlaid with coloured contours of HPC-MMP1 regions (RED=auditory, GREEN=sensory/motor, BLUE=visual, WHITE=task positive, BLACK=task negative)._
+_Fig 6. Flattened onavg surfaces (164k vertices per hemisphere) overlaid with coloured contours of HPC-MMP1 regions (RED=auditory, GREEN=sensory/motor, BLUE=visual, WHITE=task positive, BLACK=task negative)._
 
 <br>
+
+It's just Van Essen's flat maps (<https://balsa.wustl.edu/reference/pkXDZ>) applied to the onavg surfaces and rotated so that the frontotemporal areas are placed in the middle of the figure.
 
 As you can see, the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back up over my head while standing between the surfaces (like wearing a Mission-Impossible-style mask). But well... I don't know.
 
