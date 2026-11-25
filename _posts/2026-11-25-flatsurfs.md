@@ -28,16 +28,20 @@ Even with holographic displays or binocular goggles, we cannot perceive the full
 It has been well known that (i) the human cerebral cortex is highly convoluted and folded, and (ii) the cortex is organised in such a way that adjacent cortical regions along the curved surface tend to serve similar functions (i.e., geodesic proximity is associated with functional similarity). The former must have been known from the very early human history because you can see this when you open the skull. The latter became common knowledge through early electrical stimulation and lesion experiments in Germany in the late 1800s (e.g., by Gustav Fritsch, Eduard Hitzig, and Hermann Munk).
 
 Thus, if you spend enough time looking at the brain, you may find yourself wanting to unfold the cortex and see its entire surface at a glance.
-This desire is nicely illustrated in the work of [Hubel and Wiesel (1972)](https://doi.org/10.1002/cne.901460402), who each received a quarter of the 1981 Nobel Prize in Physiology or Medicine "for their discoveries concerning information processing in the visual system" [[link](https://www.nobelprize.org/prizes/medicine/1981/summary/)]:
+This desire is nicely illustrated in the work of [Hubel and Wiesel (1972)](https://doi.org/10.1002/cne.901460402), who each received a quarter of [the 1981 Nobel Prize in Physiology or Medicine](https://www.nobelprize.org/prizes/medicine/1981/summary/) "for their discoveries concerning information processing in the visual system":
 
-| <img alt="HubelWiesel" src="/assets/img/blog/hubelwiesel.png" width="700px" data-zoomable> |
-| _Fig 1. A parasigittal section of a monkey's occipital lobe and the reconstructed (unfolded) layer IV c. [(Hubel and Wiesel, 1972)](https://doi.org/10.1002/cne.901460402)_ |
+<img alt="HubelWiesel" src="/assets/img/blog/hubelwiesel.png" width="700px" data-zoomable>
+
+_Fig 1. A parasigittal section of a monkey's occipital lobe and the reconstructed (unfolded) layer IV c. ([Hubel and Wiesel, 1972](https://doi.org/10.1002/cne.901460402))_
+
 <br>
 
 But I want to talk about David C. Van Essen (the mastermind behind the Human Connectome Project). There could be earlier papers presenting similar ideas, but [Van Essen's paper](https://doi.org/10.1002/cne.901910208) first proposed a whole-brain unfolding method in 1980:
 
-| <img alt="VanEssen1" src="/assets/img/blog/vanessen1.png" width="590px" data-zoomable> |
-| _Fig 2. How to unfold a macaque brain [(Van Essen et al., 1980)](https://doi.org/10.1002/cne.901910208)._ |
+<img alt="VanEssen1" src="/assets/img/blog/vanessen1.png" width="590px" data-zoomable>
+
+_Fig 2. How to unfold a macaque brain ([Van Essen et al., 1980](https://doi.org/10.1002/cne.901910208))._
+
 <br>
 
 Now, this reminds me of a chef’s deboning technique, in which a whole chicken is turned into a flattened, boneless piece of meat. 👨‍🍳
@@ -49,12 +53,16 @@ So, 17 years later, [Van Essen & Drury](https://doi.org/10.1523/JNEUROSCI.17-18-
 
 <img alt="VanEssen3" src="/assets/img/blog/vanessen3.png" width="600px" data-zoomable>
 
-_Fig 3. Flat maps of the human cortex [(Van Essen & Drury, 1980)](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997)._
+_Fig 3. Flat maps of the human cortex ([Van Essen & Drury, 1980](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997))._
+
 <br>
 
 These flat maps made another appearance in Glasser's Human Connectome Project Multi-modal parcellation (HCP-MMP1.0):
-| <img alt="Glasser" src="/assets/img/blog/glasser.webp" width="600px" data-zoomable> |
-| _Fig 4. HPC-MMP1 visualisation [Glasser et al., 2016](https://doi.org/10.1038/nature18933)._ |
+
+<img alt="Glasser" src="/assets/img/blog/glasser.webp" width="600px" data-zoomable>
+
+_Fig 4. HPC-MMP1 visualisation ([Glasser et al., 2016](https://doi.org/10.1038/nature18933))._
+
 <br>
 
 ## Gallant's flatmap
@@ -63,8 +71,10 @@ However, except among a few Flat Brain enthusiasts, flat maps have not been wide
 
 Then, unexpectedly, I encountered a new flat map in a very narrow field of cognitive neuroscience called "naturalistic neuroimaging". [PyCortex](https://gallantlab.org/pycortex/index.html) was developed in Jack Gallant's lab. Then it seems that it has attracted less-neuroscience-more-datascience researchers, possibly due to the fact that this scheme renders each data point only once (unlike the multi-view display):
 
-| <img alt="pycortex" src="/assets/img/blog/pycortex.png" width="600px" data-zoomable> |
-| _Fig 5. Example of PyCortex visualisation. <https://gallantlab.org/pycortex/>_ |
+<img alt="pycortex" src="/assets/img/blog/pycortex.png" width="600px" data-zoomable>
+
+_Fig 5. Example of PyCortex visualisation (<https://gallantlab.org/pycortex/>)._
+
 <br>
 
 Even people who don't know about Van Essen's flat maps use Gallant's flat maps, which I find very interesting!
@@ -79,8 +89,10 @@ But still I wonder if/why data scientists think this visualisation is a cool ide
 
 So I created an auditory-centric flat map using the ONAVG (OpenNeuro-Average) template surfaces:
 
-| <img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1" width="800px" data-zoomable> |
-| _Fig 6. Flattened onavg surfaces overlaid with coloured contours of HPC-MMP1 regions._ |
+<img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1" width="800px" data-zoomable>
+
+_Fig 6. Flattened onavg surfaces overlaid with coloured contours of HPC-MMP1 regions._
+
 <br>
 
 As you can see, the path on the left is the right hemisphere, and vice versa. I'm still thinking what to do with the left/right. Because this or rotating 180 degrees, then you have the left hemisphere on the left, but then it's upside down. Another option is to mirror the whole thing as if you are looking from the inside, not outside. I mean, I can imagine rolling back the flattened patches over my head from the centre (like wearing a Mission-Impossible-style mask). But wel... I don't know.
