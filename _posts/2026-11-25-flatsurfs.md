@@ -90,9 +90,11 @@ But still I wonder if (and why) data scientists think this visualisation is a co
 
 So, I created an auditory-centric flat map using the onavg (OpenNeuro Average) template surfaces:
 
-<img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1.png" width="800px" data-zoomable>
+<img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1.png" width="600px" data-zoomable>
 
-_Fig 6. Sulcal depth projected on the flattened onavg surfaces (164k vertices per hemisphere) overlaid with coloured contours of HPC-MMP1 regions (RED=auditory, GREEN=sensory/motor, BLUE=visual, WHITE=task positive, BLACK=task negative)._
+<img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-zcoord.png" width="600px" data-zoomable>
+
+_Fig 6. (Top) Sulcal depth projected on the flattened onavg surfaces (164k vertices per hemisphere) overlaid with coloured contours of HPC-MMP1 regions (RED=auditory, GREEN=sensory/motor, BLUE=visual, WHITE=task positive, BLACK=task negative). (Bottom) Z-coordinates (inferior-to-superior) of the white surfaces projected, with zero-curvature contours._
 
 <br>
 
