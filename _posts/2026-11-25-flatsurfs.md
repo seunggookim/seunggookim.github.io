@@ -15,8 +15,8 @@ As promised, here is some more yapping about map-making (cartography). While I h
 
 ["Flatland: A Romance of Many Dimensions"](https://en.wikipedia.org/wiki/Flatland) is a short novel published in 1884 in London about geometric figures living in a 2D world 'Flatland'.
 Its protagonist, the Square, dreams of the one-dimensional world 'Lineland' and later visits the three-dimensional world 'Spaceland'.
-He is eventually imprisoned for preaching the existence of a third dimension.
-I first came across the book through a reference in the article ["The Flatland Fallacy"](https://doi.org/10.1111/tops.12404).
+He (yes, in Flatland, men are polygons and women are line segments) is eventually imprisoned for preaching the existence of a third dimension.
+I first came across the book through a reference in this inspiring article ["The Flatland Fallacy: Moving Beyond Low–Dimensional Thinking"](https://doi.org/10.1111/tops.12404).
 Although I still haven’t read it, I always think of this book when thinking about data visualisation.
 
 Because how our eyes relay on the 2D projection of lights reflected from 3D objects on our retinas, we cannot perceive a 3D object itself from one static view point, but have to reconstruct it based on depth cues (occlusion, binocular disparity, focus), movement, rotation, lighting and so on.
