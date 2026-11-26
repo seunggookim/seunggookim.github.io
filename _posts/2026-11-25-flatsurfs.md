@@ -100,7 +100,7 @@ _Fig 6. (Top) Sulcal depth projected on the flattened onavg surfaces (164k verti
 
 It's just Van Essen's flat maps (<https://balsa.wustl.edu/reference/pkXDZ>) applied to the onavg surfaces and rotated so that the frontotemporal areas are placed in the middle of the figure.
 
-As you can see, the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back up over my head while standing between the surfaces (like wearing a Mission-Impossible-style mask). But well... I don't know.
+If you're one of the Flat Map enthusiasts, you would have noticed that the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing to many. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back up over my head while standing between the surfaces (like wearing a Mission-Impossible-style mask). But well... I don't know.
 
 If you're interested, you can download the flat maps (`.gii`) from here (version 2): <https://doi.org/10.5281/zenodo.24243148>
 
