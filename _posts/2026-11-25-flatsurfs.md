@@ -67,7 +67,7 @@ _Fig 4. HPC-MMP1 visualisation ([Glasser et al., 2016](https://doi.org/10.1038/n
 
 ## Gallant's flatmap
 
-However, except among a few Flat Brain enthusiasts, flat maps have not been widely used. More common visualisations to this day are still 2D slice montages and multi-view representations of inflated brains (first FreeSurfer's inflated surfaces, then fs_LR's less inflated surfaces).
+However, except among a few Flat Brain enthusiasts, flat maps have not been widely used. More common visualisations to this day are still 2D slice montages and multi-view rendering of the 3D models of inflated brains (first FreeSurfer's inflated surfaces, then fs_LR's less-inflated surfaces).
 
 Then, unexpectedly, I encountered a new flat map in a very narrow field of cognitive neuroscience called "naturalistic neuroimaging". [Pycortex](https://gallantlab.org/pycortex/index.html) was developed in Jack Gallant's lab. Then it seems that it has attracted less-neuroscience-more-datascience researchers, possibly due to the fact that this scheme renders each data point only once (unlike the multi-view display):
 
