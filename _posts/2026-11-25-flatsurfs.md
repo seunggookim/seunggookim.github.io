@@ -80,7 +80,7 @@ _Fig 5. Example of PyCortex visualisation (<https://gallantlab.org/pycortex/>)._
 Even people who don't know about Van Essen's flat maps use Gallant's flat maps, which I find very interesting!
 Of course, the idea of peeling something cannot in itself be so original (monkeys know how to peel oranges!).
 Perhaps Van Essen himself got the idea from Japanese Origami. Or maybe at a butcher's shop. Or maybe from a TV cooking show. Or maybe from animal skinning techniques.
-And their paper ([Gao et al., 2015](https://doi.org/10.3389/fninf.2015.00023)) explicitly acknowledges existing visualisation software (including Van Essen's CARET) and attributes its advances to the integration of Python and WebGL.
+And the Pycortex paper ([Gao et al., 2015](https://doi.org/10.3389/fninf.2015.00023)) explicitly acknowledges existing visualisation software (including Van Essen's CARET) and attributes its advances to the integration of Python and WebGL.
 
 But still I wonder if (and why) data scientists think this visualisation is a cool idea. 🤔 Do they get excited about the preservation of geodesic proximity and functional relevance? Also, aren't they bothered by the visual-centric view of this map? 😈
 
@@ -92,7 +92,7 @@ So, I created an auditory-centric flat map using the onavg (OpenNeuro Average) t
 
 <img alt="onvag-flat" src="/assets/img/blog/onavgflat-164k-hcpmmp1.png" width="800px" data-zoomable>
 
-_Fig 6. Flattened onavg surfaces (164k vertices per hemisphere) overlaid with coloured contours of HPC-MMP1 regions (RED=auditory, GREEN=sensory/motor, BLUE=visual, WHITE=task positive, BLACK=task negative)._
+_Fig 6. Sulcal depth projected on the flattened onavg surfaces (164k vertices per hemisphere) overlaid with coloured contours of HPC-MMP1 regions (RED=auditory, GREEN=sensory/motor, BLUE=visual, WHITE=task positive, BLACK=task negative)._
 
 <br>
 
