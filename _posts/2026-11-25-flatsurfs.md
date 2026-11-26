@@ -9,7 +9,7 @@ related_publication: true
 related_posts: true
 ---
 
-As promised, here is some more yapping about map-making (cartography). While I have no training in visual design or cartography, I heard that graphic design is about making deliberate choices for specific purposes, because there is no such a thing as "faithful" visualisation. There are only choices and purposes. Mathematically, you cannot flatten a spherical surface into a 2D map without geometric distortion (such as stretching or compression) and/or making cuts to open up the surface, which changes the topology. So, we have to choose which distortions and cuts best serve our purpose.
+As promised, here is some more yapping about map-making (cartography). While I have no training in visual design or cartography, I heard that graphic design is about making deliberate choices for specific purposes, because there is no such a thing as "faithful" visualisation. There are only choices and purposes. Mathematically, you cannot flatten a spherical surface into a 2D map without geometric distortion (such as stretching or compression) and/or topological distortion (making cuts to open up the surface). So, we have to choose which distortions and cuts best serve our purpose.
 
 ## Flatland
 
@@ -19,7 +19,7 @@ He is eventually imprisoned for preaching the existence of a third dimension.
 I first came across the book through a reference in the article ["The Flatland Fallacy"](https://doi.org/10.1111/tops.12404).
 Although I still haven’t read it, I always think of this book when thinking about data visualisation.
 
-Because how our eyes relay on the 2D projection of lights reflected from 3D objects on our retinas, we cannot perceive a 3D view itself from one view point but have to reconstruct based on depth cues (occlusion, binocular disparity), focus, movement, rotation, lighting and so on.
+Because how our eyes relay on the 2D projection of lights reflected from 3D objects on our retinas, we cannot perceive a 3D object itself from one static view point, but have to reconstruct it based on depth cues (occlusion, binocular disparity, focus), movement, rotation, lighting and so on.
 Our display media are still mainly two-dimensional (flat or curved displays or paper).
 Even with holographic displays or binocular goggles, we cannot perceive the full 3D structure of an object from a single static viewpoint. Thus, the visualisation of higher-dimensional data requires various tricks, each of which comes with its own costs.
 
