@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: post
 title: The Flat Brain!🫓
 description: Flattening cortical surfaces
 importance: 2
 tags: brain nerd
 giscus_comments: true
-related_publication: true
-related_posts: true
-related_post: true
+related_publications: true
 ---
 
 As promised, here is some more yapping about map-making (cartography). While I have no training in visual design or cartography, I heard that graphic design is about making deliberate choices for specific purposes, because there is no such a thing as "faithful" visualisation. There are only choices and purposes. Mathematically, you cannot flatten a spherical surface into a 2D map without geometric distortion (such as stretching or compression) and/or topological distortion (making cuts to open up the surface). So, we have to choose which distortions and cuts best serve our purpose.
@@ -103,12 +101,14 @@ It's just Van Essen's flat maps (<https://balsa.wustl.edu/reference/pkXDZ>) appl
 
 If you're one of the Flat Brain enthusiasts, you would have noticed that the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing to many. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back up over my head while standing between the surfaces (like wearing a Mission-Impossible-style mask). But well... I don't know.
 
-Anyway, the familiar HG/STG patch (with the horizontal STGs and tilted HGs) from [Humphries et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.01.046), which I also used in [Kim et al. (2022)](https://doi.org/10.1016/j.neuroimage.2022.118879), feels like home to me! 🤗
+Anyway, the familiar HG/STG patch (with the horizontal STGs and tilted HGs) from [Humphries et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.01.046), which I also used in {% cite kim2022ni %}, feels like home to me! 🤗
+
+<!-- Anyway, the familiar HG/STG patch (with the horizontal STGs and tilted HGs) from [Humphries et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.01.046), which I also used in [Kim et al. (2022)](https://doi.org/10.1016/j.neuroimage.2022.118879), feels like home to me! 🤗 -->
 
 If you're interested, you can download the flat maps (`.gii`) from here (version 2): <https://doi.org/10.5281/zenodo.24243148>
 
-## Related posts
+<!-- ## Related posts
 
 [Surfing LEA 🏄‍♀️👧](https://seunggookim.github.io/blog/2025/surf/)
 
-[Lots of surfs 🏄‍♀️🏄‍♂️🏄](https://seunggookim.github.io/blog/2026/surfs/)
+[Lots of surfs 🏄‍♀️🏄‍♂️🏄](https://seunggookim.github.io/blog/2026/surfs/) -->

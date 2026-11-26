@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: post
 title: singularity—the future is wow ✨
 description: after using Claude Code for one month
 importance: 2
 tags: nerd code
 giscus_comments: true
-related_publication: false
+related_publications: false
 ---
 
 > _“There are only two hard things in computer programming: cache invalidation and naming things.”_ (Phil Karlton — one of the architects of the original Netscape Navigator browser, 1996)
