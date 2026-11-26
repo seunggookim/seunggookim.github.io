@@ -7,6 +7,7 @@ tags: brain nerd
 giscus_comments: true
 related_publication: true
 related_posts: true
+related_post: true
 ---
 
 As promised, here is some more yapping about map-making (cartography). While I have no training in visual design or cartography, I heard that graphic design is about making deliberate choices for specific purposes, because there is no such a thing as "faithful" visualisation. There are only choices and purposes. Mathematically, you cannot flatten a spherical surface into a 2D map without geometric distortion (such as stretching or compression) and/or topological distortion (making cuts to open up the surface). So, we have to choose which distortions and cuts best serve our purpose.
