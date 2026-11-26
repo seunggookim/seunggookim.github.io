@@ -101,14 +101,6 @@ It's just Van Essen's flat maps (<https://balsa.wustl.edu/reference/pkXDZ>) appl
 
 If you're one of the Flat Brain enthusiasts, you would have noticed that the patch on the left is the right hemisphere, and vice versa, which could be potentially confusing to many. So, I'm still thinking about what to do with the left/right arrangement. It's either this or rotating the whole thing by 180 degrees, so that you have the left hemisphere on the left, but then it's upside down (e.g., the STG is below the MTG). Another option is to mirror the whole thing as if you were looking from the inside rather than the outside. I mean, I can imagine rolling the flattened patches back up over my head while standing between the surfaces (like wearing a Mission-Impossible-style mask). But well... I don't know.
 
-Anyway, the familiar HG/STG patch (with the horizontal STGs and tilted HGs) from [Humphries et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.01.046), which I also used in {% cite kim2022ni %}, feels like home to me! 🤗
-
-<!-- Anyway, the familiar HG/STG patch (with the horizontal STGs and tilted HGs) from [Humphries et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.01.046), which I also used in [Kim et al. (2022)](https://doi.org/10.1016/j.neuroimage.2022.118879), feels like home to me! 🤗 -->
+Anyway, the familiar HG/STG patch in the "correct" orientation (the horizontal STG and the tilted HG) from [Humphries et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.01.046), which I also used in {% cite kim2022ni %}, feels like home to me! 🤗
 
 If you're interested, you can download the flat maps (`.gii`) from here (version 2): <https://doi.org/10.5281/zenodo.24243148>
-
-<!-- ## Related posts
-
-[Surfing LEA 🏄‍♀️👧](https://seunggookim.github.io/blog/2025/surf/)
-
-[Lots of surfs 🏄‍♀️🏄‍♂️🏄](https://seunggookim.github.io/blog/2026/surfs/) -->
