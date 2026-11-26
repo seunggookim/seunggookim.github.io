@@ -36,7 +36,7 @@ _Fig 1. A parasigittal section of a monkey's occipital lobe and the reconstructe
 
 <br>
 
-But I want to talk about David C. Van Essen (the mastermind behind the Human Connectome Project). There could be earlier papers presenting similar ideas, but [Van Essen's paper](https://doi.org/10.1002/cne.901910208) first proposed a whole-brain unfolding method in 1980:
+But I want to talk about David C. Van Essen (the mastermind behind the Human Connectome Project). There could be earlier literature presenting similar ideas, but [Van Essen et al. (1980)](https://doi.org/10.1002/cne.901910208) first proposed a whole-brain unfolding method in 1980:
 
 <img alt="VanEssen1" src="/assets/img/blog/vanessen1.png" width="590px" data-zoomable>
 
