@@ -27,7 +27,7 @@ Even with holographic displays or binocular goggles, we cannot perceive the full
 
 It has been well known that (i) the human cerebral cortex is highly convoluted and folded, and (ii) the cortex is organised in such a way that adjacent cortical regions along the curved surface tend to serve similar functions (i.e., geodesic proximity is associated with functional similarity). The former must have been known from the very early human history because you can see this when you open the skull. The latter became common knowledge through early electrical stimulation and lesion experiments in Germany in the late 1800s (e.g., by Gustav Fritsch, Eduard Hitzig, and Hermann Munk).
 
-Thus, if you spend enough time looking at the brain, you may find yourself wanting to unfold the cortex and see its entire surface at a glance.
+Thus, if you spend time looking at the brain long enough, you may find yourself wanting to unfold the cortex and see its entire surface at a glance.
 This desire is nicely illustrated in the work of [Hubel and Wiesel (1972)](https://doi.org/10.1002/cne.901460402), who each received a quarter of [the 1981 Nobel Prize in Physiology or Medicine](https://www.nobelprize.org/prizes/medicine/1981/summary/) "for their discoveries concerning information processing in the visual system":
 
 <img alt="HubelWiesel" src="/assets/img/blog/hubelwiesel.png" width="700px" data-zoomable>
@@ -47,7 +47,7 @@ _Fig 2. How to unfold a macaque brain ([Van Essen et al., 1980](https://doi.org/
 Now, this reminds me of a chef’s deboning technique, in which a whole chicken is turned into a flattened, boneless piece of meat. 👨‍🍳
 
 The year 1980 was pretty too early to computerise this idea. The state-of-art graphics can only support 512 pixel x 512 pixel x 8 bit in late 1970s. The first human head MRI was acquired by Siemens in 1980.
-So, 17 years later, [Van Essen & Drury](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997) finally published the flat maps of the human cortex:
+So, 17 years later, [Van Essen & Drury](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997) finally published software that generates the flat maps of the living human cortex using MRI data, called CARET (Computerized Anatomical Reconstruction Toolkit):
 
 <img alt="VanEssen2" src="/assets/img/blog/vanessen2.png" width="600px" data-zoomable>
 
@@ -69,7 +69,7 @@ _Fig 4. HPC-MMP1 visualisation ([Glasser et al., 2016](https://doi.org/10.1038/n
 
 However, except among a few Flat Brain enthusiasts, flat maps have not been widely used. More common visualisations to this day are still 2D slice montages and multi-view representations of inflated brains (first FreeSurfer's inflated surfaces, then fs_LR's less inflated surfaces).
 
-Then, unexpectedly, I encountered a new flat map in a very narrow field of cognitive neuroscience called "naturalistic neuroimaging". [PyCortex](https://gallantlab.org/pycortex/index.html) was developed in Jack Gallant's lab. Then it seems that it has attracted less-neuroscience-more-datascience researchers, possibly due to the fact that this scheme renders each data point only once (unlike the multi-view display):
+Then, unexpectedly, I encountered a new flat map in a very narrow field of cognitive neuroscience called "naturalistic neuroimaging". [Pycortex](https://gallantlab.org/pycortex/index.html) was developed in Jack Gallant's lab. Then it seems that it has attracted less-neuroscience-more-datascience researchers, possibly due to the fact that this scheme renders each data point only once (unlike the multi-view display):
 
 <img alt="pycortex" src="/assets/img/blog/pycortex.png" width="600px" data-zoomable>
 
@@ -80,7 +80,7 @@ _Fig 5. Example of PyCortex visualisation (<https://gallantlab.org/pycortex/>)._
 Even people who don't know about Van Essen's flat maps use Gallant's flat maps, which I find very interesting!
 Of course, the idea of peeling something cannot in itself be so original (monkeys know how to peel oranges!).
 Perhaps Van Essen himself got the idea from Japanese Origami. Or maybe at a butcher's shop. Or maybe from a TV cooking show. Or maybe from animal skinning techniques.
-And the [Pycortex paper](https://doi.org/10.3389/fninf.2015.00023) explicitly acknowledges existing visualisation software (including Van Essen's Caret) and attributes its advances to the integration of Python and WebGL.
+And their paper ([Gao et al., 2015](https://doi.org/10.3389/fninf.2015.00023)) explicitly acknowledges existing visualisation software (including Van Essen's CARET) and attributes its advances to the integration of Python and WebGL.
 
 But still I wonder if (and why) data scientists think this visualisation is a cool idea. 🤔 Do they get excited about the preservation of geodesic proximity and functional relevance? Also, aren't they bothered by the visual-centric view of this map? 😈
 
