@@ -46,13 +46,13 @@ _Fig 2. How to unfold a macaque brain ([Van Essen et al., 1980](https://doi.org/
 Now, this reminds me of a chef’s deboning technique, in which a whole chicken is turned into a flattened, boneless piece of meat. 👨‍🍳
 
 The year 1980 was pretty too early to computerise this idea. The state-of-art graphics can only support 512 pixel x 512 pixel x 8 bit in late 1970s. The first human head MRI was acquired by Siemens in 1980.
-So, 17 years later, [Van Essen & Drury](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997) finally published software that generates the flat maps of the living human cortex using MRI data, called CARET (Computerized Anatomical Reconstruction Toolkit):
+So, 17 years later, [Van Essen & Drury (1997)](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997) finally published software that generates the flat maps of the living human cortex using MRI data, called CARET (Computerized Anatomical Reconstruction Toolkit):
 
 <img alt="VanEssen2" src="/assets/img/blog/vanessen2.png" width="600px" data-zoomable>
 
 <img alt="VanEssen3" src="/assets/img/blog/vanessen3.png" width="600px" data-zoomable>
 
-_Fig 3. Flat maps of the human cortex ([Van Essen & Drury, 1980](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997))._
+_Fig 3. Flat maps of the human cortex ([Van Essen & Drury, 1997](https://doi.org/10.1523/JNEUROSCI.17-18-07079.1997))._
 
 <br>
 
